@@ -1,0 +1,254 @@
+{
+  "accueil": {
+    "titre": "Veli alanı",
+    "intro": [
+      "Bu site, çocuğunuzun tarih, coğrafya ve vatandaşlık eğitimi derslerini içerir.",
+      "Bunlar, okulun dijital alanı Éléa'daki belgelerin aynısıdır. Burada hesap veya şifre gerekmez.",
+      "Bu sayfalar sizin için yazıldı. Tarih-coğrafya okumamış olsanız bile, çocuğunuzun ne öğrendiğini ve ona nasıl yardım edebileceğinizi anlatır."
+    ],
+    "comment_utiliser": [
+      "Çocuğunuzun sınıfını seçin: 4e veya 5e.",
+      "« Şu anda sınıfta » bölümündeki üniteye bakın.",
+      "Bilinmesi gereken kelimeleri çocuğunuzla birlikte okuyun.",
+      "« 10 dakikada yardım » bölümündeki soruları ona sorun. Kontrol edebilmeniz için cevaplar yazılıdır.",
+      "Sayfanın üstündeki « Élève » (Öğrenci) düğmesi, siteyi çocuğunuzun gördüğü gibi gösterir."
+    ]
+  },
+  "pratique": [
+    {
+      "question": "Çocuğum okula gelemedi. Ne yapmalı?",
+      "reponse": "Bütün dersler bu sitede. Çocuğunuz dersi okuyup defterine yazabilir. Sınıfta ne yapıldığını bir arkadaşına da sorabilir."
+    },
+    {
+      "question": "Éléa çalışmıyor. Ne yapmalı?",
+      "reponse": "Bu siteyi kullanın. Dersler, BEX'ler, QCM'ler ve araştırmalar burada. Telefonda çalışır, hesap ve şifre gerekmez."
+    },
+    {
+      "question": "Öğretmenle nasıl iletişime geçerim?",
+      "reponse": "Öğretmene Pronote mesajlaşması üzerinden yazın. Bu siteden mesaj gönderilemez."
+    },
+    {
+      "question": "Çocuğum sitedeki her şeyi ezberlemeli mi?",
+      "reponse": "Çocuğunuz özellikle her ünitenin kelimelerini ve önemli bilgilerini (tarihler, yerler) bilmelidir. BEX'ler yöntemler üzerinde alıştırma yapmak içindir."
+    },
+    {
+      "question": "Site çocuğumun sonuçlarını kaydediyor mu?",
+      "reponse": "Hayır. Bu site hiçbir şey göndermez ve kaydetmez. QCM'ler ve işaretlenen kutular sadece kullanılan telefonda veya bilgisayarda kalır."
+    }
+  ],
+  "aide_generale": [
+    "Çocuğunuzdan üniteyi size kendi kelimeleriyle, öğretmenmiş gibi anlatmasını isteyin.",
+    "Kelimeleri ve anlamlarını söylemesini isteyin. Kelimesi kelimesine ezberlemesi gerekmez ama anlaması gerekir.",
+    "Onunla birlikte bir QCM yapın. Not verilmez. İstediği kadar tekrar edebilir.",
+    "Kısa ve sık, uzun ve seyrekten daha iyidir: haftada birkaç kez 10 dakika yeterlidir."
+  ],
+  "outils": [
+    {
+      "cle": "bex",
+      "titre": "BEX'ler",
+      "texte": [
+        "BEX, « alıştırma bankası » (banque d'exercices) demektir. Bir BEX, çocuğunuzu tarih-coğrafyada sık kullanılan bir yönteme alıştırır: bir belgeyi tanıtmak, bir metinden alıntı yapmak, yerleri haritaya yerleştirmek…",
+        "Her BEX aynı yolu izler. Önce yöntem. Sonra çözülmüş bir örnek. En sonda da çözümleriyle birlikte alıştırmalar.",
+        "Amaç: yöntemin, bisiklete binmeyi öğrenmek gibi, otomatik hale gelmesi."
+      ]
+    },
+    {
+      "cle": "cartes",
+      "titre": "Yöntem kartları",
+      "texte": [
+        "Her yöntemin Fransızca harflerden oluşan bir adı vardır, örneğin CANDI. Her harf bir adımdır.",
+        "Çocuğunuza yardım etmek için: bir harf söyleyin, o da adımı ve ne yapılması gerektiğini söylesin. Sonra bu sayfanın aşağısındaki kartla kontrol edin."
+      ]
+    },
+    {
+      "cle": "qcm",
+      "titre": "QCM'ler",
+      "texte": [
+        "QCM'ler çoktan seçmeli sorulardır. Dersi tekrar etmek için kullanılır.",
+        "Hiçbir şey notlanmaz veya kaydedilmez. Düzeltme hemen görünür. Çocuğunuz tekrar başlayabilir: soruların sırası değişir."
+      ]
+    },
+    {
+      "cle": "suivi-bex",
+      "titre": "Mon suivi BEX (BEX takibim)",
+      "texte": [
+        "« Mon suivi BEX » başka bir sitedir: bex-college.fr. Çocuğunuz oraya kendi hesabıyla girer.",
+        "Orada BEX'lerde nerede olduğunu görür. Onunla birlikte bakabilirsiniz. Bu site hiçbir öğrenci sonucu göstermez."
+      ]
+    },
+    {
+      "cle": "evaluation",
+      "titre": "Değerlendirme",
+      "texte": [
+        "Çocuğunuz sık sık, BEX yöntemlerini ve ünitelerin önemli bilgilerini tekrar eden kısa alıştırmalarla değerlendirilir.",
+        "Başaramazsa daha sonra tekrar deneyebilir. Önemli olan ilerlemektir."
+      ]
+    }
+  ],
+  "methodes": {
+    "4e": {
+      "bex-1-construire-une-frise-chronologique": {
+        "savoir_faire": "Zaman şeridi (frise chronologique) yapmak",
+        "nom": "",
+        "lettres": [
+          {"lettre": "1", "mot": "Ölçeği seçmek", "explication": "Çocuğunuz bir karenin kaç yıla eşit olduğuna karar verir."},
+          {"lettre": "2", "mot": "Sıraya koymak", "explication": "Tarihleri ve dönemleri zaman sırasına göre yerleştirir."},
+          {"lettre": "3", "mot": "Düzgün çizmek", "explication": "Bir olay bir noktadır. Bir dönem çift yönlü bir ok veya renkli bir şerittir."},
+          {"lettre": "4", "mot": "Kopuş ve süreklilik", "explication": "Kopuş büyük bir değişikliktir. Süreklilik, hiçbir şeyin değişmemesidir."}
+        ],
+        "faire_reciter": "Ona sorun: « Olay ile dönem arasındaki fark nedir? Onları nasıl çizersin? » Sonra bir tarih verin: hangi yüzyılda olduğunu söylesin. Örneğin 1789, XVIII. yüzyıldadır (XVIIIe siècle): 17'yi alıp 1 ekleriz."
+      },
+      "bex-2-presenter-un-document": {
+        "savoir_faire": "Bir belgeyi tanıtmak",
+        "nom": "CANDI",
+        "lettres": [
+          {"lettre": "C", "mot": "Bağlam (Contexte)", "explication": "Belge ne zamandan? Olaylar sırasında mı yoksa daha sonra mı yapıldı?"},
+          {"lettre": "A", "mot": "Yazar (Auteur)", "explication": "Kim yaptı veya kim yaptırdı? Görevi nedir?"},
+          {"lettre": "N", "mot": "Tür (Nature)", "explication": "Tam olarak nedir? Örneğin bir resim, bir mektup, bir yasa, bir fotoğraf."},
+          {"lettre": "D", "mot": "Alıcı (Destinataire)", "explication": "Kimin için ve neden yapıldı?"},
+          {"lettre": "I", "mot": "Ana fikir (Idée générale)", "explication": "Belge tek cümleyle neyi anlatıyor?"}
+        ],
+        "faire_reciter": "Bir harf söyleyin, örneğin « N ». Çocuğunuz « Nature » diye cevap verip açıklar. Sonra ona evden bir resim veya belge gösterin (bir afiş, bir mektup): beş harfle onu tanıtsın."
+      },
+      "bex-3-prelever-et-citer-un-document": {
+        "savoir_faire": "Bir metinden bilgi seçmek ve alıntı yapmak",
+        "nom": "DAME",
+        "lettres": [
+          {"lettre": "D", "mot": "Sınırlamak (Délimiter)", "explication": "Metinde sadece soruya cevap veren kelimelerin altını çizer."},
+          {"lettre": "A", "mot": "Yazara bağlamak (Attribuer)", "explication": "Cümlesine yazarın adıyla başlar: « Voltaire écrit que… » (Voltaire şöyle yazar…)."},
+          {"lettre": "M", "mot": "İşaretlemek (Marquer)", "explication": "Metnin kelimelerini hiçbir şey değiştirmeden tırnak « » içinde yazar."},
+          {"lettre": "E", "mot": "Açıklamak (Expliquer)", "explication": "Alıntıdan sonra « c'est-à-dire » (yani) yazar ve fikri kendi kelimeleriyle tekrar söyler."}
+        ],
+        "faire_reciter": "Ona dört harfi ve ne anlama geldiklerini sorun. Sonra cevaplarından birine bakın: tırnak işaretleri var mı? Yazarın adı? Alıntıdan sonra « c'est-à-dire »?"
+      },
+      "bex-reperes-geographiques-4e": {
+        "savoir_faire": "Yerleri haritaya yerleştirmek",
+        "nom": "PNV",
+        "lettres": [
+          {"lettre": "P", "mot": "Hazırlamak (Préparer)", "explication": "Listeyi tekrar okur ve yazmadan önce yerin haritadaki şeklini arar."},
+          {"lettre": "N", "mot": "Adlandırmak (Nommer)", "explication": "Doğru yere bir işaret koyar ve adı yatay olarak, hatasız yazar."},
+          {"lettre": "V", "mot": "Kontrol etmek (Vérifier)", "explication": "Adları sayar ve her birini tekrar okur."}
+        ],
+        "faire_reciter": "Bu BEX, ezberlenmesi gereken yer listelerinden oluşur. Çocuğunuzun sayfasını açın, adları kapatın ve her yeri haritada göstermesini isteyin. Basılmış boş bir harita üzerinde de alıştırma yapabilir."
+      },
+      "bex-routines-j-explique-les-mots-en-histoire-geographie": {
+        "savoir_faire": "Dersteki kelimeleri açıklamak",
+        "nom": "MCM",
+        "lettres": [
+          {"lettre": "M", "mot": "Kelime (Le Mot)", "explication": "Dersteki tam kelimeyi yazar, ona benzeyen bir kelimeyi değil."},
+          {"lettre": "C", "mot": "Yani (C'est-à-dire)", "explication": "Kelimeden hemen sonra « c'est-à-dire » ekler."},
+          {"lettre": "M", "mot": "Kendi kelimelerim (Mes mots)", "explication": "Anlamı dersi kopyalamadan kendi kelimeleriyle açıklar."}
+        ],
+        "faire_reciter": "Üniteden bir kelime seçin, örneğin « colonie » (sömürge). Çocuğunuz bu kelimeyle bir cümle kurar, sonra « c'est-à-dire » ekler ve kendi kelimeleriyle açıklar."
+      }
+    }
+  },
+  "chapitres": {
+    "4e": {
+      "H1": {
+        "titre": "XVIII. yüzyılda burjuvazi, ticaret ve kölelik",
+        "resume": [
+          "XVIII. yüzyılda Fransa'nın Atlas Okyanusu kıyısındaki limanları çok zenginleşir: Nantes, Bordeaux, La Rochelle.",
+          "Bu limanlar Amerika'daki sömürgelerle ticaret yapar. Gemiler şeker, kahve ve pamuk getirir.",
+          "Bu ürünler, plantasyon denilen büyük çiftliklerde Afrikalı köleler tarafından yetiştirilir.",
+          "Köle elde etmek için Avrupalılar onları Afrika'da satın alır: buna köle ticareti (la traite) denir. Yaklaşık 12 milyon Afrikalı zorla Amerika'ya götürüldü.",
+          "Bu ticaret en çok, ticaret burjuvazisi denilen liman tüccarlarını zenginleştirir."
+        ],
+        "mots": [
+          {"mot": "Sömürge (Colonie)", "definition": "Yabancı bir ülkenin fethettiği, yönettiği ve sömürdüğü toprak."},
+          {"mot": "Ticaret (Négoce)", "definition": "Malları tekrar satmak için satın almak."},
+          {"mot": "Ticaret burjuvazisi (Bourgeoisie marchande)", "definition": "Ticaret sayesinde çok zenginleşen liman tüccarları ve gemi sahipleri."},
+          {"mot": "Plantasyon (Plantation)", "definition": "Avrupa'da satmak için şeker kamışı gibi tek bir ürün yetiştiren büyük tarım işletmesi."},
+          {"mot": "Kölelik (Esclavage)", "definition": "İnsanların bir efendiye ait olduğu ve çalışmaya zorlandığı sistem."},
+          {"mot": "Köle ticareti (Traite)", "definition": "Kölelerin ticareti: yakalanan Afrikalılar satılır ve zorla Amerika'ya götürülür."},
+          {"mot": "Üçgen ticaret (Commerce triangulaire)", "definition": "Bir köle gemisinin üç aşamalı yolculuğu: Avrupa, Afrika, Amerika, sonra Avrupa'ya dönüş."},
+          {"mot": "Kara Kanun (Code noir)", "definition": "Fransız sömürgelerinde köleliğin kurallarını belirleyen kral metni (1685). Köleye bir eşya gibi davranılır."}
+        ],
+        "reperes": [
+          "XVIII. yüzyıl: Atlantik köle ticareti en yüksek seviyesindedir.",
+          "1685: Kara Kanun (Code noir).",
+          "Nantes, Bordeaux, La Rochelle: Atlas Okyanusu'nun büyük limanları.",
+          "Saint-Domingue (bugün Haiti), Martinik, Guadeloupe: Antiller'deki Fransız sömürgeleri."
+        ],
+        "questions": [
+          {"question": "Atlas Okyanusu limanları XVIII. yüzyılda neden zenginleşir?", "reponse": "Amerika sömürgeleriyle ticaret sayesinde: şeker, kahve ve pamuğu Avrupa'da tekrar satarlar."},
+          {"question": "Sömürgelerde şekeri ve kahveyi kim yetiştirir?", "reponse": "Plantasyonlarda çalışmaya zorlanan Afrikalı köleler."},
+          {"question": "Köle ticareti nedir?", "reponse": "Kölelerin ticareti: Afrikalılar Afrika'da satın alınır ve satılmak üzere zorla Amerika'ya götürülür."},
+          {"question": "Kaç Afrikalı Amerika'ya götürüldü?", "reponse": "XVI. ve XIX. yüzyıllar arasında yaklaşık 12 milyon."},
+          {"question": "Bu ticaretten en çok kim kazanır?", "reponse": "Limanların tüccarları ve gemi sahipleri, yani ticaret burjuvazisi. Plantasyon sahipleri ve kral da kazanır."}
+        ],
+        "evalue": "Limanların zenginliğinin nereden geldiğini açıklayabilmek, kelimeleri bilmek ve CANDI yöntemiyle bir belgeyi tanıtmak."
+      },
+      "H2": {
+        "titre": "Aydınlanma Çağı",
+        "resume": [
+          "XVIII. yüzyılda Fransa'da kral, gücünü Tanrı'dan aldığını söyler. Tek başına karar verir.",
+          "Toplum üç gruba ayrılmıştır: din adamları, soylular ve üçüncü tabaka (le tiers état). Haklar doğuma bağlıdır.",
+          "« Aydınlanmacılar » denilen filozoflar ve bilginler her şeyi akılla değerlendirmek ister.",
+          "Kralın gücünü, ayrıcalıkları, dinî hoşgörüsüzlüğü ve köleliği eleştirirler. Fikirleri sansüre rağmen yayılır.",
+          "Ama hepsi aynı fikirde değildir, örneğin bütün insanların eşitliği konusunda."
+        ],
+        "mots": [
+          {"mot": "Aydınlanma (Lumières)", "definition": "Dünyayı akılla değerlendirmek ve değiştirmek isteyen XVIII. yüzyıl kadın ve erkekleri."},
+          {"mot": "Filozof (Philosophe)", "definition": "XVIII. yüzyılda, yazan ve döneminin sorunları hakkında fikrini söyleyen kişi."},
+          {"mot": "İlahi hakka dayalı mutlak monarşi (Monarchie absolue de droit divin)", "definition": "Kral, gücünün Tanrı'dan geldiğini söyler ve onu kimseyle paylaşmaz."},
+          {"mot": "Ayrıcalık (Privilège)", "definition": "Sadece bazılarına ayrılmış bir hak, örneğin bazı vergileri ödememek."},
+          {"mot": "Tabakalı toplum (Société d'ordres)", "definition": "Hakların doğuma bağlı olduğu toplum: din adamları, soylular, üçüncü tabaka."},
+          {"mot": "Hoşgörü (Tolérance)", "definition": "Başka bir dine inanan insanların yaşamasına ve ibadet etmesine izin vermek."},
+          {"mot": "Sansür (Censure)", "definition": "Bir metnin yayınlanmasının yasaklanması."},
+          {"mot": "Kuvvetler ayrılığı (Séparation des pouvoirs)", "definition": "Yasa yapma, yasaları uygulama ve yargılama gücünü farklı kişilere vermek."},
+          {"mot": "Eski Rejim (Ancien Régime)", "definition": "1789'dan sonra, Devrim'den önceki Fransa'nın düzenine verilen ad."}
+        ],
+        "reperes": [
+          "1715-1789: Aydınlanma Çağı.",
+          "1748: Montesquieu « Kanunların Ruhu » (De l'esprit des lois) kitabını yayınlar.",
+          "1751-1772: Ansiklopedi'nin (l'Encyclopédie) yayınlanması.",
+          "1789: Fransız Devrimi'nin başlangıcı."
+        ],
+        "questions": [
+          {"question": "Krala göre gücü nereden gelir?", "reponse": "Tanrı'dan. Buna ilahi hakka dayalı mutlak monarşi denir."},
+          {"question": "Aydınlanma filozofları ne ister?", "reponse": "Dünyayı akılla değerlendirmek ve haksız olanı değiştirmek: kralın sınırsız gücü, ayrıcalıklar, hoşgörüsüzlük, kölelik."},
+          {"question": "Montesquieu ne önerir?", "reponse": "Kuvvetler ayrılığını: yasaları yapan, uygulayan ve yargılayan kişiler aynı değildir."},
+          {"question": "Ansiklopedi nedir?", "reponse": "1751'den 1772'ye kadar yayınlanan, dönemin bilgilerini bir araya getiren ve mevcut düzeni eleştiren büyük bir kitap."},
+          {"question": "Filozofların hepsi aynı fikirde mi?", "reponse": "Hayır. Örneğin Condorcet bütün insanların aynı akla sahip olduğunu söyler, ama Kant Afrikalılar için bunun tersini düşünür."}
+        ],
+        "evalue": "Kelimeleri ve önemli bilgileri bilmek, DAME yöntemiyle bir metinden alıntı yapmak."
+      },
+      "G1": {
+        "titre": "Denizler ve okyanuslar: paylaşılamayan ve kırılgan bir alan",
+        "resume": [
+          "Dünyadaki malların %80'inden fazlası gemiyle taşınır. Deniz bütün ülkeleri birbirine bağlar: buna küreselleşme denir.",
+          "Gemiler, Hürmüz Boğazı veya Süveyş Kanalı gibi birkaç dar geçitten geçer. Bir geçit kapanırsa bütün dünya etkilenir.",
+          "Devletler denizi paylaşır. Kıyılarına yakın yerlerde balık avlayabilen ve petrol arayabilen tek devlet kendisidir.",
+          "Denizin zengin veya dar olduğu yerlerde ülkeler anlaşmazlığa düşer. Örneğin birkaç ülke Çin'in güneyindeki aynı adalar üzerinde hak iddia eder.",
+          "Kıyılarda turizm de anlaşmazlıklar yaratır. Marsilya'da yolcu gemileri iş getirir ama kirlilik de getirir."
+        ],
+        "mots": [
+          {"mot": "Küreselleşme (Mondialisation)", "definition": "Dünya ülkeleri mal, insan ve bilgi alışverişiyle giderek daha çok birbirine bağlanır."},
+          {"mot": "Denizleşme (Maritimisation)", "definition": "Denizin önemi giderek artar: taşımacılık, kaynakları ve turizm için."},
+          {"mot": "Boğaz (Détroit)", "definition": "İki kara arasında, iki denizi birleştiren dar geçit."},
+          {"mot": "Kanal (Canal)", "definition": "İki denizi birleştirmek için insanların kazdığı geçit."},
+          {"mot": "Deniz cephesi (Façade maritime)", "definition": "Dünyanın geri kalanına bağlı birkaç büyük limanın art arda sıralandığı kıyı."},
+          {"mot": "MEB, münhasır ekonomik bölge (ZEE)", "definition": "Kıyılardan 370 km'ye kadar olan deniz: orada balık avlayabilen, petrol veya gaz çıkarabilen tek kişi devlettir."},
+          {"mot": "Aktör (Acteur)", "definition": "Bir alanı kullanan veya dönüştüren kişi, grup, şirket veya devlet."},
+          {"mot": "Çatışma (Conflit)", "definition": "Aynı alanı kullanmak isteyen aktörler arasındaki anlaşmazlık. Savaşa kadar gidebilir."},
+          {"mot": "Turizme açma (Mise en tourisme)", "definition": "Turistleri çekmek ve ağırlamak için bir yeri dönüştürmek."}
+        ],
+        "reperes": [
+          "5 okyanus: Büyük Okyanus, Atlas, Hint, Kuzey Buz, Güney.",
+          "Süveyş ve Panama kanalları.",
+          "Malakka, Cebelitarık, Babülmendep ve Hürmüz boğazları.",
+          "Büyük limanlar: Şanghay, Rotterdam ve Marsilya-Fos."
+        ],
+        "questions": [
+          {"question": "Dünyadaki malların çoğu nasıl taşınır?", "reponse": "Gemiyle: malların %80'inden fazlası."},
+          {"question": "Hürmüz Boğazı neden önemlidir?", "reponse": "Dünya petrolünün beşte biri oradan geçer. Kapanırsa petrolün ve benzinin fiyatı her yerde artar."},
+          {"question": "MEB (ZEE) nedir?", "reponse": "Bir ülkenin kıyılarından 370 km'ye kadar olan deniz. Orada balık avlayabilen ve petrol arayabilen tek ülke odur."},
+          {"question": "İki kanal say.", "reponse": "Süveyş Kanalı ve Panama Kanalı."},
+          {"question": "Marsilya'nın bazı sakinleri neden yolcu gemilerini istemiyor?", "reponse": "Çünkü rıhtımların yakınındaki havayı kirletiyorlar."}
+        ],
+        "evalue": "Kelimeleri bilmek, önemli yerleri haritaya yerleştirmek (PNV yöntemi) ve deniz için bir çatışmayı açıklamak."
+      }
+    }
+  }
+}

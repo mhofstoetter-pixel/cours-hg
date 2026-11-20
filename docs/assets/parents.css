@@ -1,0 +1,164 @@
+/* Mode parent : pages pour les parents d'élèves (s'appuie sur les variables de hg.css). */
+
+/* Arabe : Poppins et Lexend n'ont pas cet alphabet */
+:root:lang(ar) { --font-display: "Noto Sans Arabic", "Poppins", system-ui, sans-serif; --font-body: "Noto Sans Arabic", "Lexend", system-ui, sans-serif; }
+:lang(ar) body { line-height: 1.8; }
+:lang(ar) .hg-signature__nom, :lang(ar) .hg-code, :lang(ar) [lang="fr"] { direction: ltr; unicode-bidi: isolate; }
+
+/* ------------------------------------------------------------ langues */
+.hg-langues {
+  background: var(--paper-muted);
+  border-bottom: var(--border);
+}
+.hg-langues ul {
+  display: flex;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: var(--sp-2) 0;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.hg-langues a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit-min);
+  padding: 0 var(--sp-3);
+  font: 600 1rem/1 var(--font-body);
+  color: var(--ink-900);
+  white-space: nowrap;
+  text-decoration: none;
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--r-pill);
+}
+.hg-langues a[lang="ar"] { font-family: "Noto Sans Arabic", var(--font-body); }
+.hg-langues a:hover { background: var(--jaune-soft); color: var(--ink-900); }
+.hg-langues a[aria-current] { color: var(--paper); background: var(--outline); }
+
+/* ------------------------------------------------------------ titre de page */
+.hg-titre-parent { margin: 0 0 var(--sp-6); }
+.hg-titre-parent .hg-code { margin-bottom: var(--sp-3); }
+.hg-titre-parent h1 { margin: 0; }
+.hg-titre-parent .hg-chapeau { margin-top: var(--sp-3); }
+.hg-traduction-auto, .hg-non-traduit, .hg-a-venir {
+  margin: 0 0 var(--sp-5);
+  padding: var(--sp-3) var(--sp-4);
+  font-size: 0.9375rem;
+  background: var(--paper-muted);
+  border: var(--border);
+  border-radius: var(--r-md);
+}
+.hg-non-traduit { margin-bottom: var(--sp-4); }
+
+/* ------------------------------------------------------------ blocs */
+.hg-bloc-parent { margin: 0 0 var(--sp-8); }
+.hg-bloc-parent > h2 {
+  margin: 0 0 var(--sp-4);
+  font: 800 var(--fs-h2)/1.2 var(--font-display);
+}
+.hg-bloc-parent p { margin: 0 0 var(--sp-3); max-width: 38em; }
+.hg-bloc-parent ul, .hg-bloc-parent ol { margin: 0; padding-inline-start: 1.4em; }
+.hg-bloc-parent li { margin-bottom: var(--sp-2); }
+.hg-bloc-parent--actuel .hg-carte--actuel { background: var(--jaune-soft); }
+.hg-cartes-parent, .hg-bloc-parent .hg-niveaux {
+  display: grid;
+  gap: var(--sp-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+}
+.hg-etapes { counter-reset: etape; padding: 0 !important; list-style: none; }
+.hg-etapes li {
+  position: relative;
+  min-height: 36px;
+  padding-inline-start: 48px;
+  counter-increment: etape;
+}
+.hg-etapes li::before {
+  content: counter(etape);
+  position: absolute;
+  inset-inline-start: 0;
+  top: -2px;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  font: 700 1rem/1 var(--font-mono);
+  background: var(--jaune);
+  border: var(--border);
+  border-radius: var(--r-pill);
+}
+
+/* Questions à poser : la réponse s'ouvre */
+.hg-question {
+  margin: 0 0 var(--sp-3);
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--r-md);
+}
+.hg-question summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2) var(--sp-4);
+  min-height: var(--hit-min);
+  padding: var(--sp-3) var(--sp-4);
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+.hg-question summary::-webkit-details-marker { display: none; }
+.hg-question__ouvrir {
+  flex-shrink: 0;
+  padding: 6px 12px;
+  font: 700 0.875rem/1.2 var(--font-display);
+  border: var(--border);
+  border-radius: var(--r-pill);
+}
+.hg-question[open] .hg-question__ouvrir { background: var(--jaune); }
+.hg-question summary:hover .hg-question__ouvrir { background: var(--jaune-soft); }
+.hg-question > p {
+  margin: 0;
+  padding: var(--sp-3) var(--sp-4) var(--sp-4);
+  background: var(--jaune-soft);
+  border-top: var(--border);
+  border-radius: 0 0 var(--r-md) var(--r-md);
+}
+
+/* Mots à connaître, méthodes */
+.hg-mots, .hg-methode { display: grid; gap: var(--sp-3); margin: 0; }
+.hg-mots > div, .hg-methode > div {
+  padding: var(--sp-3) var(--sp-4);
+  border: var(--border);
+  border-radius: var(--r-md);
+}
+.hg-mots dt, .hg-methode dt { font: 700 var(--fs-h3)/1.3 var(--font-display); }
+.hg-mots dd, .hg-methode dd { margin: var(--sp-1) 0 0; }
+.hg-reperes li::marker { content: "■  "; font-size: 0.7em; }
+.hg-lettre {
+  display: inline-grid;
+  place-items: center;
+  min-width: 36px;
+  height: 36px;
+  margin-inline-end: var(--sp-2);
+  font: 700 1.125rem/1 var(--font-mono);
+  background: var(--jaune);
+  border: var(--border);
+  border-radius: var(--r-sm);
+}
+.hg-methode-bex {
+  margin: 0 0 var(--sp-6);
+  padding-top: var(--sp-5);
+  border-top: var(--border);
+  scroll-margin-top: var(--sp-4);
+}
+.hg-methode-bex h3 { margin: 0 0 var(--sp-3); font: 800 var(--fs-h3)/1.25 var(--font-display); }
+.hg-methode-bex h4 { margin: var(--sp-4) 0 var(--sp-2); font: 700 1rem/1.3 var(--font-display); }
+.hg-methode__nom { font: 700 1.25rem/1 var(--font-mono); letter-spacing: 0.08em; }
+.hg-methode-bex .hg-cartes-parent { margin-top: var(--sp-4); }
+.hg-methode-bex:target { outline: 3px solid var(--focus-ring); outline-offset: 6px; border-radius: var(--r-sm); }
+
+@media print {
+  .hg-question summary .hg-question__ouvrir { display: none; }
+  .hg-question > p { display: block !important; }
+}

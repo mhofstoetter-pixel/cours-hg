@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="$lang" dir="$dir">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$titre_page</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Lexend:wght@400;500;600&family=Poppins:wght@700;800${police}&display=swap">
+<link rel="stylesheet" href="${racine}assets/hg.css">
+<link rel="stylesheet" href="${racine}assets/parents.css">
+$alternates
+<script src="${racine}assets/mode.js" defer></script>
+</head>
+<body class="hg-page hg-page--parent" data-discipline="$discipline">
+<a class="hg-evitement" href="#contenu">$aller_contenu</a>
+<header class="hg-entete">
+  <div class="hg-conteneur">
+    <a class="hg-signature" href="$accueil"><span class="hg-signature__titre">$site</span><span class="hg-signature__sep"> · </span><span class="hg-signature__nom">M. Hofstoetter</span></a>
+    $bascule
+  </div>
+</header>
+$langues
+
+<main id="contenu" class="hg-main">
+  <div class="hg-conteneur hg-conteneur--lecture">
+    <nav class="hg-ariane" aria-label="$aria_ariane">$fil_ariane</nav>
+    $avertissement
+    <header class="hg-titre-parent">
+      $code
+      <h1>$titre</h1>
+      $chapeau
+    </header>
+$contenu
+  </div>
+</main>
+
+<footer class="hg-pied">
+  <div class="hg-conteneur">
+    <p>$site · M. Hofstoetter · $annee</p>
+    <p>$pied</p>
+  </div>
+</footer>
+</body>
+</html>

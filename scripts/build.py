@@ -23,6 +23,7 @@ sys.path.insert(0, str(ICI))
 
 import bex  # noqa: E402
 import elea  # noqa: E402
+import parents  # noqa: E402
 from nettoyage import nettoyer  # noqa: E402
 
 RACINE = ICI.parent
@@ -354,7 +355,7 @@ def generer(niveaux_data):
                           '<span class="hg-carte__titre">Classe de %s</span><span class="hg-carte__type">%s</span></a>'
                           % (niv, niv, niv, sous))
     v = commun("", "Cours d'Histoire-Géo-EMC", "")
-    v.update(niveaux="".join(cartes_niv), lien_bex=CONFIG["lien_bex"])
+    v.update(niveaux="".join(cartes_niv), lien_bex=CONFIG["lien_bex"], bascule=parents.bascule_eleve("", "index.html"))
     ecrire(DOCS / "index.html", gabarit("accueil.html").safe_substitute(v))
 
     for niv in CONFIG["niveaux"]:
@@ -371,7 +372,7 @@ def generer(niveaux_data):
             rubs.append('<section class="hg-rubrique" id="%s">\n<h2 class="hg-rubrique__titre">%s</h2>\n%s\n</section>'
                         % (r["id"], escape(r["titre"]), corps))
         v = commun("../", "%s · Cours d'Histoire-Géo-EMC" % niv, ariane([("Accueil", "../index.html"), (niv, None)]))
-        v.update(niveau=niv, rubriques="".join(rubs))
+        v.update(niveau=niv, rubriques="".join(rubs), bascule=parents.bascule_eleve("../", "%s/index.html" % niv))
         ecrire(base / "index.html", gabarit("niveau.html").safe_substitute(v))
 
         for it in nd["items"]:
@@ -385,7 +386,8 @@ def generer(niveaux_data):
                 v = commun("../../../", "%s · %s" % (it["titre"], niv),
                            ariane([("Accueil", "../../../index.html"), (niv, "../../index.html"), ("Les QCM", "../../index.html#qcm"), (it["titre"], None)]))
                 v.update(titre=escape(it["titre"]), code=escape(it["code"]), discipline=it["discipline"] or "methode",
-                         intro=it["intro"], retour="../../index.html#qcm")
+                         intro=it["intro"], retour="../../index.html#qcm",
+                         bascule=parents.bascule_eleve("../../../", parents.page_parent_de(it, niv)))
                 ecrire(dest / "index.html", gabarit("qcm.html").safe_substitute(v))
                 rapport.append(("QCM", niv, it["titre"], "%d questions" % len(it["questions"])))
             else:
@@ -402,11 +404,21 @@ def generer(niveaux_data):
                            ariane([("Accueil", "../../index.html"), (niv, "../index.html"), (rub_titre, "../index.html#%s" % it["rubrique"]), (it["titre"], None)]))
                 v.update(titre=escape(it["titre"]), code=escape(it["code"]), discipline=it["discipline"] or "methode",
                          contenu=html, extra_head=extra, lien_pdf=escape(lien_pdf), lien_gdoc=escape(it["lien"], quote=True),
-                         boutons=boutons(lien_pdf, it["lien"]), retour="../index.html#%s" % it["rubrique"])
+                         boutons=boutons(lien_pdf, it["lien"]), retour="../index.html#%s" % it["rubrique"],
+                         bascule=parents.bascule_eleve("../../", parents.page_parent_de(it, niv)))
                 ecrire(dest / "index.html", gabarit("ressource.html").safe_substitute(v))
                 etat = ", ".join(x for x in ["page web" if web else "page web EN ATTENTE", "PDF" if lien_pdf else "PDF EN ATTENTE", "Google Doc"])
                 rapport.append((rub_titre, niv, it["titre"], etat))
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
+    shutil.rmtree(DOCS / "parents", ignore_errors=True)
+    rp, manques, a_confirmer = parents.generer(niveaux_data, ecrire, gabarit, DOCS, CONFIG, str(datetime.date.today().year))
+    print("Mode parent :", ", ".join("%s %d pages%s" % (l, n, " (" + x + ")" if x else "") for l, n, x in rp))
+    if manques:
+        print("  Textes parents à rédiger :", ", ".join(manques))
+    if a_confirmer:
+        print("  À confirmer par le professeur (%d) :" % len(a_confirmer))
+        for x in a_confirmer:
+            print("    ?", x)
     return rapport
 
 

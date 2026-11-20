@@ -53,3 +53,7 @@ Les sections d'Éléa sont rangées en rubriques d'après leur titre (`rubriques
 | `templates/` | gabarits des pages |
 | `docs/` | le site publié |
 | `CONTRATS.md` | formats techniques partagés entre les parties du site |
+
+## Le mode parent
+
+Chaque page a une bascule **Élève / Parent**. Les pages parent (`docs/parents/<langue>/`) sont générées à partir des textes de `contenus/parents/` (français, arabe, turc, anglais, espagnol, portugais). Quand un nouveau chapitre arrive, le rapport de construction l'indique dans « Textes parents à rédiger » : Claude rédige le texte en français, vous le relisez, puis il est traduit. Le format est décrit dans `CONTRATS.md` §8.

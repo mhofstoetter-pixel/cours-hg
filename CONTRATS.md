@@ -122,3 +122,12 @@ Pour les rubriques « Les BEX » et « Méthodologie », `build.py` passe le HTM
 Les exemplaires à imprimer (blocs répétés, section « Exemplaires à imprimer ») sont retirés de la page : le PDF les garde. Sans JavaScript, tout reste visible et lisible. La progression et les cases cochées restent dans le navigateur de l'élève (`localStorage`), rien n'est envoyé.
 
 Les liens vers `assets/*.css|js` reçoivent `?v=<empreinte>` à chaque construction pour forcer la mise à jour dans les navigateurs.
+
+## 8. Mode parent (`scripts/parents.py`, `contenus/parents/`, `docs/assets/parents.css`, `docs/assets/mode.js`)
+
+- Pages : `docs/parents/<langue>/index.html`, `<niveau>/index.html`, `<niveau>/<code>/index.html` (h1, g1…), `<niveau>/outils/index.html`. Langues : `fr ar tr en es pt` ; `ar` est en `dir="rtl"` avec la police Noto Sans Arabic.
+- Textes : `contenus/parents/<langue>.json`, même structure dans chaque langue : `accueil{titre, intro[], comment_utiliser[]}`, `pratique[{question, reponse}]`, `aide_generale[]`, `outils[{cle, titre, texte[]}]`, `methodes.<niveau>.<slug de la BEX>{savoir_faire, nom, lettres[{lettre, mot, explication}], faire_reciter}`, `chapitres.<niveau>.<code>{titre, resume[], mots[{mot, definition}], reperes[], questions[{question, reponse}], evalue}`. Un champ `a_confirmer` signale une question au professeur : il n'est jamais affiché, et le rapport de construction le liste.
+- Libellés de l'interface : `contenus/parents/interface.json`.
+- Texte absent dans une langue : le français est affiché, entouré de `lang="fr" dir="ltr"`, avec la mention « pas encore traduit ». Chapitre sans texte : la page affiche les conseils généraux, le rapport le liste « à rédiger ».
+- Bascule `nav.hg-bascule` (Élève / Parent) dans l'en-tête de toutes les pages ; `mode.js` retient la langue choisie (localStorage) et l'applique au lien « Parent » des pages élèves.
+- « En ce moment » = code du dernier cours publié du niveau (ordre d'Éléa).

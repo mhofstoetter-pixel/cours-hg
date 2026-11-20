@@ -1,0 +1,254 @@
+{
+  "accueil": {
+    "titre": "Espace parents",
+    "intro": [
+      "Ce site contient les cours d'histoire, de géographie et d'éducation civique de votre enfant.",
+      "Ce sont les mêmes documents que sur Éléa, l'espace numérique du collège. Ici, il n'y a pas besoin de compte ni de mot de passe.",
+      "Ces pages sont écrites pour vous. Elles expliquent ce que votre enfant apprend et comment l'aider, même si vous n'avez pas fait d'histoire-géographie."
+    ],
+    "comment_utiliser": [
+      "Choisissez la classe de votre enfant : 4e ou 5e.",
+      "Regardez le chapitre « en ce moment en classe ».",
+      "Lisez les mots à connaître avec votre enfant.",
+      "Posez-lui les questions de la partie « Aider en 10 minutes ». Les réponses sont écrites pour que vous puissiez vérifier.",
+      "Le bouton « Élève », en haut de la page, montre le site comme votre enfant le voit."
+    ]
+  },
+  "pratique": [
+    {
+      "question": "Mon enfant a été absent. Que faire ?",
+      "reponse": "Tous les cours sont sur ce site. Votre enfant peut lire la leçon et la recopier dans son cahier. Il peut aussi demander à un camarade ce qui a été fait en classe."
+    },
+    {
+      "question": "Éléa ne marche pas. Comment faire ?",
+      "reponse": "Utilisez ce site. Il contient les cours, les BEX, les QCM et les enquêtes. Il marche sur téléphone, sans compte et sans mot de passe."
+    },
+    {
+      "question": "Comment contacter le professeur ?",
+      "reponse": "Écrivez au professeur par la messagerie de Pronote. Ce site ne permet pas d'envoyer de message."
+    },
+    {
+      "question": "Mon enfant doit-il apprendre tout ce qui est sur le site ?",
+      "reponse": "Votre enfant doit surtout connaître les mots du vocabulaire et les repères (dates, lieux) de chaque chapitre. Les BEX servent à s'entraîner aux méthodes."
+    },
+    {
+      "question": "Le site enregistre-t-il les résultats de mon enfant ?",
+      "reponse": "Non. Ce site n'envoie et n'enregistre rien. Les QCM et les cases cochées restent seulement sur le téléphone ou l'ordinateur utilisé."
+    }
+  ],
+  "aide_generale": [
+    "Demandez à votre enfant de vous expliquer le chapitre avec ses mots, comme s'il était le professeur.",
+    "Faites-lui dire les mots du vocabulaire et leur sens. Il n'a pas besoin de les réciter mot pour mot, mais il doit les comprendre.",
+    "Faites un QCM avec lui. Ce n'est pas noté. Il peut recommencer autant de fois qu'il veut.",
+    "Courte et souvent, c'est mieux que long et rarement : 10 minutes plusieurs fois par semaine suffisent."
+  ],
+  "outils": [
+    {
+      "cle": "bex",
+      "titre": "Les BEX",
+      "texte": [
+        "BEX veut dire « banque d'exercices ». Une BEX entraîne votre enfant à une méthode qui revient souvent en histoire-géographie : présenter un document, citer un texte, placer des lieux sur une carte…",
+        "Chaque BEX suit le même chemin. D'abord, la méthode. Ensuite, un exemple déjà corrigé. Enfin, des exercices pour s'entraîner, avec leur correction.",
+        "Le but : que la méthode devienne automatique, comme apprendre à faire du vélo."
+      ]
+    },
+    {
+      "cle": "cartes",
+      "titre": "Les cartes méthode",
+      "texte": [
+        "Chaque méthode a un nom fait de lettres, par exemple CANDI. Chaque lettre est une étape.",
+        "Pour aider votre enfant : dites une lettre, il dit l'étape et ce qu'il faut faire. Puis vérifiez avec la carte, plus bas sur cette page."
+      ]
+    },
+    {
+      "cle": "qcm",
+      "titre": "Les QCM",
+      "texte": [
+        "Les QCM sont des questions avec plusieurs réponses au choix. Ils servent à s'entraîner sur la leçon.",
+        "Rien n'est noté ni enregistré. La correction s'affiche tout de suite. Votre enfant peut recommencer : les questions changent d'ordre."
+      ]
+    },
+    {
+      "cle": "suivi-bex",
+      "titre": "Mon suivi BEX",
+      "texte": [
+        "« Mon suivi BEX » est un autre site : bex-college.fr. Votre enfant s'y connecte avec son propre compte.",
+        "Il y voit où il en est dans ses BEX. Vous pouvez regarder avec lui. Ce site-ci ne montre aucun résultat d'élève."
+      ]
+    },
+    {
+      "cle": "evaluation",
+      "titre": "L'évaluation",
+      "texte": [
+        "Votre enfant est évalué souvent, sur de courts exercices qui reprennent les méthodes des BEX et les repères des chapitres.",
+        "S'il ne réussit pas, il peut recommencer plus tard. L'important est de progresser."
+      ]
+    }
+  ],
+  "methodes": {
+    "4e": {
+      "bex-1-construire-une-frise-chronologique": {
+        "savoir_faire": "Construire une frise chronologique",
+        "nom": "",
+        "lettres": [
+          {"lettre": "1", "mot": "Choisir l'échelle", "explication": "Votre enfant décide combien d'années vaut un carreau."},
+          {"lettre": "2", "mot": "Placer dans l'ordre", "explication": "Il place les dates et les périodes dans l'ordre du temps."},
+          {"lettre": "3", "mot": "Bien dessiner", "explication": "Un événement est un point. Une période est une double flèche ou une bande de couleur."},
+          {"lettre": "4", "mot": "Rupture et continuité", "explication": "Une rupture est un grand changement. Une continuité, c'est quand rien ne change."}
+        ],
+        "faire_reciter": "Demandez-lui : « Quelle est la différence entre un événement et une période ? Comment les dessines-tu ? » Puis donnez-lui une date : il dit dans quel siècle elle se trouve (1789 → XVIIIe siècle : on prend 17 et on ajoute 1)."
+      },
+      "bex-2-presenter-un-document": {
+        "savoir_faire": "Présenter un document",
+        "nom": "CANDI",
+        "lettres": [
+          {"lettre": "C", "mot": "Contexte", "explication": "De quand date le document ? A-t-il été fait au moment des faits ou plus tard ?"},
+          {"lettre": "A", "mot": "Auteur", "explication": "Qui l'a fait, ou qui l'a demandé ? Quel est son rôle ?"},
+          {"lettre": "N", "mot": "Nature", "explication": "Qu'est-ce que c'est exactement ? Par exemple une peinture, une lettre, une loi, une photographie."},
+          {"lettre": "D", "mot": "Destinataire", "explication": "Pour qui a-t-il été fait, et pourquoi ?"},
+          {"lettre": "I", "mot": "Idée générale", "explication": "De quoi parle le document, en une phrase ?"}
+        ],
+        "faire_reciter": "Dites une lettre, par exemple « N ». Votre enfant répond « Nature » et explique. Ensuite, montrez-lui une image ou un document de la maison (une affiche, une lettre) : il le présente avec les cinq lettres."
+      },
+      "bex-3-prelever-et-citer-un-document": {
+        "savoir_faire": "Prélever et citer un texte",
+        "nom": "DAME",
+        "lettres": [
+          {"lettre": "D", "mot": "Délimiter", "explication": "Dans le texte, il souligne seulement les mots qui répondent à la question."},
+          {"lettre": "A", "mot": "Attribuer", "explication": "Il commence sa phrase par le nom de l'auteur : « Voltaire écrit que… »."},
+          {"lettre": "M", "mot": "Marquer", "explication": "Il recopie les mots du texte entre guillemets « », sans rien changer."},
+          {"lettre": "E", "mot": "Expliquer", "explication": "Après la citation, il écrit « c'est-à-dire » et redit l'idée avec ses mots."}
+        ],
+        "faire_reciter": "Demandez-lui les quatre lettres et ce qu'elles veulent dire. Puis regardez une de ses réponses : y a-t-il des guillemets ? Le nom de l'auteur ? « C'est-à-dire » après la citation ?"
+      },
+      "bex-reperes-geographiques-4e": {
+        "savoir_faire": "Placer des lieux sur une carte",
+        "nom": "PNV",
+        "lettres": [
+          {"lettre": "P", "mot": "Préparer", "explication": "Il relit la liste et cherche d'abord la forme du lieu sur la carte, avant d'écrire."},
+          {"lettre": "N", "mot": "Nommer", "explication": "Il fait une marque au bon endroit et écrit le nom à l'horizontale, sans faute."},
+          {"lettre": "V", "mot": "Vérifier", "explication": "Il compte les noms et relit chacun."}
+        ],
+        "faire_reciter": "Cette BEX est faite de listes de lieux à connaître par cœur. Ouvrez la page de votre enfant, cachez les noms et demandez-lui de montrer chaque lieu sur la carte. Il peut aussi s'entraîner sur une carte vierge imprimée."
+      },
+      "bex-routines-j-explique-les-mots-en-histoire-geographie": {
+        "savoir_faire": "Expliquer les mots du cours",
+        "nom": "MCM",
+        "lettres": [
+          {"lettre": "M", "mot": "Le Mot", "explication": "Il écrit le mot exact du cours, pas un mot qui lui ressemble."},
+          {"lettre": "C", "mot": "C'est-à-dire", "explication": "Juste après le mot, il ajoute « c'est-à-dire »."},
+          {"lettre": "M", "mot": "Mes mots", "explication": "Il explique le sens avec ses propres mots, sans recopier le cours."}
+        ],
+        "faire_reciter": "Choisissez un mot du chapitre, par exemple « colonie ». Votre enfant fait une phrase avec ce mot, puis ajoute « c'est-à-dire » et l'explique avec ses mots."
+      }
+    }
+  },
+  "chapitres": {
+    "4e": {
+      "H1": {
+        "titre": "Bourgeoisie, commerce et esclavage au XVIIIe siècle",
+        "resume": [
+          "Au XVIIIe siècle, les ports français de l'océan Atlantique deviennent très riches : Nantes, Bordeaux, La Rochelle.",
+          "Ils font du commerce avec les colonies d'Amérique. Les navires rapportent du sucre, du café et du coton.",
+          "Ces produits sont cultivés par des esclaves africains, dans de grandes exploitations appelées plantations.",
+          "Pour avoir des esclaves, les Européens les achètent en Afrique : c'est la traite. Environ 12 millions d'Africains ont été déportés de force vers l'Amérique.",
+          "Ce commerce enrichit surtout les marchands des ports, qu'on appelle la bourgeoisie marchande."
+        ],
+        "mots": [
+          {"mot": "Colonie", "definition": "Territoire conquis et dirigé par un pays étranger, qui l'exploite."},
+          {"mot": "Négoce", "definition": "Le commerce : acheter des marchandises pour les revendre."},
+          {"mot": "Bourgeoisie marchande", "definition": "Les marchands et les propriétaires de navires des ports, devenus très riches grâce au commerce."},
+          {"mot": "Plantation", "definition": "Grande exploitation agricole qui cultive un seul produit, comme la canne à sucre, pour le vendre en Europe."},
+          {"mot": "Esclavage", "definition": "Système où des personnes appartiennent à un maître et sont forcées de travailler."},
+          {"mot": "Traite", "definition": "Le commerce des esclaves : des Africains capturés sont vendus et emmenés de force en Amérique."},
+          {"mot": "Commerce triangulaire", "definition": "Le voyage en trois étapes d'un navire négrier : Europe, Afrique, Amérique, puis retour en Europe."},
+          {"mot": "Code noir", "definition": "Texte du roi (1685) qui fixe les règles de l'esclavage dans les colonies françaises. L'esclave y est traité comme un objet."}
+        ],
+        "reperes": [
+          "XVIIIe siècle : la traite atlantique est à son point le plus haut.",
+          "1685 : le Code noir.",
+          "Nantes, Bordeaux, La Rochelle : grands ports de l'Atlantique.",
+          "Saint-Domingue (aujourd'hui Haïti), la Martinique, la Guadeloupe : colonies françaises des Antilles."
+        ],
+        "questions": [
+          {"question": "Pourquoi les ports de l'Atlantique deviennent-ils riches au XVIIIe siècle ?", "reponse": "Grâce au commerce avec les colonies d'Amérique : ils revendent le sucre, le café et le coton en Europe."},
+          {"question": "Qui cultive le sucre et le café dans les colonies ?", "reponse": "Des esclaves africains, forcés de travailler dans les plantations."},
+          {"question": "Qu'est-ce que la traite ?", "reponse": "Le commerce des esclaves : des Africains sont achetés en Afrique et emmenés de force en Amérique pour y être vendus."},
+          {"question": "Combien d'Africains ont été déportés vers l'Amérique ?", "reponse": "Environ 12 millions, entre le XVIe et le XIXe siècle."},
+          {"question": "Qui profite le plus de ce commerce ?", "reponse": "Les marchands et les armateurs des ports, la bourgeoisie marchande. Les planteurs et le roi en profitent aussi."}
+        ],
+        "evalue": "Savoir expliquer d'où vient la richesse des ports, connaître les mots du vocabulaire et présenter un document avec la méthode CANDI."
+      },
+      "H2": {
+        "titre": "Le siècle des Lumières",
+        "resume": [
+          "Au XVIIIe siècle, en France, le roi dit tenir son pouvoir de Dieu. Il décide seul.",
+          "La société est divisée en trois groupes : le clergé, la noblesse et le tiers état. Les droits dépendent de la naissance.",
+          "Des philosophes et des savants, appelés les Lumières, veulent tout juger avec leur raison, c'est-à-dire leur intelligence.",
+          "Ils critiquent le pouvoir du roi, les privilèges, l'intolérance religieuse et l'esclavage. Leurs idées circulent malgré la censure.",
+          "Mais ils ne sont pas tous d'accord, par exemple sur l'égalité entre tous les êtres humains."
+        ],
+        "mots": [
+          {"mot": "Lumières", "definition": "Des hommes et des femmes du XVIIIe siècle qui veulent juger le monde avec la raison et le changer."},
+          {"mot": "Philosophe", "definition": "Au XVIIIe siècle, une personne qui écrit et donne son avis sur les problèmes de son temps."},
+          {"mot": "Monarchie absolue de droit divin", "definition": "Le roi dit que son pouvoir vient de Dieu et ne le partage avec personne."},
+          {"mot": "Privilège", "definition": "Un droit réservé à certains, comme ne pas payer certains impôts."},
+          {"mot": "Société d'ordres", "definition": "Une société où les droits dépendent de la naissance : clergé, noblesse, tiers état."},
+          {"mot": "Tolérance", "definition": "Laisser vivre et prier les personnes qui ont une autre religion."},
+          {"mot": "Censure", "definition": "L'interdiction de publier un texte."},
+          {"mot": "Séparation des pouvoirs", "definition": "Confier à des personnes différentes le pouvoir de faire les lois, de les appliquer et de juger."},
+          {"mot": "Ancien Régime", "definition": "Le nom donné après 1789 à l'organisation de la France d'avant la Révolution."}
+        ],
+        "reperes": [
+          "1715-1789 : le siècle des Lumières.",
+          "1748 : Montesquieu publie De l'esprit des lois.",
+          "1751-1772 : publication de l'Encyclopédie.",
+          "1789 : début de la Révolution française."
+        ],
+        "questions": [
+          {"question": "D'où vient le pouvoir du roi, d'après lui ?", "reponse": "De Dieu. On dit que c'est une monarchie absolue de droit divin."},
+          {"question": "Que veulent les philosophes des Lumières ?", "reponse": "Juger le monde avec leur raison, et changer ce qui est injuste : le pouvoir sans limite du roi, les privilèges, l'intolérance, l'esclavage."},
+          {"question": "Que propose Montesquieu ?", "reponse": "Séparer les pouvoirs : ce ne sont pas les mêmes personnes qui font les lois, les appliquent et jugent."},
+          {"question": "Qu'est-ce que l'Encyclopédie ?", "reponse": "Un grand livre, publié de 1751 à 1772, qui rassemble les connaissances de l'époque et critique l'ordre établi."},
+          {"question": "Les philosophes sont-ils tous d'accord ?", "reponse": "Non. Par exemple, Condorcet dit que tous les êtres humains ont la même raison, mais Kant pense le contraire pour les Africains."}
+        ],
+        "evalue": "Connaître le vocabulaire et les repères, et citer un texte avec la méthode DAME."
+      },
+      "G1": {
+        "titre": "Mers et océans : un espace disputé et fragile",
+        "resume": [
+          "Plus de 80 % des marchandises du monde voyagent en bateau. La mer relie tous les pays : c'est la mondialisation.",
+          "Les navires passent par quelques passages étroits, comme le détroit d'Ormuz ou le canal de Suez. Si un passage ferme, le monde entier est touché.",
+          "Les États se partagent la mer. Près de ses côtes, chaque État est le seul à pouvoir pêcher et chercher du pétrole.",
+          "Là où la mer est riche ou étroite, des pays se disputent. Par exemple, plusieurs pays réclament les mêmes îles au sud de la Chine.",
+          "Sur les côtes, le tourisme crée aussi des conflits. À Marseille, les bateaux de croisière apportent des emplois mais aussi de la pollution."
+        ],
+        "mots": [
+          {"mot": "Mondialisation", "definition": "Les pays du monde sont de plus en plus reliés par des échanges de marchandises, de personnes et d'informations."},
+          {"mot": "Maritimisation", "definition": "La mer prend de plus en plus d'importance : pour transporter, pour ses richesses, pour le tourisme."},
+          {"mot": "Détroit", "definition": "Passage étroit entre deux terres, qui relie deux mers."},
+          {"mot": "Canal", "definition": "Passage creusé par les hommes pour relier deux mers."},
+          {"mot": "Façade maritime", "definition": "Une côte où se suivent plusieurs grands ports reliés au reste du monde."},
+          {"mot": "ZEE (zone économique exclusive)", "definition": "La mer jusqu'à 370 km des côtes : seul l'État peut y pêcher et y extraire du pétrole ou du gaz."},
+          {"mot": "Acteur", "definition": "Une personne, un groupe, une entreprise ou un État qui utilise un espace ou le transforme."},
+          {"mot": "Conflit", "definition": "Un désaccord entre des acteurs qui veulent utiliser le même espace. Cela peut aller jusqu'à la guerre."},
+          {"mot": "Mise en tourisme", "definition": "Transformer un lieu pour attirer et accueillir des touristes."}
+        ],
+        "reperes": [
+          "Les 5 océans : Pacifique, Atlantique, Indien, Arctique, Austral.",
+          "Les canaux de Suez et de Panama.",
+          "Les détroits de Malacca, de Gibraltar, de Bab el-Mandeb et d'Ormuz.",
+          "Les grands ports de Shanghai, Rotterdam et Marseille-Fos."
+        ],
+        "questions": [
+          {"question": "Comment voyagent la plupart des marchandises dans le monde ?", "reponse": "En bateau : plus de 80 % des marchandises."},
+          {"question": "Pourquoi le détroit d'Ormuz est-il important ?", "reponse": "Un cinquième du pétrole du monde y passe. S'il est bloqué, le prix du pétrole et de l'essence augmente partout."},
+          {"question": "Qu'est-ce qu'une ZEE ?", "reponse": "La mer jusqu'à 370 km des côtes d'un pays. Lui seul peut y pêcher et y chercher du pétrole."},
+          {"question": "Cite deux canaux.", "reponse": "Le canal de Suez et le canal de Panama."},
+          {"question": "Pourquoi certains habitants de Marseille ne veulent-ils pas des bateaux de croisière ?", "reponse": "Parce qu'ils polluent l'air près des quais."}
+        ],
+        "evalue": "Connaître le vocabulaire, placer les repères sur une carte (méthode PNV) et expliquer un conflit pour la mer."
+      }
+    }
+  }
+}

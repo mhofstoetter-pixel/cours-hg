@@ -165,7 +165,7 @@ a:hover { color: var(--text-link-hover); }
 /* Lien d'évitement */
 .hg-evitement {
   position: absolute;
-  left: var(--gouttiere);
+  inset-inline-start: var(--gouttiere);
   top: -100px;
   z-index: 10;
   padding: var(--sp-3) var(--sp-4);
@@ -632,9 +632,9 @@ a:hover { color: var(--text-link-hover); }
 
 .hg-doc ul, .hg-doc ol {
   margin: 0 0 var(--sp-4);
-  padding-left: 1.5em;
+  padding-inline-start: 1.5em;
 }
-.hg-doc li { margin-bottom: var(--sp-2); padding-left: var(--sp-1); }
+.hg-doc li { margin-bottom: var(--sp-2); padding-inline-start: var(--sp-1); }
 .hg-doc li > ul, .hg-doc li > ol { margin: var(--sp-2) 0 0; }
 .hg-doc ul > li::marker { content: "■  "; font-size: 0.7em; }
 .hg-doc ol > li::marker { font: 700 1em var(--font-display); }
@@ -678,11 +678,11 @@ a:hover { color: var(--text-link-hover); }
   max-width: 28em;
   padding: 10px 12px;
   vertical-align: top;
-  text-align: left;
+  text-align: start;
   border: var(--border);
 }
-.hg-doc tr > :first-child { border-left: 0; }
-.hg-doc tr > :last-child { border-right: 0; }
+.hg-doc tr > :first-child { border-inline-start: 0; }
+.hg-doc tr > :last-child { border-inline-end: 0; }
 .hg-doc tr:first-child > * { border-top: 0; }
 .hg-doc tr:last-child > * { border-bottom: 0; }
 .hg-doc thead + tbody tr:first-child > * { border-top: var(--border); }
@@ -734,10 +734,36 @@ a:hover { color: var(--text-link-hover); }
 .hg-pied :focus-visible { outline-color: var(--jaune); }
 
 /* ---------- 14. Impression -------------------------------------------- */
+/* ------------------------------------------------------------ bascule élève / parent */
+.hg-entete .hg-conteneur { justify-content: space-between; gap: var(--sp-3); }
+.hg-bascule {
+  display: inline-flex;
+  flex-shrink: 0;
+  border: var(--border);
+  border-radius: var(--r-pill);
+  overflow: hidden;
+  background: var(--paper);
+}
+.hg-bascule a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit-min);
+  padding: 0 var(--sp-3);
+  font: 700 0.9375rem/1 var(--font-display);
+  color: var(--ink-900);
+  text-decoration: none;
+}
+.hg-bascule a + a { border-inline-start: var(--border); }
+.hg-bascule a:hover { background: var(--paper-muted); color: var(--ink-900); }
+.hg-bascule a[aria-current] { color: var(--paper); background: var(--outline); }
+.hg-bascule a[aria-current]:hover { color: var(--paper); background: var(--outline); }
+.hg-bascule a:focus-visible { outline-offset: -5px; }
+.hg-continuer { margin: var(--sp-5) 0 0; }
+
 @media print {
   @page { margin: 15mm; }
   body { display: block; font-size: 11pt; background: #fff; }
-  .hg-entete, .hg-ariane, .hg-actions, .hg-retour, .hg-pied, .hg-evitement,
+  .hg-entete, .hg-ariane, .hg-actions, .hg-retour, .hg-pied, .hg-evitement, .hg-langues,
   .hg-encart, .no-print { display: none !important; }
   .hg-main { padding: 0; }
   .hg-conteneur { max-width: none; padding: 0; }

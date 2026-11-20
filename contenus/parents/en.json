@@ -1,0 +1,254 @@
+{
+  "accueil": {
+    "titre": "Parents' area",
+    "intro": [
+      "This website contains your child's history, geography and civics lessons.",
+      "These are the same documents as on Éléa, the school's online platform. Here, you do not need an account or a password.",
+      "These pages are written for you. They explain what your child is learning and how to help, even if you never studied history or geography."
+    ],
+    "comment_utiliser": [
+      "Choose your child's class: 4e or 5e.",
+      "Look at the chapter « in class right now ».",
+      "Read the words to know with your child.",
+      "Ask your child the questions in « Help in 10 minutes ». The answers are written so that you can check.",
+      "The « Élève » (Pupil) button at the top of the page shows the website as your child sees it."
+    ]
+  },
+  "pratique": [
+    {
+      "question": "My child was absent. What should we do?",
+      "reponse": "All the lessons are on this website. Your child can read the lesson and copy it into their exercise book. They can also ask a classmate what was done in class."
+    },
+    {
+      "question": "Éléa is not working. What can we do?",
+      "reponse": "Use this website. It has the lessons, the BEX, the QCM and the investigations. It works on a phone, with no account and no password."
+    },
+    {
+      "question": "How do I contact the teacher?",
+      "reponse": "Write to the teacher through the Pronote messaging system. You cannot send messages from this website."
+    },
+    {
+      "question": "Does my child have to learn everything on the website?",
+      "reponse": "Above all, your child must know the vocabulary words and the key facts (dates, places) of each chapter. The BEX are for practising the methods."
+    },
+    {
+      "question": "Does the website record my child's results?",
+      "reponse": "No. This website does not send or record anything. The QCM and the ticked boxes stay only on the phone or computer being used."
+    }
+  ],
+  "aide_generale": [
+    "Ask your child to explain the chapter to you in their own words, as if they were the teacher.",
+    "Ask them to say the vocabulary words and what they mean. They do not need to recite them word for word, but they must understand them.",
+    "Do a QCM together. It is not marked. Your child can try again as many times as they like.",
+    "Short and often is better than long and rarely: 10 minutes a few times a week is enough."
+  ],
+  "outils": [
+    {
+      "cle": "bex",
+      "titre": "The BEX",
+      "texte": [
+        "BEX means « exercise bank » (banque d'exercices). A BEX trains your child in a method that comes up often in history and geography: presenting a document, quoting a text, placing places on a map…",
+        "Every BEX follows the same path. First, the method. Then, an example that is already corrected. Finally, exercises to practise, with their answers.",
+        "The goal: the method becomes automatic, like learning to ride a bike."
+      ]
+    },
+    {
+      "cle": "cartes",
+      "titre": "The method cards",
+      "texte": [
+        "Each method has a name made of French letters, for example CANDI. Each letter is a step.",
+        "To help your child: say a letter, and your child says the step and what to do. Then check with the card, further down this page."
+      ]
+    },
+    {
+      "cle": "qcm",
+      "titre": "The QCM",
+      "texte": [
+        "QCM are multiple-choice questions. They are used to practise the lesson.",
+        "Nothing is marked or recorded. The answers appear straight away. Your child can start again: the questions change order."
+      ]
+    },
+    {
+      "cle": "suivi-bex",
+      "titre": "Mon suivi BEX (My BEX progress)",
+      "texte": [
+        "« Mon suivi BEX » is a different website: bex-college.fr. Your child logs in with their own account.",
+        "There, they can see how far they have got in their BEX. You can look with them. This website does not show any pupil's results."
+      ]
+    },
+    {
+      "cle": "evaluation",
+      "titre": "Assessment",
+      "texte": [
+        "Your child is assessed often, with short exercises that use the BEX methods and the key facts of the chapters.",
+        "If they do not succeed, they can try again later. What matters is making progress."
+      ]
+    }
+  ],
+  "methodes": {
+    "4e": {
+      "bex-1-construire-une-frise-chronologique": {
+        "savoir_faire": "Making a timeline (frise chronologique)",
+        "nom": "",
+        "lettres": [
+          {"lettre": "1", "mot": "Choose the scale", "explication": "Your child decides how many years one square is worth."},
+          {"lettre": "2", "mot": "Put things in order", "explication": "Your child places the dates and periods in time order."},
+          {"lettre": "3", "mot": "Draw carefully", "explication": "An event is a dot. A period is a double arrow or a coloured band."},
+          {"lettre": "4", "mot": "Break and continuity", "explication": "A break is a big change. Continuity is when nothing changes."}
+        ],
+        "faire_reciter": "Ask your child: « What is the difference between an event and a period? How do you draw them? » Then give a date: your child says which century it belongs to. For example, 1789 is in the 18th century (XVIIIe siècle): take 17 and add 1."
+      },
+      "bex-2-presenter-un-document": {
+        "savoir_faire": "Presenting a document",
+        "nom": "CANDI",
+        "lettres": [
+          {"lettre": "C", "mot": "Context (Contexte)", "explication": "When is the document from? Was it made at the time of the events or later?"},
+          {"lettre": "A", "mot": "Author (Auteur)", "explication": "Who made it, or who ordered it? What was their role?"},
+          {"lettre": "N", "mot": "Type (Nature)", "explication": "What is it exactly? For example a painting, a letter, a law, a photograph."},
+          {"lettre": "D", "mot": "Audience (Destinataire)", "explication": "Who was it made for, and why?"},
+          {"lettre": "I", "mot": "Main idea (Idée générale)", "explication": "What is the document about, in one sentence?"}
+        ],
+        "faire_reciter": "Say a letter, for example « N ». Your child answers « Nature » and explains. Then show them a picture or a document from home (a poster, a letter): your child presents it using the five letters."
+      },
+      "bex-3-prelever-et-citer-un-document": {
+        "savoir_faire": "Picking out and quoting a text",
+        "nom": "DAME",
+        "lettres": [
+          {"lettre": "D", "mot": "Select (Délimiter)", "explication": "In the text, your child underlines only the words that answer the question."},
+          {"lettre": "A", "mot": "Attribute (Attribuer)", "explication": "The sentence starts with the author's name: « Voltaire écrit que… » (Voltaire writes that…)."},
+          {"lettre": "M", "mot": "Mark (Marquer)", "explication": "Your child copies the words of the text inside quotation marks « », without changing anything."},
+          {"lettre": "E", "mot": "Explain (Expliquer)", "explication": "After the quotation, your child writes « c'est-à-dire » (that is to say) and puts the idea in their own words."}
+        ],
+        "faire_reciter": "Ask your child for the four letters and what they mean. Then look at one of their answers: are there quotation marks? The author's name? « C'est-à-dire » after the quotation?"
+      },
+      "bex-reperes-geographiques-4e": {
+        "savoir_faire": "Placing places on a map",
+        "nom": "PNV",
+        "lettres": [
+          {"lettre": "P", "mot": "Prepare (Préparer)", "explication": "Your child rereads the list and first looks for the shape of the place on the map, before writing."},
+          {"lettre": "N", "mot": "Name (Nommer)", "explication": "Your child makes a mark in the right place and writes the name horizontally, with no spelling mistakes."},
+          {"lettre": "V", "mot": "Check (Vérifier)", "explication": "Your child counts the names and rereads each one."}
+        ],
+        "faire_reciter": "This BEX is made of lists of places to learn by heart. Open your child's page, hide the names and ask your child to point to each place on the map. They can also practise on a printed blank map."
+      },
+      "bex-routines-j-explique-les-mots-en-histoire-geographie": {
+        "savoir_faire": "Explaining the words of the lesson",
+        "nom": "MCM",
+        "lettres": [
+          {"lettre": "M", "mot": "The word (Le Mot)", "explication": "Your child writes the exact word from the lesson, not a word that looks like it."},
+          {"lettre": "C", "mot": "That is to say (C'est-à-dire)", "explication": "Right after the word, your child adds « c'est-à-dire »."},
+          {"lettre": "M", "mot": "My words (Mes mots)", "explication": "Your child explains the meaning in their own words, without copying the lesson."}
+        ],
+        "faire_reciter": "Choose a word from the chapter, for example « colonie » (colony). Your child makes a sentence with this word, then adds « c'est-à-dire » and explains it in their own words."
+      }
+    }
+  },
+  "chapitres": {
+    "4e": {
+      "H1": {
+        "titre": "Middle class, trade and slavery in the 18th century",
+        "resume": [
+          "In the 18th century, the French ports on the Atlantic Ocean become very rich: Nantes, Bordeaux, La Rochelle.",
+          "They trade with the colonies in America. Ships bring back sugar, coffee and cotton.",
+          "These products are grown by African slaves, on large farms called plantations.",
+          "To get slaves, Europeans buy them in Africa: this is the slave trade (la traite). About 12 million Africans were taken by force to America.",
+          "This trade mostly makes the merchants of the ports rich. They are called the merchant middle class (bourgeoisie marchande)."
+        ],
+        "mots": [
+          {"mot": "Colony (Colonie)", "definition": "A territory conquered and ruled by a foreign country, which exploits it."},
+          {"mot": "Trade (Négoce)", "definition": "Buying goods in order to sell them again."},
+          {"mot": "Merchant middle class (Bourgeoisie marchande)", "definition": "The merchants and ship owners of the ports, who became very rich through trade."},
+          {"mot": "Plantation (Plantation)", "definition": "A large farm that grows only one crop, such as sugar cane, to sell it in Europe."},
+          {"mot": "Slavery (Esclavage)", "definition": "A system in which people belong to a master and are forced to work."},
+          {"mot": "Slave trade (Traite)", "definition": "The trade in slaves: captured Africans are sold and taken by force to America."},
+          {"mot": "Triangular trade (Commerce triangulaire)", "definition": "The three-stage journey of a slave ship: Europe, Africa, America, then back to Europe."},
+          {"mot": "Black Code (Code noir)", "definition": "A text by the king (1685) that sets the rules of slavery in the French colonies. The slave is treated as an object."}
+        ],
+        "reperes": [
+          "18th century: the Atlantic slave trade is at its highest point.",
+          "1685: the Black Code (Code noir).",
+          "Nantes, Bordeaux, La Rochelle: major Atlantic ports.",
+          "Saint-Domingue (now Haiti), Martinique, Guadeloupe: French colonies in the Caribbean."
+        ],
+        "questions": [
+          {"question": "Why do the Atlantic ports become rich in the 18th century?", "reponse": "Thanks to trade with the colonies in America: they sell the sugar, coffee and cotton again in Europe."},
+          {"question": "Who grows the sugar and coffee in the colonies?", "reponse": "African slaves, forced to work on the plantations."},
+          {"question": "What is the slave trade?", "reponse": "The trade in slaves: Africans are bought in Africa and taken by force to America to be sold there."},
+          {"question": "How many Africans were taken to America?", "reponse": "About 12 million, between the 16th and the 19th century."},
+          {"question": "Who profits most from this trade?", "reponse": "The merchants and ship owners of the ports, the merchant middle class. The planters and the king also profit."}
+        ],
+        "evalue": "Being able to explain where the ports' wealth comes from, knowing the vocabulary words and presenting a document with the CANDI method."
+      },
+      "H2": {
+        "titre": "The Age of Enlightenment",
+        "resume": [
+          "In the 18th century, in France, the king says his power comes from God. He decides alone.",
+          "Society is divided into three groups: the clergy, the nobility and the Third Estate (le tiers état). People's rights depend on their birth.",
+          "Philosophers and scientists, called the Enlightenment thinkers (les Lumières), want to judge everything with reason, that is, with their intelligence.",
+          "They criticise the king's power, privileges, religious intolerance and slavery. Their ideas spread despite censorship.",
+          "But they do not all agree, for example about equality between all human beings."
+        ],
+        "mots": [
+          {"mot": "Enlightenment (Lumières)", "definition": "Men and women of the 18th century who want to judge the world with reason and change it."},
+          {"mot": "Philosopher (Philosophe)", "definition": "In the 18th century, a person who writes and gives their opinion on the problems of their time."},
+          {"mot": "Absolute monarchy by divine right (Monarchie absolue de droit divin)", "definition": "The king says his power comes from God and he shares it with no one."},
+          {"mot": "Privilege (Privilège)", "definition": "A right kept for some people only, such as not paying certain taxes."},
+          {"mot": "Society of orders (Société d'ordres)", "definition": "A society where rights depend on birth: clergy, nobility, Third Estate."},
+          {"mot": "Tolerance (Tolérance)", "definition": "Letting people of another religion live and pray."},
+          {"mot": "Censorship (Censure)", "definition": "Forbidding a text from being published."},
+          {"mot": "Separation of powers (Séparation des pouvoirs)", "definition": "Giving the power to make laws, to apply them and to judge to different people."},
+          {"mot": "Ancien Régime (Ancien Régime)", "definition": "The name given after 1789 to the way France was organised before the Revolution."}
+        ],
+        "reperes": [
+          "1715-1789: the Age of Enlightenment.",
+          "1748: Montesquieu publishes The Spirit of the Laws (De l'esprit des lois).",
+          "1751-1772: publication of the Encyclopédie.",
+          "1789: the French Revolution begins."
+        ],
+        "questions": [
+          {"question": "Where does the king's power come from, according to him?", "reponse": "From God. This is called absolute monarchy by divine right."},
+          {"question": "What do the Enlightenment philosophers want?", "reponse": "To judge the world with reason and to change what is unfair: the king's unlimited power, privileges, intolerance, slavery."},
+          {"question": "What does Montesquieu suggest?", "reponse": "Separating the powers: the people who make the laws, apply them and judge are not the same."},
+          {"question": "What is the Encyclopédie?", "reponse": "A large book, published from 1751 to 1772, that gathers the knowledge of the time and criticises the established order."},
+          {"question": "Do the philosophers all agree?", "reponse": "No. For example, Condorcet says that all human beings have the same reason, but Kant thinks the opposite about Africans."}
+        ],
+        "evalue": "Knowing the vocabulary and key facts, and quoting a text with the DAME method."
+      },
+      "G1": {
+        "titre": "Seas and oceans: a disputed and fragile space",
+        "resume": [
+          "More than 80% of the world's goods travel by ship. The sea links all countries: this is globalisation.",
+          "Ships go through a few narrow passages, such as the Strait of Hormuz or the Suez Canal. If a passage closes, the whole world is affected.",
+          "States share the sea. Near its coasts, each state is the only one allowed to fish and look for oil.",
+          "Where the sea is rich or narrow, countries argue over it. For example, several countries claim the same islands south of China.",
+          "On the coasts, tourism also creates conflicts. In Marseille, cruise ships bring jobs but also pollution."
+        ],
+        "mots": [
+          {"mot": "Globalisation (Mondialisation)", "definition": "The countries of the world are more and more connected by exchanges of goods, people and information."},
+          {"mot": "Maritimisation (Maritimisation)", "definition": "The sea becomes more and more important: for transport, for its resources, for tourism."},
+          {"mot": "Strait (Détroit)", "definition": "A narrow passage between two pieces of land, linking two seas."},
+          {"mot": "Canal (Canal)", "definition": "A passage dug by people to link two seas."},
+          {"mot": "Seaboard (Façade maritime)", "definition": "A coast with several large ports in a row, connected to the rest of the world."},
+          {"mot": "EEZ, exclusive economic zone (ZEE)", "definition": "The sea up to 370 km from the coast: only the state may fish there and extract oil or gas."},
+          {"mot": "Actor (Acteur)", "definition": "A person, a group, a company or a state that uses a space or changes it."},
+          {"mot": "Conflict (Conflit)", "definition": "A disagreement between actors who want to use the same space. It can go as far as war."},
+          {"mot": "Development for tourism (Mise en tourisme)", "definition": "Changing a place to attract and welcome tourists."}
+        ],
+        "reperes": [
+          "The 5 oceans: Pacific, Atlantic, Indian, Arctic, Southern.",
+          "The Suez and Panama canals.",
+          "The straits of Malacca, Gibraltar, Bab-el-Mandeb and Hormuz.",
+          "The major ports of Shanghai, Rotterdam and Marseille-Fos."
+        ],
+        "questions": [
+          {"question": "How do most goods travel around the world?", "reponse": "By ship: more than 80% of goods."},
+          {"question": "Why is the Strait of Hormuz important?", "reponse": "One fifth of the world's oil goes through it. If it is blocked, the price of oil and petrol goes up everywhere."},
+          {"question": "What is an EEZ?", "reponse": "The sea up to 370 km from a country's coast. Only that country may fish there and look for oil."},
+          {"question": "Name two canals.", "reponse": "The Suez Canal and the Panama Canal."},
+          {"question": "Why do some people in Marseille not want cruise ships?", "reponse": "Because they pollute the air near the docks."}
+        ],
+        "evalue": "Knowing the vocabulary, placing the key places on a map (PNV method) and explaining a conflict over the sea."
+      }
+    }
+  }
+}
