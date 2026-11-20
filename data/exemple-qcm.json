@@ -1,0 +1,130 @@
+{
+  "id": "exemple",
+  "titre": "QCM d'exemple",
+  "niveau": "4e",
+  "chapitre": "H1",
+  "discipline": "histoire",
+  "intro": "",
+  "tirage": null,
+  "questions": [
+    {
+      "id": "17833",
+      "enonceHtml": "Dans la leçon, qu’est-ce qu’un acteur ?",
+      "feedbackHtml": "",
+      "type": "choix",
+      "multiple": false,
+      "melanger": true,
+      "reponses": [
+        {
+          "texteHtml": "Une personne, un groupe, une entreprise ou un État qui utilise un espace ou le transforme.",
+          "fraction": 1.0,
+          "feedbackHtml": "Oui : c’est la définition de la leçon. Un acteur utilise ou transforme un espace."
+        },
+        {
+          "texteHtml": "Une opposition entre des acteurs qui veulent utiliser le même espace.",
+          "fraction": 0.0,
+          "feedbackHtml": "Non : ça, c’est un conflit. Un acteur est une personne, un groupe, une entreprise ou un État qui utilise ou transforme un espace."
+        },
+        {
+          "texteHtml": "Un espace de la mer que plusieurs États veulent contrôler.",
+          "fraction": 0.0,
+          "feedbackHtml": "Non : un acteur n’est pas un espace. C’est une personne, un groupe, une entreprise ou un État qui utilise ou transforme un espace."
+        },
+        {
+          "texteHtml": "Un grand navire qui transporte des marchandises sur les océans.",
+          "fraction": 0.0,
+          "feedbackHtml": "Non : un navire est un moyen de transport. Un acteur est une personne, un groupe, une entreprise ou un État."
+        }
+      ]
+    },
+    {
+      "id": "17181",
+      "enonceHtml": "Vrai ou faux : les ports ne s'enrichissent pas grâce à l'esclavage, puisque la plupart des échanges avec les colonies se font en droiture.",
+      "feedbackHtml": "",
+      "type": "choix",
+      "multiple": false,
+      "melanger": false,
+      "reponses": [
+        {
+          "texteHtml": "Vrai",
+          "fraction": 0.0,
+          "feedbackHtml": "Non, c'est faux : même en droiture, les navires rapportent presque tous des produits cultivés par des esclaves. La prospérité des ports repose donc en grande partie sur l'esclavage."
+        },
+        {
+          "texteHtml": "Faux",
+          "fraction": 1.0,
+          "feedbackHtml": "Oui, c'est faux : même en droiture, les navires rapportent presque tous des produits cultivés par des esclaves. La prospérité des ports repose donc en grande partie sur l'esclavage."
+        }
+      ]
+    },
+    {
+      "id": "17851",
+      "enonceHtml": "Associe chaque espace de la mer à sa règle.",
+      "feedbackHtml": "",
+      "type": "association",
+      "paires": [
+        {
+          "gaucheHtml": "Mer territoriale",
+          "droite": "L’État fait appliquer ses lois (22 km)."
+        },
+        {
+          "gaucheHtml": "ZEE",
+          "droite": "Seul l’État peut pêcher et extraire du pétrole et du gaz (370 km)."
+        },
+        {
+          "gaucheHtml": "Haute mer",
+          "droite": "Elle n’appartient à aucun État."
+        }
+      ],
+      "distracteurs": []
+    },
+    {
+      "id": "17835",
+      "enonceHtml": "Complète la définition. Un conflit oppose des acteurs qui veulent {{1}} le même espace. Il va du simple {{2}} jusqu’à la guerre.",
+      "feedbackHtml": "",
+      "type": "trous",
+      "trous": {
+        "1": {
+          "mode": "liste",
+          "options": [
+            {
+              "texte": "utiliser ou contrôler",
+              "fraction": 1.0,
+              "feedback": "Oui, des acteurs veulent utiliser ou contrôler le même espace."
+            },
+            {
+              "texte": "vendre ou acheter",
+              "fraction": 0.0,
+              "feedback": "Non, un conflit oppose des acteurs qui veulent utiliser ou contrôler le même espace."
+            },
+            {
+              "texte": "nettoyer ou protéger",
+              "fraction": 0.0,
+              "feedback": "Non, un conflit oppose des acteurs qui veulent utiliser ou contrôler le même espace."
+            }
+          ]
+        },
+        "2": {
+          "mode": "liste",
+          "options": [
+            {
+              "texte": "désaccord",
+              "fraction": 1.0,
+              "feedback": "Oui, un conflit va du simple désaccord jusqu’à la guerre."
+            },
+            {
+              "texte": "accord",
+              "fraction": 0.0,
+              "feedback": "Non, un accord rapproche les acteurs. Un conflit va du simple désaccord jusqu’à la guerre."
+            },
+            {
+              "texte": "échange",
+              "fraction": 0.0,
+              "feedback": "Non, un conflit va du simple désaccord jusqu’à la guerre."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

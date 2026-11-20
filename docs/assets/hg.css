@@ -1,0 +1,750 @@
+/* ==========================================================================
+   hg.css — Cours d'Histoire-Géo-EMC · M. Hofstoetter
+   Design system « Cours HG-EMC Hofstoetter », adapté à la lecture sur écran
+   (téléphone d'abord). Règle de base : chaque bloc est un rectangle à contour
+   noir, rempli à plat. Pas d'ombre, pas de dégradé, pas de transparence.
+   Les variables du §5 de CONTRATS.md sont aussi utilisées par qcm.css.
+   ========================================================================== */
+
+/* ---------- 1. Variables ---------------------------------------------- */
+:root {
+  color-scheme: light;
+
+  /* Encre et papier */
+  --outline: #000000;
+  --ink-900: #1F1F1F;
+  --ink-700: #3D3D3D;
+  --ink-500: #6B6B6B;
+  --ink-300: #B5B5B5;
+  --paper: #FFFFFF;
+  --paper-muted: #F4F4F5;
+  --paper-sunken: #E9E9EB;
+
+  /* Accents (texte noir dessus, toujours) */
+  --jaune: #FFD84D;   --jaune-soft: #FFF0B8;
+  --rose: #FFB3C0;    --rose-soft: #FFE0E6;
+  --cyan: #7FDCE5;    --cyan-soft: #D6F3F7;
+  --violet: #C98BF0;  --violet-soft: #EEDBFA;
+  --bleu: #4A8CF0;    --bleu-soft: #DCE9FD;
+  --vert: #2FA35E;    --vert-soft: #D5EFDF;
+  --orange: #FF7A45;  --orange-soft: #FFE0D4;
+  --vert-profond: #16301F;
+  --vert-neon: #8EF06B;
+
+  /* Survol : fond assombri d'environ 8 % */
+  --jaune-hover: #F2C633;
+  --ink-hover: #2E2E2E;
+
+  /* Liens */
+  --text-link: #1E5FD0;
+  --text-link-hover: #123E8F;
+
+  /* Disciplines */
+  --disc-histoire: var(--jaune);
+  --disc-geo: var(--vert);
+  --disc-emc: var(--violet);
+
+  /* États (moteur QCM). Texte noir dessus : AA garanti.
+     Toujours doublés d'une icône et d'un mot, jamais la couleur seule. */
+  --juste: var(--vert);          --juste-soft: var(--vert-soft);
+  --faux: var(--orange);         --faux-soft: var(--orange-soft);
+  --partiel: var(--jaune);       --partiel-soft: var(--jaune-soft);
+
+  --focus-ring: var(--bleu);
+
+  /* Typographie */
+  --font-display: "Poppins", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Lexend", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --fs-h1: clamp(1.625rem, 1.25rem + 1.6vw, 2rem);   /* 26 → 32 px */
+  --fs-h2: clamp(1.3125rem, 1.15rem + 0.7vw, 1.5rem); /* 21 → 24 px */
+  --fs-h3: 1.1875rem;                                 /* 19 px */
+  --fs-body: 1rem;                                    /* 16 px, jamais moins */
+  --fs-label: 0.8125rem;                              /* 13 px, étiquettes en capitales */
+  --lh-body: 1.55;
+  --ls-display: -0.015em;
+  --ls-banner: 0.04em;
+  --ls-caps: 0.08em;
+
+  /* Espacements (base 4 px) */
+  --sp-0: 0px; --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 20px; --sp-6: 24px; --sp-7: 32px; --sp-8: 40px; --sp-9: 56px; --sp-10: 72px;
+  --hit-min: 44px;
+  --gouttiere: var(--sp-4);       /* marge latérale sur téléphone */
+
+  /* Rayons */
+  --r-0: 0px; --r-sm: 4px; --r-md: 10px; --r-lg: 18px; --r-pill: 999px;
+
+  /* Bordures */
+  --bw: 2px;
+  --bw-bold: 3px;
+  --border: var(--bw) solid var(--outline);
+  --border-bold: var(--bw-bold) solid var(--outline);
+
+  /* Mouvement : calme, sans rebond */
+  --dur: 180ms;
+  --dur-fast: 120ms;
+  --ease: cubic-bezier(.2, .7, .3, 1);
+  --press-scale: 0.97;
+
+  /* Couleur de la discipline courante (posée par data-discipline) */
+  --disc: var(--paper);
+  --disc-soft: var(--paper-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur: 0ms; --dur-fast: 0ms; }
+}
+
+[data-discipline="histoire"], .hg-pastille--histoire     { --disc: var(--jaune);  --disc-soft: var(--jaune-soft); }
+[data-discipline="geographie"], .hg-pastille--geographie { --disc: var(--vert);   --disc-soft: var(--vert-soft); }
+[data-discipline="emc"], .hg-pastille--emc               { --disc: var(--violet); --disc-soft: var(--violet-soft); }
+[data-discipline="methode"], .hg-pastille--methode       { --disc: var(--paper);  --disc-soft: var(--paper-muted); }
+
+/* ---------- 2. Base --------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font: 400 var(--fs-body)/var(--lh-body) var(--font-body);
+  color: var(--ink-900);
+  background: var(--paper);
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--ink-900);
+  text-wrap: balance;
+}
+h1 { font-size: var(--fs-h1); line-height: 1.14; letter-spacing: var(--ls-display); }
+h2 { font-size: var(--fs-h2); line-height: 1.2; }
+h3 { font-size: var(--fs-h3); line-height: 1.25; }
+h4 { font-size: var(--fs-body); line-height: 1.3; }
+
+p { margin: 0 0 var(--sp-3); text-wrap: pretty; }
+strong, b { font-weight: 600; }
+img { max-width: 100%; height: auto; }
+
+a {
+  color: var(--text-link);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+a:hover { color: var(--text-link-hover); }
+
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+::selection { background: var(--jaune); color: var(--ink-900); }
+
+.hg-visuellement-cache {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Lien d'évitement */
+.hg-evitement {
+  position: absolute;
+  left: var(--gouttiere);
+  top: -100px;
+  z-index: 10;
+  padding: var(--sp-3) var(--sp-4);
+  font: 700 var(--fs-body)/1.2 var(--font-display);
+  color: var(--paper);
+  background: var(--outline);
+  border: var(--border);
+  border-radius: var(--r-sm);
+}
+.hg-evitement:focus { top: var(--sp-2); color: var(--paper); }
+
+/* Conteneur : une colonne, gouttière de 16 px */
+.hg-conteneur {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 var(--gouttiere);
+}
+.hg-conteneur--lecture { max-width: 736px; }
+/* Pages de lecture : en-tête et pied alignés sur la colonne de texte */
+.hg-page--ressource .hg-entete .hg-conteneur, .hg-page--ressource .hg-pied .hg-conteneur,
+.hg-page--qcm .hg-entete .hg-conteneur, .hg-page--qcm .hg-pied .hg-conteneur { max-width: 736px; }
+
+.hg-main {
+  flex: 1 0 auto;
+  padding-top: var(--sp-4);
+  padding-bottom: var(--sp-9);
+}
+
+@media (min-width: 768px) {
+  :root { --gouttiere: var(--sp-7); }
+  .hg-main { padding-top: var(--sp-6); }
+}
+
+/* ---------- 3. En-tête et signature ----------------------------------- */
+.hg-entete {
+  background: var(--paper);
+  border-bottom: var(--border);
+}
+.hg-entete .hg-conteneur {
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+  padding-top: var(--sp-2);
+  padding-bottom: var(--sp-2);
+}
+.hg-signature {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: var(--hit-min);
+  color: var(--ink-900);
+  text-decoration: none;
+  border-radius: var(--r-sm);
+}
+.hg-signature:hover { color: var(--ink-900); }
+.hg-signature:hover .hg-signature__titre { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.hg-signature__titre {
+  font: 800 1.1875rem/1.1 var(--font-display);
+  letter-spacing: var(--ls-display);
+}
+.hg-signature__nom {
+  margin-top: 2px;
+  font: 500 var(--fs-body)/1.3 var(--font-body);
+  color: var(--ink-700);
+}
+/* Le « · » de la signature n'est utile qu'aux lecteurs d'écran (signature sur deux lignes) */
+.hg-signature__sep {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .hg-entete .hg-conteneur { min-height: 76px; }
+  .hg-signature__titre { font-size: 1.5rem; }
+}
+
+/* ---------- 4. Fil d'Ariane ------------------------------------------- */
+/* Accepte une liste <ol><li> (recommandé) ou des liens séparés par du texte. */
+.hg-ariane {
+  margin: 0 0 var(--sp-4);
+  font: 500 var(--fs-body)/1.4 var(--font-body);
+  color: var(--ink-700);
+}
+.hg-ariane ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hg-ariane li { display: inline-flex; align-items: baseline; min-width: 0; }
+.hg-ariane li[aria-current] { padding: 10px 0; }
+.hg-ariane li + li::before {
+  content: "›";
+  content: "›" / "";
+  padding: 0 var(--sp-2);
+  color: var(--ink-700);
+}
+.hg-ariane a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit-min);
+  color: var(--text-link);
+}
+.hg-ariane a:hover { color: var(--text-link-hover); }
+.hg-ariane [aria-current] { color: var(--ink-900); }
+
+/* ---------- 5. Titres de page ----------------------------------------- */
+.hg-intro-page { margin-bottom: var(--sp-7); }
+.hg-intro-page h1 { margin-bottom: var(--sp-3); }
+.hg-chapeau {
+  max-width: 62ch;
+  margin: 0;
+  font-size: 1.0625rem;
+  color: var(--ink-900);
+}
+.hg-chapeau + .hg-chapeau { margin-top: var(--sp-2); }
+
+/* Bloc-titre d'une ressource : bandeau de la discipline + titre sur blanc */
+.hg-titre-ressource {
+  margin: 0 0 var(--sp-5);
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+}
+.hg-titre-ressource__bandeau {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-4);
+  background: var(--disc);
+  border-bottom: var(--border);
+}
+.hg-titre-ressource__type {
+  font: 700 var(--fs-body)/1.2 var(--font-display);
+}
+.hg-titre-ressource h1 {
+  padding: var(--sp-4) var(--sp-4) var(--sp-5);
+}
+.hg-titre-ressource__intro {
+  padding: 0 var(--sp-4) var(--sp-4);
+  max-width: 62ch;
+}
+.hg-titre-ressource__intro:empty { display: none; }
+.hg-titre-ressource__intro > :last-child { margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  .hg-titre-ressource__bandeau { padding: var(--sp-2) var(--sp-6); }
+  .hg-titre-ressource h1 { padding: var(--sp-5) var(--sp-6) var(--sp-6); }
+  .hg-titre-ressource__intro { padding: 0 var(--sp-6) var(--sp-5); }
+}
+
+/* Code de chapitre (H1, G2, E1) */
+.hg-code {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 2px var(--sp-2);
+  font: 700 var(--fs-body)/1 var(--font-mono);
+  color: var(--ink-900);
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--r-sm);
+}
+.hg-code:empty { display: none; }
+
+/* ---------- 6. Pastilles de discipline -------------------------------- */
+.hg-pastille {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 3px var(--sp-2);
+  font: 700 var(--fs-label)/1.2 var(--font-display);
+  letter-spacing: var(--ls-caps);
+  text-transform: uppercase;
+  color: var(--ink-900);
+  background: var(--disc);
+  border: var(--border);
+  border-radius: var(--r-sm);
+  white-space: nowrap;
+}
+/* Pastille laissée vide par le gabarit : le libellé vient de la classe. */
+.hg-pastille:empty { display: none; }
+.hg-pastille--histoire:empty, .hg-pastille--geographie:empty,
+.hg-pastille--emc:empty, .hg-pastille--methode:empty { display: inline-flex; }
+.hg-pastille--histoire:empty::before   { content: "Histoire"; }
+.hg-pastille--geographie:empty::before { content: "Géographie"; }
+.hg-pastille--emc:empty::before        { content: "EMC"; }
+.hg-pastille--methode:empty::before    { content: "Méthodologie"; }
+
+/* Dans le bandeau coloré, la pastille reste blanche pour ne pas poser
+   un accent sur un accent. */
+.hg-titre-ressource__bandeau .hg-pastille { background: var(--paper); }
+
+/* ---------- 7. Rubriques ---------------------------------------------- */
+.hg-rubriques { display: grid; gap: var(--sp-8); }
+
+.hg-rubrique {
+  display: grid;
+  gap: var(--sp-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  margin: 0;
+}
+.hg-rubrique > :not(.hg-carte) { grid-column: 1 / -1; }
+
+/* Titre de rubrique : l'étiquette noire du design system */
+.hg-rubrique__titre {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: var(--sp-1);
+  padding: 10px 18px;
+  font: 700 var(--fs-h3)/1.2 var(--font-display);
+  letter-spacing: var(--ls-banner);
+  color: var(--paper);
+  background: var(--outline);
+  border: var(--border);
+  border-radius: var(--r-lg);
+}
+
+/* Liste de cartes (facultative : les cartes peuvent aussi être enfants directs) */
+.hg-cartes {
+  display: grid;
+  gap: var(--sp-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hg-cartes > li { display: flex; min-width: 0; }
+.hg-cartes > li > .hg-carte { flex: 1; }
+
+/* ---------- 8. Cartes ------------------------------------------------- */
+/*  <a class="hg-carte hg-pastille--histoire" href="…">
+      <span class="hg-carte__code">H1</span>
+      <span class="hg-carte__titre">Bourgeoisie marchande et traite atlantique</span>
+      <span class="hg-carte__type">Cours</span>
+    </a>                                                                   */
+.hg-carte {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "code titre fleche"
+    "code type  fleche";
+  align-items: center;
+  column-gap: var(--sp-3);
+  row-gap: 2px;
+  min-height: 72px;
+  min-width: 0;
+  padding: var(--sp-3) var(--sp-4);
+  color: var(--ink-900);
+  text-decoration: none;
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--r-md);
+  transition: background-color var(--dur) var(--ease), transform var(--dur-fast) var(--ease);
+}
+.hg-carte::after {
+  grid-area: fleche;
+  content: "→";
+  content: "→" / "";
+  font: 700 1.25rem/1 var(--font-display);
+}
+.hg-carte:hover { color: var(--ink-900); background: var(--paper-muted); }
+.hg-carte:active { transform: scale(var(--press-scale)); }
+
+.hg-carte__code {
+  grid-area: code;
+  align-self: start;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 40px;
+  padding: 2px var(--sp-2);
+  font: 700 var(--fs-body)/1 var(--font-mono);
+  color: var(--ink-900);
+  background: var(--disc);
+  border: var(--border);
+  border-radius: var(--r-sm);
+}
+.hg-carte__code:empty { display: none; }
+/* Sans code : le titre reprend toute la largeur (pas d'écart à gauche) */
+.hg-carte:has(> .hg-carte__code:empty),
+.hg-carte:not(:has(> .hg-carte__code, > .hg-pastille)) {
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "titre fleche"
+    "type  fleche";
+}
+.hg-carte__titre {
+  grid-area: titre;
+  min-width: 0;
+  font: 700 1.0625rem/1.3 var(--font-display);
+}
+.hg-carte__type {
+  grid-area: type;
+  font: 400 var(--fs-body)/1.35 var(--font-body);
+  color: var(--ink-700);
+}
+.hg-carte__type:empty { display: none; }
+
+/* Pastille de discipline dans une carte (variante : texte au lieu du code) */
+.hg-carte .hg-pastille { grid-area: code; align-self: start; }
+
+/* Cartes de niveau (accueil) : grand code, carte plus haute */
+.hg-niveaux {
+  display: grid;
+  gap: var(--sp-4);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  margin: 0 0 var(--sp-8);
+  padding: 0;
+  list-style: none;
+}
+.hg-niveaux > li { display: flex; }
+.hg-niveaux > li > .hg-carte { flex: 1; }
+.hg-niveaux .hg-carte {
+  min-height: 112px;
+  padding: var(--sp-4) var(--sp-5);
+  column-gap: var(--sp-4);
+  border-width: var(--bw-bold);
+}
+.hg-niveaux .hg-carte__code {
+  min-width: 80px;
+  min-height: 72px;
+  font-size: 1.75rem;
+  color: var(--paper);
+  background: var(--outline);
+}
+.hg-niveaux .hg-carte__titre { font-size: var(--fs-h2); line-height: 1.15; }
+.hg-niveaux .hg-carte::after { font-size: 1.5rem; }
+
+/* ---------- 9. Rubrique vide ------------------------------------------ */
+.hg-vide {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2) var(--sp-3);
+  min-height: 72px;
+  margin: 0;
+  padding: var(--sp-3) var(--sp-4);
+  font: 500 var(--fs-body)/1.45 var(--font-body);
+  color: var(--ink-900);
+  background: var(--paper-muted);
+  border: var(--border);
+  border-radius: var(--r-md);
+}
+.hg-vide > :last-child { margin-bottom: 0; }
+
+/* ---------- 10. Boutons ----------------------------------------------- */
+.hg-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin: 0 0 var(--sp-7);
+}
+@media (min-width: 560px) {
+  .hg-actions { flex-direction: row; flex-wrap: wrap; }
+}
+
+.hg-bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: 48px;
+  padding: 11px 22px;
+  font: 700 var(--fs-body)/1.2 var(--font-display);
+  text-align: center;
+  text-decoration: none;
+  color: var(--ink-900);
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease), transform var(--dur-fast) var(--ease);
+}
+.hg-bouton:hover { color: var(--ink-900); background: var(--paper-muted); }
+.hg-bouton:active { transform: scale(var(--press-scale)); }
+.hg-bouton svg { flex: none; width: 22px; height: 22px; }
+/* Lien vide (pas de PDF ou pas de Google Doc) : on n'affiche pas le bouton. */
+.hg-bouton[href=""] { display: none; }
+
+/* Télécharger le PDF : bouton encre (noir, texte blanc) */
+.hg-bouton--pdf { color: var(--paper); background: var(--outline); }
+.hg-bouton--pdf:hover { color: var(--paper); background: var(--ink-hover); }
+
+/* Ouvrir le Google Doc : bouton blanc à contour */
+.hg-bouton--gdoc { background: var(--paper); }
+
+/* Mon suivi BEX : bouton jaune, grand */
+.hg-bouton--bex {
+  min-height: 56px;
+  padding: 14px 28px;
+  font-size: 1.125rem;
+  background: var(--jaune);
+  border-width: var(--bw-bold);
+}
+.hg-bouton--bex:hover { background: var(--jaune-hover); }
+
+/* Bloc d'appel « Mon suivi BEX » (accueil) */
+.hg-encart {
+  display: grid;
+  gap: var(--sp-3);
+  justify-items: start;
+  padding: var(--sp-5) var(--sp-4);
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--r-md);
+}
+.hg-encart h2 { font-size: var(--fs-h2); }
+.hg-encart p { margin: 0; max-width: 62ch; }
+.hg-encart .hg-bouton { width: 100%; }
+@media (min-width: 560px) {
+  .hg-encart { padding: var(--sp-6); }
+  .hg-encart .hg-bouton { width: auto; }
+}
+.hg-encart__note { color: var(--ink-700); }
+
+/* Lien de retour */
+.hg-retour {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: var(--hit-min);
+  margin-top: var(--sp-7);
+  font: 700 var(--fs-body)/1.2 var(--font-display);
+}
+.hg-retour svg { width: 20px; height: 20px; flex: none; }
+
+/* ---------- 11. Contenu d'un Google Doc nettoyé ------------------------ */
+.hg-doc {
+  max-width: 100%;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+.hg-doc > :first-child { margin-top: 0; }
+.hg-doc > :last-child { margin-bottom: 0; }
+.hg-doc p { margin: 0 0 var(--sp-4); }
+
+/* h2 : bandeau teinté de la discipline, contour noir */
+.hg-doc h2 {
+  margin: var(--sp-8) 0 var(--sp-4);
+  padding: var(--sp-2) var(--sp-4);
+  background: var(--disc-soft);
+  border: var(--border);
+  border-radius: var(--r-sm);
+}
+.hg-doc h3 {
+  margin: var(--sp-7) 0 var(--sp-3);
+  padding-bottom: var(--sp-1);
+  border-bottom: var(--border);
+}
+.hg-doc h4 {
+  margin: var(--sp-6) 0 var(--sp-2);
+  font-size: 1.0625rem;
+}
+.hg-doc h2 + h3 { margin-top: var(--sp-4); }
+
+.hg-doc ul, .hg-doc ol {
+  margin: 0 0 var(--sp-4);
+  padding-left: 1.5em;
+}
+.hg-doc li { margin-bottom: var(--sp-2); padding-left: var(--sp-1); }
+.hg-doc li > ul, .hg-doc li > ol { margin: var(--sp-2) 0 0; }
+.hg-doc ul > li::marker { content: "■  "; font-size: 0.7em; }
+.hg-doc ol > li::marker { font: 700 1em var(--font-display); }
+
+.hg-doc a { overflow-wrap: anywhere; }
+
+/* Images : responsives, cadrées d'un contour noir */
+.hg-doc img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: var(--sp-4) 0;
+  border: var(--border);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+}
+.hg-doc td img, .hg-doc th img { margin: var(--sp-1) 0; }
+.hg-doc figure { margin: var(--sp-6) 0; }
+.hg-doc figure img { margin: 0 0 var(--sp-2); }
+.hg-doc figcaption {
+  font-size: var(--fs-body);
+  line-height: 1.45;
+  color: var(--ink-700);
+}
+
+/* Tableaux : défilent dans leur cadre, jamais la page */
+.hg-doc table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  margin: var(--sp-5) 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  border: var(--border);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+}
+.hg-doc th, .hg-doc td {
+  min-width: 10em;
+  max-width: 28em;
+  padding: 10px 12px;
+  vertical-align: top;
+  text-align: left;
+  border: var(--border);
+}
+.hg-doc tr > :first-child { border-left: 0; }
+.hg-doc tr > :last-child { border-right: 0; }
+.hg-doc tr:first-child > * { border-top: 0; }
+.hg-doc tr:last-child > * { border-bottom: 0; }
+.hg-doc thead + tbody tr:first-child > * { border-top: var(--border); }
+.hg-doc th {
+  font: 700 var(--fs-body)/1.3 var(--font-display);
+  background: var(--paper-muted);
+}
+.hg-doc td > :last-child, .hg-doc th > :last-child { margin-bottom: 0; }
+/* Tableau focalisable au clavier pour le faire défiler (tabindex ajouté par build.py, facultatif) */
+.hg-doc table:focus-visible { outline-offset: 2px; }
+
+.hg-doc blockquote {
+  margin: var(--sp-5) 0;
+  padding: var(--sp-4);
+  background: var(--paper-muted);
+  border: var(--border);
+  border-radius: var(--r-sm);
+}
+.hg-doc blockquote > :last-child { margin-bottom: 0; }
+.hg-doc hr {
+  height: 0;
+  margin: var(--sp-7) 0;
+  border: 0;
+  border-top: var(--border);
+}
+.hg-doc sup, .hg-doc sub { line-height: 0; }
+
+/* ---------- 12. Page QCM ---------------------------------------------- */
+.hg-qcm { margin-bottom: var(--sp-4); }
+.hg-sans-js {
+  padding: var(--sp-4);
+  background: var(--paper-muted);
+  border: var(--border);
+  border-radius: var(--r-md);
+}
+
+/* ---------- 13. Pied de page ------------------------------------------ */
+.hg-pied {
+  margin-top: auto;
+  padding: var(--sp-6) 0;
+  font-size: var(--fs-body);
+  color: var(--paper);
+  background: var(--outline);
+}
+.hg-pied p { margin: 0 0 var(--sp-1); }
+.hg-pied p:last-child { margin: 0; }
+.hg-pied a { color: var(--paper); }
+.hg-pied a:hover { color: var(--paper); text-decoration-thickness: 3px; }
+.hg-pied :focus-visible { outline-color: var(--jaune); }
+
+/* ---------- 14. Impression -------------------------------------------- */
+@media print {
+  @page { margin: 15mm; }
+  body { display: block; font-size: 11pt; background: #fff; }
+  .hg-entete, .hg-ariane, .hg-actions, .hg-retour, .hg-pied, .hg-evitement,
+  .hg-encart, .no-print { display: none !important; }
+  .hg-main { padding: 0; }
+  .hg-conteneur { max-width: none; padding: 0; }
+  .hg-doc { max-width: none; }
+  .hg-doc h2, .hg-doc h3, .hg-doc h4 { break-after: avoid; }
+  .hg-doc img, .hg-doc figure, .hg-doc tr, .hg-carte { break-inside: avoid; }
+  .hg-doc table { display: table; width: 100%; overflow: visible; }
+  .hg-carte::after { content: none; }
+  a { color: inherit; }
+  * { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+}

@@ -1,0 +1,3492 @@
+{
+ "niveau": "4e",
+ "cours": "Histoire-Géo 4e",
+ "date_sauvegarde": "1795174464",
+ "items": [
+  {
+   "id": "17794",
+   "rubrique": "qcm",
+   "titre": "QCM 5 : Mers et Océans",
+   "titre_eléa": "QCM 5 : Mers et Océans",
+   "code": "G1",
+   "discipline": "geographie",
+   "slug": "qcm-5-mers-et-oceans",
+   "intro": "",
+   "tirage": 10,
+   "questions": [
+    {
+     "id": "17833",
+     "enonceHtml": "Dans la leçon, qu’est-ce qu’un acteur ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Une personne, un groupe, une entreprise ou un État qui utilise un espace ou le transforme.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c’est la définition de la leçon. Un acteur utilise ou transforme un espace."
+      },
+      {
+       "texteHtml": "Une opposition entre des acteurs qui veulent utiliser le même espace.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ça, c’est un conflit. Un acteur est une personne, un groupe, une entreprise ou un État qui utilise ou transforme un espace."
+      },
+      {
+       "texteHtml": "Un espace de la mer que plusieurs États veulent contrôler.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un acteur n’est pas un espace. C’est une personne, un groupe, une entreprise ou un État qui utilise ou transforme un espace."
+      },
+      {
+       "texteHtml": "Un grand navire qui transporte des marchandises sur les océans.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un navire est un moyen de transport. Un acteur est une personne, un groupe, une entreprise ou un État."
+      }
+     ]
+    },
+    {
+     "id": "17834",
+     "enonceHtml": "Lequel de ces éléments est un acteur ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "L’entreprise CMA CGM, une grande compagnie de Marseille",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : une entreprise est un acteur. CMA CGM utilise la mer pour transporter des marchandises."
+      },
+      {
+       "texteHtml": "Le détroit d’Ormuz",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le détroit d’Ormuz est un espace. Un acteur est une personne, un groupe, une entreprise ou un État qui utilise cet espace."
+      },
+      {
+       "texteHtml": "La haute mer",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la haute mer est un espace qui n’appartient à aucun État. Ce n’est pas un acteur."
+      },
+      {
+       "texteHtml": "Le pétrole",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le pétrole est une ressource. Un acteur est une personne, un groupe, une entreprise ou un État."
+      }
+     ]
+    },
+    {
+     "id": "17835",
+     "enonceHtml": "Complète la définition. Un conflit oppose des acteurs qui veulent {{1}} le même espace. Il va du simple {{2}} jusqu’à la guerre.",
+     "feedbackHtml": "",
+     "type": "trous",
+     "trous": {
+      "1": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "utiliser ou contrôler",
+         "fraction": 1.0,
+         "feedback": "Oui, des acteurs veulent utiliser ou contrôler le même espace."
+        },
+        {
+         "texte": "vendre ou acheter",
+         "fraction": 0.0,
+         "feedback": "Non, un conflit oppose des acteurs qui veulent utiliser ou contrôler le même espace."
+        },
+        {
+         "texte": "nettoyer ou protéger",
+         "fraction": 0.0,
+         "feedback": "Non, un conflit oppose des acteurs qui veulent utiliser ou contrôler le même espace."
+        }
+       ]
+      },
+      "2": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "désaccord",
+         "fraction": 1.0,
+         "feedback": "Oui, un conflit va du simple désaccord jusqu’à la guerre."
+        },
+        {
+         "texte": "accord",
+         "fraction": 0.0,
+         "feedback": "Non, un accord rapproche les acteurs. Un conflit va du simple désaccord jusqu’à la guerre."
+        },
+        {
+         "texte": "échange",
+         "fraction": 0.0,
+         "feedback": "Non, un conflit va du simple désaccord jusqu’à la guerre."
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "17838",
+     "enonceHtml": "Quelle part des marchandises du monde (en quantité) voyage en bateau ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Plus de 80 %",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : plus de 80 % des marchandises voyagent en bateau. La mondialisation passe par la mer."
+      },
+      {
+       "texteHtml": "Un cinquième",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un cinquième, c’est la part du pétrole mondial qui passe par Ormuz. Plus de 80 % des marchandises voyagent en bateau."
+      },
+      {
+       "texteHtml": "La moitié",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est beaucoup plus. Plus de 80 % des marchandises voyagent en bateau."
+      },
+      {
+       "texteHtml": "Un tiers",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est beaucoup plus. Plus de 80 % des marchandises voyagent en bateau."
+      }
+     ]
+    },
+    {
+     "id": "17839",
+     "enonceHtml": "Grâce aux échanges, les espaces du monde sont de plus en plus {{1}}. C’est la {{2}}.",
+     "feedbackHtml": "",
+     "type": "trous",
+     "trous": {
+      "1": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "reliés",
+         "fraction": 1.0,
+         "feedback": "Oui, les échanges relient les espaces du monde."
+        },
+        {
+         "texte": "séparés",
+         "fraction": 0.0,
+         "feedback": "Non, grâce aux échanges, les espaces du monde sont de plus en plus reliés."
+        },
+        {
+         "texte": "fragiles",
+         "fraction": 0.0,
+         "feedback": "Non, grâce aux échanges, les espaces du monde sont de plus en plus reliés."
+        }
+       ]
+      },
+      "2": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "mondialisation",
+         "fraction": 1.0,
+         "feedback": "Oui, des espaces de plus en plus reliés par des échanges, c’est la mondialisation."
+        },
+        {
+         "texte": "maritimisation",
+         "fraction": 0.0,
+         "feedback": "Non, la maritimisation est le rôle de plus en plus grand de la mer dans la mondialisation."
+        },
+        {
+         "texte": "réseau",
+         "fraction": 0.0,
+         "feedback": "Non, un réseau est fait de routes qui relient des ports et passent par des passages."
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "17842",
+     "enonceHtml": "Dans un réseau maritime, que sont les passages étroits comme les détroits ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Des points",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : dans un réseau, les passages sont des points et les routes sont des lignes."
+      },
+      {
+       "texteHtml": "Des lignes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les lignes, ce sont les routes. Les passages sont des points."
+      },
+      {
+       "texteHtml": "Des façades maritimes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une façade maritime est un littoral où se suivent plusieurs grands ports. Les passages sont des points du réseau."
+      },
+      {
+       "texteHtml": "Des ZEE",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une ZEE est une bande de mer le long des côtes. Les passages sont des points du réseau."
+      }
+     ]
+    },
+    {
+     "id": "17843",
+     "enonceHtml": "Qu’est-ce qu’une façade maritime ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Un littoral où se suivent plusieurs grands ports, reliés au reste du monde.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c’est la définition de la leçon. Les grands ports se concentrent sur trois façades maritimes."
+      },
+      {
+       "texteHtml": "Un passage étroit entre deux terres, qui relie deux mers.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est un détroit. Une façade maritime est un littoral où se suivent plusieurs grands ports."
+      },
+      {
+       "texteHtml": "Une partie de la mer qui n’appartient à aucun État.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est la haute mer. Une façade maritime est un littoral où se suivent plusieurs grands ports."
+      },
+      {
+       "texteHtml": "Un chemin régulier suivi par les navires.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est une route maritime. Une façade maritime est un littoral où se suivent plusieurs grands ports."
+      }
+     ]
+    },
+    {
+     "id": "17844",
+     "enonceHtml": "Selon la leçon, que se passe-t-il si un passage étroit comme Ormuz ferme ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le monde entier est touché.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les passages étroits sont vitaux. Si l’un d’eux ferme, le monde entier est touché."
+      },
+      {
+       "texteHtml": "Seuls les pays voisins du passage sont touchés.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ce n’est pas seulement les voisins. Les échanges du monde passent par ces passages : si l’un d’eux ferme, le monde entier est touché."
+      },
+      {
+       "texteHtml": "Les poissons de la mer disparaissent.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les poissons disparaissent si l’on pêche trop. Si un passage étroit ferme, le monde entier est touché."
+      },
+      {
+       "texteHtml": "Les compagnies de croisière amènent plus de touristes.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la leçon ne fait pas ce lien. Si un passage étroit ferme, le monde entier est touché."
+      }
+     ]
+    },
+    {
+     "id": "17845",
+     "enonceHtml": "Lequel de ces passages est un canal, c’est-à-dire un passage creusé par les hommes ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Suez",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : Suez est un canal, comme Panama. Il a été creusé par les hommes pour relier deux mers."
+      },
+      {
+       "texteHtml": "Malacca",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Malacca est un détroit, un passage étroit entre deux terres. Les canaux de la leçon sont Suez et Panama."
+      },
+      {
+       "texteHtml": "Gibraltar",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Gibraltar est un détroit, un passage étroit entre deux terres. Les canaux de la leçon sont Suez et Panama."
+      },
+      {
+       "texteHtml": "Ormuz",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Ormuz est un détroit, un passage étroit entre deux terres. Les canaux de la leçon sont Suez et Panama."
+      }
+     ]
+    },
+    {
+     "id": "17846",
+     "enonceHtml": "Comment s’appelle la grande boîte en métal, de la même taille partout, qui sert à transporter les marchandises ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Un conteneur",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : le conteneur est une grande boîte en métal, de la même taille partout, pour transporter les marchandises."
+      },
+      {
+       "texteHtml": "Un pétrolier",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un pétrolier est un navire qui transporte du pétrole. La boîte en métal est un conteneur."
+      },
+      {
+       "texteHtml": "Un port",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un port est un lieu où les marchandises passent de la mer à la terre. La boîte en métal est un conteneur."
+      },
+      {
+       "texteHtml": "Un quai",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le quai est l’endroit du port où s’arrêtent les navires. La boîte en métal est un conteneur."
+      }
+     ]
+    },
+    {
+     "id": "17847",
+     "enonceHtml": "Comment la leçon appelle-t-elle le chemin régulier suivi par les navires ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Une route maritime",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : une route maritime est un chemin régulier suivi par les navires. Les routes maritimes relient les ports."
+      },
+      {
+       "texteHtml": "Une façade maritime",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une façade maritime est un littoral où se suivent plusieurs grands ports. Le chemin des navires est une route maritime."
+      },
+      {
+       "texteHtml": "Un détroit",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un détroit est un passage étroit entre deux terres. Le chemin des navires est une route maritime."
+      },
+      {
+       "texteHtml": "Un canal",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un canal est un passage creusé par les hommes. Le chemin des navires est une route maritime."
+      }
+     ]
+    },
+    {
+     "id": "17848",
+     "enonceHtml": "À quoi sert la convention de Montego Bay, signée par les États en 1982 ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "À partager la mer entre les États",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : la mer est devenue vitale, alors les États se la partagent. En 1982, ils signent la convention de Montego Bay."
+      },
+      {
+       "texteHtml": "À protéger les pétroliers à Ormuz",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : à Ormuz, ce sont des navires américains qui protègent les pétroliers. La convention de Montego Bay partage la mer entre les États."
+      },
+      {
+       "texteHtml": "À organiser les croisières en Méditerranée",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les croisières sont organisées par des compagnies. La convention de Montego Bay partage la mer entre les États."
+      },
+      {
+       "texteHtml": "À creuser des canaux entre deux mers",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la convention de Montego Bay est un accord entre États pour se partager la mer."
+      }
+     ]
+    },
+    {
+     "id": "17849",
+     "enonceHtml": "Comment s’appelle la bande de mer de 22 km le long des côtes, où l’État fait appliquer ses lois ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La mer territoriale",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : jusqu’à 22 km des côtes, l’État fait appliquer ses lois. C’est la mer territoriale."
+      },
+      {
+       "texteHtml": "La ZEE",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la ZEE va jusqu’à 370 km. La bande de 22 km où l’État fait appliquer ses lois est la mer territoriale."
+      },
+      {
+       "texteHtml": "La haute mer",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la haute mer n’appartient à aucun État. La bande de 22 km est la mer territoriale."
+      },
+      {
+       "texteHtml": "Le littoral",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le littoral est une bande de terre et de mer le long d’une côte. La bande de mer de 22 km est la mer territoriale."
+      }
+     ]
+    },
+    {
+     "id": "17850",
+     "enonceHtml": "Dans la ZEE d’un État, que peuvent faire les navires des autres pays ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Y passer librement",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les autres navires passent librement dans une ZEE. Mais seul l’État peut y pêcher et extraire du pétrole et du gaz."
+      },
+      {
+       "texteHtml": "Y pêcher librement",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : dans sa ZEE, seul l’État peut pêcher. Les autres navires y passent librement."
+      },
+      {
+       "texteHtml": "Y faire appliquer leurs lois",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un pays fait appliquer ses lois dans sa propre mer territoriale. Dans la ZEE d’un autre État, ses navires passent seulement."
+      },
+      {
+       "texteHtml": "Rien du tout, ils doivent faire le tour",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les autres navires passent librement dans une ZEE. Ils ne peuvent pas y pêcher."
+      }
+     ]
+    },
+    {
+     "id": "17851",
+     "enonceHtml": "Associe chaque espace de la mer à sa règle.",
+     "feedbackHtml": "",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Mer territoriale",
+       "droite": "L’État fait appliquer ses lois (22 km)."
+      },
+      {
+       "gaucheHtml": "ZEE",
+       "droite": "Seul l’État peut pêcher et extraire du pétrole et du gaz (370 km)."
+      },
+      {
+       "gaucheHtml": "Haute mer",
+       "droite": "Elle n’appartient à aucun État."
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17852",
+     "enonceHtml": "Les ressources de la mer sont {{1}}. Si l’on pêche trop, les {{2}} disparaissent.",
+     "feedbackHtml": "",
+     "type": "trous",
+     "trous": {
+      "1": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "fragiles",
+         "fraction": 1.0,
+         "feedback": "Oui, les ressources de la mer sont fragiles."
+        },
+        {
+         "texte": "infinies",
+         "fraction": 0.0,
+         "feedback": "Non, elles ne sont pas infinies. Les ressources de la mer sont fragiles."
+        },
+        {
+         "texte": "interdites",
+         "fraction": 0.0,
+         "feedback": "Non, les ressources de la mer sont fragiles."
+        }
+       ]
+      },
+      "2": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "poissons",
+         "fraction": 1.0,
+         "feedback": "Oui, si l’on pêche trop, les poissons disparaissent."
+        },
+        {
+         "texte": "navires",
+         "fraction": 0.0,
+         "feedback": "Non, ce sont les poissons qui disparaissent si l’on pêche trop."
+        },
+        {
+         "texte": "ports",
+         "fraction": 0.0,
+         "feedback": "Non, ce sont les poissons qui disparaissent si l’on pêche trop."
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "17855",
+     "enonceHtml": "Que font les États là où la mer est étroite, comme à Ormuz ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Ils envoient des navires de guerre.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : là où la mer est étroite, les États envoient des navires de guerre. À Ormuz, des navires américains protègent les pétroliers."
+      },
+      {
+       "texteHtml": "Ils signent la convention de Montego Bay.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la convention de Montego Bay partage toute la mer, en 1982. Là où la mer est étroite, les États envoient des navires de guerre."
+      },
+      {
+       "texteHtml": "Ils transforment leur port pour les touristes.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ça, c’est la mise en tourisme, sur le littoral. Là où la mer est étroite, les États envoient des navires de guerre."
+      },
+      {
+       "texteHtml": "Ils pêchent le plus possible.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : si l’on pêche trop, les poissons disparaissent. Là où la mer est étroite, les États envoient des navires de guerre."
+      }
+     ]
+    },
+    {
+     "id": "17856",
+     "enonceHtml": "Où les compagnies de croisière amènent-elles surtout des touristes du monde entier ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "En Méditerranée et aux Caraïbes",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les compagnies de croisière amènent des touristes surtout en Méditerranée et aux Caraïbes."
+      },
+      {
+       "texteHtml": "En mer de Chine méridionale",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : en mer de Chine méridionale, des États réclament les mêmes îles. Les croisières vont surtout en Méditerranée et aux Caraïbes."
+      },
+      {
+       "texteHtml": "Dans le détroit d’Ormuz",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : à Ormuz, des navires de guerre protègent les pétroliers. Les croisières vont surtout en Méditerranée et aux Caraïbes."
+      },
+      {
+       "texteHtml": "En haute mer, loin des côtes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les croisières amènent les touristes dans des villes-ports, surtout en Méditerranée et aux Caraïbes."
+      }
+     ]
+    },
+    {
+     "id": "17857",
+     "enonceHtml": "Comment s’appelle la transformation d’un lieu par des acteurs pour attirer et accueillir des touristes ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La mise en tourisme",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : pour attirer les touristes, les villes-ports transforment leur port. C’est la mise en tourisme."
+      },
+      {
+       "texteHtml": "La croisière",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une croisière est un voyage de loisir à bord d’un grand navire. Transformer un lieu pour les touristes, c’est la mise en tourisme."
+      },
+      {
+       "texteHtml": "La façade maritime",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une façade maritime est un littoral où se suivent plusieurs grands ports. Transformer un lieu pour les touristes, c’est la mise en tourisme."
+      },
+      {
+       "texteHtml": "Le conflit",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un conflit oppose des acteurs. Transformer un lieu pour les touristes, c’est la mise en tourisme."
+      }
+     ]
+    },
+    {
+     "id": "17858",
+     "enonceHtml": "Selon la leçon, que crée le tourisme mondial sur le littoral ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "D’autres conflits : ce que les uns y gagnent, d’autres le subissent.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : sur le littoral, le tourisme mondial crée d’autres conflits. Ce que les uns y gagnent, d’autres le subissent."
+      },
+      {
+       "texteHtml": "Des gains pour tous les acteurs, sans aucun conflit.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : tout le monde n’y gagne pas. Ce que les uns y gagnent, d’autres le subissent : le tourisme crée des conflits."
+      },
+      {
+       "texteHtml": "Une guerre entre États pour contrôler les détroits.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : sur le littoral, ce ne sont plus seulement les États qui s’opposent. Le tourisme y crée d’autres conflits."
+      },
+      {
+       "texteHtml": "Le partage de la mer entre les États.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le partage de la mer entre États, c’est la convention de Montego Bay. Sur le littoral, le tourisme crée d’autres conflits."
+      }
+     ]
+    },
+    {
+     "id": "17859",
+     "enonceHtml": "Qu’est-ce qu’un littoral ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Une bande de terre et de mer le long d’une côte.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : le littoral est une bande de terre et de mer le long d’une côte."
+      },
+      {
+       "texteHtml": "Une bande de mer de 370 km le long des côtes.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est la ZEE. Le littoral est une bande de terre et de mer le long d’une côte."
+      },
+      {
+       "texteHtml": "Un lieu où les marchandises passent de la mer à la terre.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est un port. Le littoral est une bande de terre et de mer le long d’une côte."
+      },
+      {
+       "texteHtml": "Des richesses tirées de la mer.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ce sont les ressources. Le littoral est une bande de terre et de mer le long d’une côte."
+      }
+     ]
+    },
+    {
+     "id": "17860",
+     "enonceHtml": "La mer sert de plus en plus à transporter, à contrôler ses ressources et à faire du tourisme. Comment s’appelle ce rôle de plus en plus grand de la mer ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La maritimisation",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : la maritimisation est le rôle de plus en plus grand de la mer dans la mondialisation."
+      },
+      {
+       "texteHtml": "La mondialisation",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la mondialisation, ce sont des espaces de plus en plus reliés par des échanges. Le rôle grandissant de la mer, c’est la maritimisation."
+      },
+      {
+       "texteHtml": "La mise en tourisme",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la mise en tourisme ne concerne que le tourisme. Le rôle grandissant de la mer pour transporter, contrôler et faire du tourisme, c’est la maritimisation."
+      },
+      {
+       "texteHtml": "Le réseau",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un réseau est fait de routes, de ports et de passages. Le rôle grandissant de la mer, c’est la maritimisation."
+      }
+     ]
+    },
+    {
+     "id": "17861",
+     "enonceHtml": "D’après la conclusion, plus la mer compte dans la mondialisation…",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "plus elle est disputée.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c’est la réponse à la problématique. Plus la mer compte dans la mondialisation, plus elle est disputée."
+      },
+      {
+       "texteHtml": "plus elle est ouverte à tous.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la mer semble ouverte à tous, mais elle ne l’est pas. Plus elle compte, plus elle est disputée."
+      },
+      {
+       "texteHtml": "plus ses ressources sont protégées.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les ressources de la mer sont fragiles. Plus la mer compte, plus elle est disputée."
+      },
+      {
+       "texteHtml": "moins il y a de navires sur les océans.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : chaque jour, des milliers de navires transportent des marchandises. Plus la mer compte, plus elle est disputée."
+      }
+     ]
+    },
+    {
+     "id": "17862",
+     "enonceHtml": "Pour comprendre un conflit en mer, je me demande : qui veut {{1}} cet espace, pour quoi faire, qui y {{2}} et qui le {{3}} ?",
+     "feedbackHtml": "",
+     "type": "trous",
+     "trous": {
+      "1": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "utiliser",
+         "fraction": 1.0,
+         "feedback": "Oui, je me demande qui veut utiliser cet espace."
+        },
+        {
+         "texte": "traverser",
+         "fraction": 0.0,
+         "feedback": "Non, je me demande qui veut utiliser cet espace."
+        },
+        {
+         "texte": "nettoyer",
+         "fraction": 0.0,
+         "feedback": "Non, je me demande qui veut utiliser cet espace."
+        }
+       ]
+      },
+      "2": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "gagne",
+         "fraction": 1.0,
+         "feedback": "Oui, je me demande qui y gagne."
+        },
+        {
+         "texte": "navigue",
+         "fraction": 0.0,
+         "feedback": "Non, je me demande qui y gagne et qui le subit."
+        },
+        {
+         "texte": "habite",
+         "fraction": 0.0,
+         "feedback": "Non, je me demande qui y gagne et qui le subit."
+        }
+       ]
+      },
+      "3": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "subit",
+         "fraction": 1.0,
+         "feedback": "Oui, je me demande qui le subit."
+        },
+        {
+         "texte": "protège",
+         "fraction": 0.0,
+         "feedback": "Non, je me demande qui y gagne et qui le subit."
+        },
+        {
+         "texte": "achète",
+         "fraction": 0.0,
+         "feedback": "Non, je me demande qui y gagne et qui le subit."
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "17866",
+     "enonceHtml": "Dans une baie, des pêcheurs veulent garder la mer pour pêcher. Une entreprise veut y installer des éoliennes. D’après la leçon, de quoi s’agit-il ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "D’un conflit : deux acteurs veulent utiliser le même espace.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les pêcheurs et l’entreprise sont deux acteurs qui veulent utiliser le même espace. C’est un conflit."
+      },
+      {
+       "texteHtml": "D’une mise en tourisme : le lieu est transformé pour les touristes.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les éoliennes ne servent pas à attirer des touristes. Deux acteurs veulent le même espace : c’est un conflit."
+      },
+      {
+       "texteHtml": "D’une ZEE : seul l’État peut y pêcher.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la ZEE est un espace, pas une situation. Deux acteurs veulent le même espace : c’est un conflit."
+      },
+      {
+       "texteHtml": "De la maritimisation : la mer sert à transporter.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la maritimisation est un phénomène mondial. Ici, deux acteurs veulent le même espace : c’est un conflit."
+      }
+     ]
+    },
+    {
+     "id": "17867",
+     "enonceHtml": "Pourquoi les États envoient-ils des navires de guerre là où la mer est étroite ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Parce que ces passages sont vitaux : si l’un d’eux ferme, le monde entier est touché.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les routes maritimes passent par ces passages étroits. S’ils ferment, le monde entier est touché, alors les États les protègent."
+      },
+      {
+       "texteHtml": "Parce que la haute mer commence là et n’appartient à aucun État.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la haute mer est au-delà de 370 km des côtes. Les passages étroits sont protégés parce qu’ils sont vitaux."
+      },
+      {
+       "texteHtml": "Parce que c’est là que les poissons sont les plus nombreux.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la mer est disputée là où elle est riche ou étroite, ce sont deux raisons différentes. Les passages étroits sont protégés parce qu’ils sont vitaux."
+      },
+      {
+       "texteHtml": "Parce que les compagnies de croisière y amènent des touristes.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les croisières vont surtout en Méditerranée et aux Caraïbes. Les passages étroits sont protégés parce qu’ils sont vitaux."
+      }
+     ]
+    },
+    {
+     "id": "17868",
+     "enonceHtml": "À Fos, par quels passages arrivent les conteneurs venus d’Asie ? Plusieurs réponses possibles.",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": true,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le détroit de Malacca",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui : les conteneurs venus d’Asie passent par le détroit de Malacca."
+      },
+      {
+       "texteHtml": "Le canal de Suez",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui : les conteneurs venus d’Asie passent par le canal de Suez."
+      },
+      {
+       "texteHtml": "Le détroit de Gibraltar",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui : les conteneurs venus d’Asie passent par le détroit de Gibraltar avant d’arriver en Méditerranée."
+      },
+      {
+       "texteHtml": "Le canal de Panama",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : le canal de Panama n’est pas sur le trajet de l’exemple. Les conteneurs passent par Malacca, Suez et Gibraltar."
+      },
+      {
+       "texteHtml": "Le détroit d’Ormuz",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : Ormuz est le passage du pétrole. Les conteneurs de l’exemple passent par Malacca, Suez et Gibraltar."
+      }
+     ]
+    },
+    {
+     "id": "17869",
+     "enonceHtml": "Un bateau de pêche étranger pêche à 100 km des côtes françaises, sans l’accord de la France. D’après la leçon, a-t-il le droit ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Non : il est dans la ZEE de la France, où seule la France peut pêcher.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : à 100 km des côtes, on est dans la ZEE, qui va jusqu’à 370 km. Seul l’État peut y pêcher."
+      },
+      {
+       "texteHtml": "Oui : il est en haute mer, qui n’appartient à aucun État.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la haute mer commence au-delà de 370 km. À 100 km, il est dans la ZEE de la France."
+      },
+      {
+       "texteHtml": "Oui : dans une ZEE, les autres navires passent librement.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : passer librement, oui, mais pêcher, non. Dans sa ZEE, seul l’État peut pêcher."
+      },
+      {
+       "texteHtml": "Non : il est dans la mer territoriale de la France.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la mer territoriale s’arrête à 22 km. À 100 km, il est dans la ZEE, où seule la France peut pêcher."
+      }
+     ]
+    },
+    {
+     "id": "17870",
+     "enonceHtml": "En mer de Chine méridionale, la Chine, le Vietnam et les Philippines se disputent la mer. Pourquoi ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Parce qu’elle est riche : ils veulent ses poissons et son pétrole.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les États se disputent la mer là où elle est riche. Ici, ils réclament les mêmes îles pour leurs poissons et leur pétrole."
+      },
+      {
+       "texteHtml": "Parce qu’elle est étroite : c’est un passage vital comme Ormuz.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la leçon ne présente pas cette mer comme un passage. Les États la réclament pour ses poissons et son pétrole : elle est riche."
+      },
+      {
+       "texteHtml": "Parce qu’elle attire les compagnies de croisière.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les croisières vont surtout en Méditerranée et aux Caraïbes. Ici, les États veulent les poissons et le pétrole."
+      },
+      {
+       "texteHtml": "Parce qu’elle est en haute mer et n’appartient à aucun État.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les trois États réclament les mêmes îles pour leurs poissons et leur pétrole. La mer y est disputée parce qu’elle est riche."
+      }
+     ]
+    },
+    {
+     "id": "17871",
+     "enonceHtml": "Une ville construit un nouveau quai et des boutiques près de son port pour accueillir de grands navires de croisière. Comment s’appelle cette transformation ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La mise en tourisme",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : la ville transforme son port pour attirer et accueillir des touristes. C’est la mise en tourisme."
+      },
+      {
+       "texteHtml": "La maritimisation",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la maritimisation est le rôle grandissant de la mer dans la mondialisation. Transformer un port pour les touristes, c’est la mise en tourisme."
+      },
+      {
+       "texteHtml": "La mondialisation",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la mondialisation relie les espaces du monde par des échanges. Transformer un port pour les touristes, c’est la mise en tourisme."
+      },
+      {
+       "texteHtml": "Une route maritime",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une route maritime est un chemin suivi par les navires. Transformer un port pour les touristes, c’est la mise en tourisme."
+      }
+     ]
+    },
+    {
+     "id": "17872",
+     "enonceHtml": "Associe chaque acteur de Marseille à ce qu’il fait selon la leçon.",
+     "feedbackHtml": "",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Le port",
+       "droite": "Il met en avant les emplois créés."
+      },
+      {
+       "gaucheHtml": "Stop Croisières",
+       "droite": "Il dénonce la pollution de l’air près des quais."
+      },
+      {
+       "gaucheHtml": "Les compagnies de croisière",
+       "droite": "Elles amènent des touristes du monde entier."
+      },
+      {
+       "gaucheHtml": "CMA CGM",
+       "droite": "Ses navires transportent les conteneurs venus d’Asie."
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17873",
+     "enonceHtml": "Quelle phrase définit la maritimisation, et non la mondialisation ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le rôle de plus en plus grand de la mer dans la mondialisation : transporter, contrôler ses ressources, faire du tourisme.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : la maritimisation parle du rôle de la mer. La mondialisation parle des espaces du monde reliés par des échanges."
+      },
+      {
+       "texteHtml": "Les espaces du monde sont de plus en plus reliés par des échanges de marchandises, de personnes et d’informations.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est la définition de la mondialisation. La maritimisation est le rôle de plus en plus grand de la mer dans la mondialisation."
+      },
+      {
+       "texteHtml": "Des routes qui relient des ports et passent par des passages.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est un réseau. La maritimisation est le rôle de plus en plus grand de la mer dans la mondialisation."
+      },
+      {
+       "texteHtml": "La transformation d’un lieu pour attirer et accueillir des touristes.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c’est la mise en tourisme. La maritimisation est le rôle de plus en plus grand de la mer dans la mondialisation."
+      }
+     ]
+    },
+    {
+     "id": "17874",
+     "enonceHtml": "Sur une plage, un hôtel veut agrandir sa terrasse là où des pêcheurs laissent leurs bateaux. Quelles questions de la méthode de la leçon faut-il se poser ? Plusieurs réponses possibles.",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": true,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Qui veut utiliser cet espace ?",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui : c’est la première question de la méthode. Ici, l’hôtel et les pêcheurs."
+      },
+      {
+       "texteHtml": "Pour quoi faire ?",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui : l’hôtel veut une terrasse, les pêcheurs veulent garder une place pour leurs bateaux."
+      },
+      {
+       "texteHtml": "Qui y gagne et qui le subit ?",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui : la méthode demande toujours qui y gagne et qui le subit."
+      },
+      {
+       "texteHtml": "Combien coûte une nuit à l’hôtel ?",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : ce n’est pas une question de la méthode. On se demande qui veut utiliser l’espace, pour quoi faire, qui y gagne et qui le subit."
+      },
+      {
+       "texteHtml": "Quelle est la largeur de la ZEE ?",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : la ZEE ne sert pas à comprendre ce conflit sur la plage. On se demande qui veut utiliser l’espace, pour quoi faire, qui y gagne et qui le subit."
+      }
+     ]
+    }
+   ],
+   "questions_ignorees": []
+  },
+  {
+   "id": "17680",
+   "rubrique": "qcm",
+   "titre": "QCM 4 : Le siècle des lumières",
+   "titre_eléa": "QCM 4 : Le siècle des lumières",
+   "code": "H2",
+   "discipline": "histoire",
+   "slug": "qcm-4-le-siecle-des-lumieres",
+   "intro": "",
+   "tirage": 5,
+   "questions": [
+    {
+     "id": "17710",
+     "enonceHtml": "En France, au XVIIIe siècle, de qui le roi dit-il tenir son pouvoir ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "De Dieu.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : le roi dit tenir son pouvoir de Dieu. C'est une monarchie absolue de droit divin."
+      },
+      {
+       "texteHtml": "Des parlements.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les parlements peuvent protester, mais le roi dit tenir son pouvoir de Dieu."
+      },
+      {
+       "texteHtml": "Du tiers état.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le tiers état n'a pas de privilèges et ne donne pas le pouvoir au roi. Le roi dit tenir son pouvoir de Dieu."
+      },
+      {
+       "texteHtml": "Des philosophes.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les philosophes critiquent le pouvoir du roi. Le roi dit tenir son pouvoir de Dieu."
+      }
+     ]
+    },
+    {
+     "id": "17711",
+     "enonceHtml": "Quelle affirmation sur le pouvoir du roi est <strong>FAUSSE</strong> ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Les parlements peuvent protester, et ils ont le dernier mot.",
+       "fraction": 1.0,
+       "feedbackHtml": "Bien vu, c'est faux : les parlements peuvent protester, mais le roi a toujours le dernier mot."
+      },
+      {
+       "texteHtml": "Le roi fait les lois et rend la justice.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non, c'est vrai : le roi fait les lois, rend la justice, décide de la guerre et lève les impôts."
+      },
+      {
+       "texteHtml": "Le roi doit respecter les lois de Dieu.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non, c'est vrai : c'est une limite de son pouvoir, avec les coutumes du royaume."
+      },
+      {
+       "texteHtml": "Le roi décide de la guerre et lève les impôts.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non, c'est vrai : le roi décide de la guerre et lève les impôts."
+      }
+     ]
+    },
+    {
+     "id": "17712",
+     "enonceHtml": "Qui a donné le nom d'« Ancien Régime » à l'organisation de la France d'avant 1789 ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Les révolutionnaires, après 1789.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : ce sont les révolutionnaires qui donnent ce nom à l'ordre qu'ils abattent. Personne n'employait ce mot avant 1789."
+      },
+      {
+       "texteHtml": "Le roi Louis XV, en 1766.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : en 1766, Louis XV rappelle que la puissance souveraine réside en sa personne. Le mot « Ancien Régime » date d'après 1789."
+      },
+      {
+       "texteHtml": "Les philosophes des Lumières, au XVIIIe siècle.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les philosophes critiquent cet ordre, mais personne n'employait ce mot avant 1789. Ce sont les révolutionnaires qui l'inventent."
+      },
+      {
+       "texteHtml": "Les historiens, au XIXe siècle.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les historiens du XIXe siècle inventent l'expression « despotisme éclairé ». « Ancien Régime » vient des révolutionnaires, après 1789."
+      }
+     ]
+    },
+    {
+     "id": "17713",
+     "enonceHtml": "Au XVIIIe siècle, un jeune homme du tiers état est plus savant qu'un fils de noble. Pourtant, un emploi est réservé au fils de noble. Sur quoi repose ce choix ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Sur la naissance.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : dans une société d'ordres, les droits dépendent de la naissance. Certains emplois sont réservés à la noblesse : c'est un privilège."
+      },
+      {
+       "texteHtml": "Sur la raison.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : juger avec la raison, c'est ce que demandent les philosophes. Dans la société d'ordres, les droits dépendent de la naissance."
+      },
+      {
+       "texteHtml": "Sur l'expérience.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : l'expérience est l'outil des savants. Ici, l'emploi est réservé au noble par sa naissance : c'est un privilège."
+      },
+      {
+       "texteHtml": "Sur la tolérance.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la tolérance, c'est laisser vivre et prier ceux qui croient autrement. Ici, l'emploi dépend de la naissance."
+      }
+     ]
+    },
+    {
+     "id": "17714",
+     "enonceHtml": "Avec quoi les philosophes des Lumières veulent-ils juger le monde ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Avec leur raison et avec l'expérience.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : ils veulent juger le monde avec leur raison et avec l'expérience, comme les savants."
+      },
+      {
+       "texteHtml": "Avec la tradition et la naissance.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la tradition et la naissance justifient l'ordre établi. Les philosophes veulent juger avec la raison et l'expérience."
+      },
+      {
+       "texteHtml": "Seulement avec ce que dit l'Église.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ils ne veulent plus juger seulement avec ce que dit l'Église, mais avec la raison et l'expérience."
+      },
+      {
+       "texteHtml": "Avec les lois du roi.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les philosophes jugent aussi les lois du roi. Leur critère, c'est la raison et l'expérience."
+      }
+     ]
+    },
+    {
+     "id": "17715",
+     "enonceHtml": "Une élève entend une rumeur. Elle dit : « Je ne crois pas ce qu'on me répète. Je veux réfléchir par moi-même avant de juger. » Quelle phrase du XVIIIe siècle suit-elle ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "« Ose te servir de ta propre intelligence ! »",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est la devise des Lumières résumée par Kant en 1784. Elle invite à juger par sa propre raison."
+      },
+      {
+       "texteHtml": "« C'est en ma personne seule que réside la puissance souveraine. »",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est Louis XV en 1766. Il rappelle qu'il a tous les pouvoirs, pas qu'il faut juger par soi-même."
+      },
+      {
+       "texteHtml": "« Un négociant utile vaut mieux qu'un noble inutile. »",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est l'idée de Voltaire contre les privilèges. La devise qui invite à juger par soi-même est celle résumée par Kant."
+      },
+      {
+       "texteHtml": "« On naît noble ou non. »",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : cette phrase décrit la société d'ordres, où les droits dépendent de la naissance."
+      }
+     ]
+    },
+    {
+     "id": "17716",
+     "enonceHtml": "Pourquoi Montesquieu veut-il séparer les pouvoirs ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Pour qu'aucun homme ne les ait tous.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : faire les lois, les appliquer et juger doivent être confiés à des personnes différentes, pour qu'aucun homme n'ait tous les pouvoirs."
+      },
+      {
+       "texteHtml": "Pour que le roi ait toujours le dernier mot.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est l'ordre établi qui donne le dernier mot au roi. Montesquieu veut au contraire qu'aucun homme n'ait tous les pouvoirs."
+      },
+      {
+       "texteHtml": "Pour que l'Église rende la justice.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Montesquieu ne donne pas la justice à l'Église. Il veut que faire les lois, les appliquer et juger soient séparés."
+      },
+      {
+       "texteHtml": "Pour que les nobles ne paient plus la taille.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ne pas payer la taille est déjà un privilège des nobles. La séparation des pouvoirs concerne le pouvoir, pas les impôts."
+      }
+     ]
+    },
+    {
+     "id": "17717",
+     "enonceHtml": "Dans un pays imaginaire, une assemblée fait les lois. Un gouvernement les applique. Des juges jugent. Quelle idée des Lumières ce pays applique-t-il ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La séparation des pouvoirs.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : faire les lois, les appliquer et juger sont confiés à des personnes différentes. C'est l'idée de Montesquieu."
+      },
+      {
+       "texteHtml": "La monarchie absolue de droit divin.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : dans une monarchie absolue, le roi a tous les pouvoirs. Ici, les pouvoirs sont confiés à des personnes différentes."
+      },
+      {
+       "texteHtml": "Le despotisme éclairé.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : dans le despotisme éclairé, le roi garde tous les pouvoirs. Ici, les pouvoirs sont séparés."
+      },
+      {
+       "texteHtml": "La tolérance.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la tolérance concerne la religion. Ici, il s'agit de confier les pouvoirs à des personnes différentes : la séparation des pouvoirs."
+      }
+     ]
+    },
+    {
+     "id": "17718",
+     "enonceHtml": "Affaire Calas : associe chaque date à ce qui se passe.",
+     "feedbackHtml": "",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "1762",
+       "droite": "À Toulouse, Jean Calas est accusé à tort, puis exécuté."
+      },
+      {
+       "gaucheHtml": "1763",
+       "droite": "Voltaire défend Calas et réclame la tolérance."
+      },
+      {
+       "gaucheHtml": "1765",
+       "droite": "Sous la pression de l'opinion publique, Calas est déclaré innocent."
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17719",
+     "enonceHtml": "Au XVIIIe siècle, qu'est-ce que l'opinion publique ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le jugement d'un public qui lit, discute et juge les décisions du roi.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est un public qui lit et discute. En 1765, sous sa pression, Calas est déclaré innocent."
+      },
+      {
+       "texteHtml": "L'avis de tous les habitants du royaume, sans exception.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : au XVIIIe siècle, l'opinion publique n'est pas encore l'avis de tout le monde. C'est le jugement d'un public qui lit et discute."
+      },
+      {
+       "texteHtml": "Le jugement des juges du parlement de Paris.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les parlements peuvent protester, mais l'opinion publique est un public qui lit, discute et juge les décisions du roi."
+      },
+      {
+       "texteHtml": "L'interdiction de publier un texte.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : l'interdiction de publier un texte, c'est la censure. L'opinion publique est un public qui lit, discute et juge."
+      }
+     ]
+    },
+    {
+     "id": "17720",
+     "enonceHtml": "Qui dirige l'Encyclopédie, de 1751 à 1772 ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Diderot et d'Alembert.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : l'Encyclopédie est dirigée par Diderot et d'Alembert. Elle rassemble les connaissances de l'époque et critique l'ordre établi."
+      },
+      {
+       "texteHtml": "Voltaire et Montesquieu.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Voltaire et Montesquieu sont des philosophes des Lumières, mais l'Encyclopédie est dirigée par Diderot et d'Alembert."
+      },
+      {
+       "texteHtml": "Kant et Condorcet.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Kant et Condorcet sont les deux hommes de l'introduction. L'Encyclopédie est dirigée par Diderot et d'Alembert."
+      },
+      {
+       "texteHtml": "Frédéric II et Catherine II.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ce sont des souverains qui se disent amis des philosophes. L'Encyclopédie est dirigée par Diderot et d'Alembert."
+      }
+     ]
+    },
+    {
+     "id": "17721",
+     "enonceHtml": "Le pouvoir interdit des livres : c'est la censure. Quelle en est la conséquence ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Les livres sont imprimés à l'étranger, à Amsterdam ou à Genève.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les idées circulent malgré la censure. Les livres sont imprimés à l'étranger, à Amsterdam ou à Genève."
+      },
+      {
+       "texteHtml": "Les livres sont imprimés à Toulouse ou à Bordeaux.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Toulouse et Bordeaux sont en France, où la censure interdit les livres. Ils sont imprimés à l'étranger, à Amsterdam ou à Genève."
+      },
+      {
+       "texteHtml": "Les idées des Lumières ne circulent plus en Europe.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les idées circulent malgré la censure, par les livres imprimés à l'étranger, les salons, les cafés et les lettres."
+      },
+      {
+       "texteHtml": "L'Encyclopédie ne se vend plus qu'en France.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : l'Encyclopédie est interdite en France en 1759, et elle se vend dans toute l'Europe."
+      }
+     ]
+    },
+    {
+     "id": "17722",
+     "enonceHtml": "Qu'est-ce que le despotisme éclairé ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Des rois absolus qui appliquent quelques idées des Lumières sans partager leur pouvoir.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : Frédéric II et Catherine II font des réformes, mais ils gardent tous les pouvoirs."
+      },
+      {
+       "texteHtml": "Des rois qui acceptent de séparer les pouvoirs, comme le demande Montesquieu.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ces souverains gardent tous les pouvoirs. Ils ne partagent pas leur pouvoir."
+      },
+      {
+       "texteHtml": "Des philosophes qui gouvernent un royaume à la place du roi.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les philosophes sont reçus à la cour, mais ce sont les rois qui gouvernent et gardent tous les pouvoirs."
+      },
+      {
+       "texteHtml": "Des rois qui suppriment les privilèges des nobles de leur royaume.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ces souverains ne touchent pas aux privilèges des nobles."
+      }
+     ]
+    },
+    {
+     "id": "17723",
+     "enonceHtml": "Une reine imaginaire crée des écoles et rend la justice moins cruelle. Mais elle garde tous les pouvoirs et ne touche pas aux privilèges des nobles. Comment les historiens appellent-ils ce type de pouvoir ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le despotisme éclairé.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : elle applique quelques idées des Lumières, mais garde tous les pouvoirs, comme Frédéric II ou Catherine II."
+      },
+      {
+       "texteHtml": "La séparation des pouvoirs.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la reine garde tous les pouvoirs. Il n'y a pas de séparation des pouvoirs."
+      },
+      {
+       "texteHtml": "L'opinion publique.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : l'opinion publique est un public qui lit et discute. Ici, c'est une reine qui fait des réformes sans partager son pouvoir : le despotisme éclairé."
+      },
+      {
+       "texteHtml": "La société d'ordres.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la société d'ordres concerne les droits selon la naissance. La façon de gouverner de la reine s'appelle le despotisme éclairé."
+      }
+     ]
+    },
+    {
+     "id": "17724",
+     "enonceHtml": "Associe chaque philosophe à ce qu'il fait.",
+     "feedbackHtml": "",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Voltaire",
+       "droite": "Il est reçu à la cour de Frédéric II de Prusse."
+      },
+      {
+       "gaucheHtml": "Diderot",
+       "droite": "Il est invité par Catherine II de Russie."
+      },
+      {
+       "gaucheHtml": "Montesquieu",
+       "droite": "Il veut limiter le pouvoir du roi."
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17725",
+     "enonceHtml": "Quelle affirmation est <strong>FAUSSE</strong> ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Montesquieu compte sur les rois pour réformer.",
+       "fraction": 1.0,
+       "feedbackHtml": "Bien vu, c'est faux : Montesquieu veut au contraire limiter le pouvoir du roi. Ce sont Voltaire et Diderot qui comptent sur les souverains."
+      },
+      {
+       "texteHtml": "Voltaire compte sur les souverains pour réformer.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non, c'est vrai : Voltaire, reçu par Frédéric II, compte sur les souverains pour réformer."
+      },
+      {
+       "texteHtml": "Diderot est invité par Catherine II de Russie.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non, c'est vrai : Catherine II invite Diderot en 1773."
+      },
+      {
+       "texteHtml": "Montesquieu est juge au parlement de Bordeaux.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non, c'est vrai : Montesquieu est noble et juge au parlement de Bordeaux."
+      }
+     ]
+    },
+    {
+     "id": "17726",
+     "enonceHtml": "Condorcet juge l'esclavage criminel. Que propose-t-il ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "L'abolir peu à peu, en soixante-dix ans environ.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : il propose de l'abolir peu à peu, pour ne pas ruiner les colonies."
+      },
+      {
+       "texteHtml": "L'abolir tout de suite, dès 1781.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Condorcet ne propose pas d'abolir tout de suite. Il veut l'abolir peu à peu, en soixante-dix ans environ."
+      },
+      {
+       "texteHtml": "Le garder, car il enrichit le royaume.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Condorcet juge l'esclavage criminel. Ce sont d'autres qui se taisent parce que le commerce colonial enrichit le royaume."
+      },
+      {
+       "texteHtml": "L'abolir définitivement en 1848.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : 1848 est la date de l'abolition définitive, bien après Condorcet. Lui propose de l'abolir peu à peu, en soixante-dix ans environ."
+      }
+     ]
+    }
+   ],
+   "questions_ignorees": []
+  },
+  {
+   "id": "16887",
+   "rubrique": "qcm",
+   "titre": "QCM 3 : Bourgeoisie marchande et traite atlantique (2/2)",
+   "titre_eléa": "QCM 3 : Bourgeoisie marchande et traite atlantique (2/2)",
+   "code": "H1",
+   "discipline": "histoire",
+   "slug": "qcm-3-bourgeoisie-marchande-et-traite-atlantique-2-2",
+   "intro": "",
+   "tirage": 10,
+   "questions": [
+    {
+     "id": "17138",
+     "enonceHtml": "En Afrique et en Asie, que possèdent le plus souvent les pays d'Europe ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Des comptoirs sur les côtes",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : en Afrique et en Asie, ils n'ont le plus souvent que des comptoirs sur les côtes."
+      },
+      {
+       "texteHtml": "Des colonies",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les colonies sont en Amérique. En Afrique et en Asie, ils n'ont le plus souvent que des comptoirs sur les côtes."
+      },
+      {
+       "texteHtml": "Des plantations",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les plantations sont dans les colonies d'Amérique."
+      },
+      {
+       "texteHtml": "Des ports comme Nantes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Nantes est un port français de l'océan Atlantique."
+      }
+     ]
+    },
+    {
+     "id": "17139",
+     "enonceHtml": "Quelle phrase est juste ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "En Amérique, les pays d'Europe possèdent des colonies ; en Afrique et en Asie, surtout des comptoirs.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : colonies en Amérique, comptoirs sur les côtes d'Afrique et d'Asie."
+      },
+      {
+       "texteHtml": "En Afrique, les pays d'Europe possèdent des colonies ; en Amérique, surtout des comptoirs.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est l'inverse. Les colonies sont en Amérique, les comptoirs sur les côtes d'Afrique et d'Asie."
+      },
+      {
+       "texteHtml": "Les colonies les plus riches de la France sont sur les côtes d'Afrique.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : pour la France, les colonies les plus riches sont des îles des Antilles : Saint-Domingue, la Martinique, la Guadeloupe."
+      },
+      {
+       "texteHtml": "Une colonie et un comptoir, c'est la même chose.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une colonie est un territoire conquis et dirigé par un pays étranger, qui l'exploite. En Afrique et en Asie, les pays d'Europe n'ont le plus souvent que des comptoirs sur les côtes."
+      }
+     ]
+    },
+    {
+     "id": "17140",
+     "enonceHtml": "Avec qui une colonie a-t-elle le droit de commercer ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Seulement avec sa métropole",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : une colonie a le droit de commercer seulement avec sa métropole."
+      },
+      {
+       "texteHtml": "Avec tous les pays d'Europe",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une colonie a le droit de commercer seulement avec sa métropole."
+      },
+      {
+       "texteHtml": "Seulement avec les autres colonies",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une colonie commerce avec sa métropole, le pays qui la possède."
+      },
+      {
+       "texteHtml": "Seulement avec la Compagnie des Indes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la Compagnie des Indes est une compagnie de commerce créée par le roi. Une colonie commerce seulement avec sa métropole."
+      }
+     ]
+    },
+    {
+     "id": "17141",
+     "enonceHtml": "La Martinique est une colonie de la France. Avec quel pays a-t-elle le droit de commercer ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Seulement avec la France, sa métropole",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : une colonie a le droit de commercer seulement avec sa métropole. Pour la Martinique, c'est la France."
+      },
+      {
+       "texteHtml": "Avec le Royaume-Uni",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le Royaume-Uni n'est pas sa métropole. La Martinique commerce seulement avec la France."
+      },
+      {
+       "texteHtml": "Avec tous les pays d'Europe",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une colonie commerce seulement avec sa métropole. Pour la Martinique, c'est la France."
+      },
+      {
+       "texteHtml": "Avec l'Espagne et le Portugal",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : l'Espagne et le Portugal ont leurs propres territoires. La Martinique commerce seulement avec la France, sa métropole."
+      }
+     ]
+    },
+    {
+     "id": "17142",
+     "enonceHtml": "Comment le roi soutient-il le commerce ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "En créant des compagnies de commerce, comme la Compagnie des Indes",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : le roi soutient ce commerce en créant des compagnies de commerce."
+      },
+      {
+       "texteHtml": "En possédant des plantations aux Antilles",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ce sont les colons qui possèdent les plantations."
+      },
+      {
+       "texteHtml": "En équipant lui-même les navires",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ce sont les armateurs qui équipent les navires."
+      },
+      {
+       "texteHtml": "En donnant les privilèges de la noblesse aux négociants",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les négociants n'ont pas les privilèges de la noblesse. Le roi soutient le commerce en créant des compagnies de commerce."
+      }
+     ]
+    },
+    {
+     "id": "17143",
+     "enonceHtml": "Relie chaque lieu à ce qu'il est au XVIIIe siècle.",
+     "feedbackHtml": "",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Saint-Domingue",
+       "droite": "Une colonie française des Antilles"
+      },
+      {
+       "gaucheHtml": "La Guadeloupe",
+       "droite": "Une colonie française des Antilles"
+      },
+      {
+       "gaucheHtml": "Bordeaux",
+       "droite": "Le premier port colonial du royaume"
+      },
+      {
+       "gaucheHtml": "Nantes",
+       "droite": "Un port français de l'océan Atlantique"
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17144",
+     "enonceHtml": "Quelle est la différence entre un négociant et un armateur ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le négociant achète et revend les marchandises ; l'armateur équipe les navires.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est la différence entre les deux."
+      },
+      {
+       "texteHtml": "Le négociant équipe les navires ; l'armateur achète et revend les marchandises.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est l'inverse. Les négociants achètent et revendent, les armateurs équipent les navires."
+      },
+      {
+       "texteHtml": "Le négociant cultive le sucre ; l'armateur le revend en Europe.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le sucre est cultivé par des esclaves dans les plantations d'Amérique."
+      },
+      {
+       "texteHtml": "Le négociant vit dans une colonie ; l'armateur vit dans un port.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les deux vivent dans les ports de la façade atlantique, qui vivent du négoce."
+      }
+     ]
+    },
+    {
+     "id": "17145",
+     "enonceHtml": "À Nantes, M. Durand achète du sucre qui arrive des Antilles, puis il le revend. Quelle est son activité ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le négoce : il est négociant",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : acheter et revendre des marchandises, c'est le travail des négociants."
+      },
+      {
+       "texteHtml": "La traite",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la traite, c'est acheter des captifs pour en faire des esclaves. M. Durand achète et revend du sucre."
+      },
+      {
+       "texteHtml": "L'économie de plantation",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : M. Durand ne cultive rien. Il achète et revend : c'est le négoce."
+      },
+      {
+       "texteHtml": "Le travail d'armateur",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les armateurs équipent les navires. M. Durand achète et revend des marchandises."
+      }
+     ]
+    },
+    {
+     "id": "17146",
+     "enonceHtml": "Relie chaque marchandise à son voyage.",
+     "feedbackHtml": "",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Le vin",
+       "droite": "Part des ports d'Europe vers les colonies"
+      },
+      {
+       "gaucheHtml": "La farine",
+       "droite": "Part des ports d'Europe vers les colonies"
+      },
+      {
+       "gaucheHtml": "Le sucre",
+       "droite": "Revient des colonies vers l'Europe"
+      },
+      {
+       "gaucheHtml": "Le café",
+       "droite": "Revient des colonies vers l'Europe"
+      },
+      {
+       "gaucheHtml": "Le cacao",
+       "droite": "Revient des colonies vers l'Europe"
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17147",
+     "enonceHtml": "À Bordeaux, un marchand vend beaucoup de café et de chocolat à ses clients. D'après le cours, pourquoi ces produits se vendent-ils si bien ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Parce que ces produits tropicaux sont à la mode en Europe",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : en Europe, on boit du café et du chocolat, on consomme de plus en plus de sucre."
+      },
+      {
+       "texteHtml": "Parce qu'ils sont cultivés près de Bordeaux",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ils reviennent des colonies, où ils sont cultivés dans les plantations."
+      },
+      {
+       "texteHtml": "Parce que le Code noir oblige à les acheter",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le Code noir fixe les règles de l'esclavage dans les colonies françaises."
+      },
+      {
+       "texteHtml": "Parce qu'on les échange en Afrique contre des captifs",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : en Afrique, le capitaine échange des tissus, des armes et de l'alcool contre des captifs."
+      }
+     ]
+    },
+    {
+     "id": "17148",
+     "enonceHtml": "Qu'est-ce que le commerce « en droiture » ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Un aller-retour direct entre un port d'Europe et une colonie",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est ainsi que se font la plupart des échanges avec les colonies."
+      },
+      {
+       "texteHtml": "Un circuit en trois étapes : Europe, Afrique, Amérique",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ce circuit en trois étapes est le commerce triangulaire."
+      },
+      {
+       "texteHtml": "L'achat de captifs sur les côtes d'Afrique",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est la traite."
+      },
+      {
+       "texteHtml": "Le commerce d'une colonie avec tous les pays d'Europe",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : une colonie commerce seulement avec sa métropole. La droiture est un aller-retour direct."
+      }
+     ]
+    },
+    {
+     "id": "17189",
+     "enonceHtml": "<p>Un navire part de La Rochelle avec de la farine et des tissus. Il va en Guadeloupe, puis revient à La Rochelle avec du sucre. De quel commerce s'agit-il ?</p>",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "<p>Du commerce en droiture</p>",
+       "fraction": 1.0,
+       "feedbackHtml": "<p>Oui : c'est un aller-retour direct entre un port et une colonie.</p>"
+      },
+      {
+       "texteHtml": "<p>Du commerce triangulaire</p>",
+       "fraction": 0.0,
+       "feedbackHtml": "<p>Non : le navire ne passe pas par l'Afrique. Le commerce triangulaire a trois étapes.</p>"
+      },
+      {
+       "texteHtml": "<p>De la traite</p>",
+       "fraction": 0.0,
+       "feedbackHtml": "<p>Non : le navire n'achète pas de captifs.</p>"
+      },
+      {
+       "texteHtml": "<p>Du commerce avec un comptoir</p>",
+       "fraction": 0.0,
+       "feedbackHtml": "<p>Non : la Guadeloupe est une colonie des Antilles, pas un comptoir.</p>"
+      }
+     ]
+    },
+    {
+     "id": "17150",
+     "enonceHtml": "Dans les colonies d'Amérique, les colons possèdent des {{1}}. Aux Antilles, on dit des « {{2}} ». Elles cultivent surtout {{3}}.",
+     "feedbackHtml": "",
+     "type": "trous",
+     "trous": {
+      "1": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "plantations",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "comptoirs",
+         "fraction": 0.0,
+         "feedback": "Non, les comptoirs sont sur les côtes d'Afrique et d'Asie."
+        },
+        {
+         "texte": "compagnies de commerce",
+         "fraction": 0.0,
+         "feedback": "Non, les compagnies de commerce sont créées par le roi."
+        }
+       ]
+      },
+      "2": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "habitations",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "hôtels particuliers",
+         "fraction": 0.0,
+         "feedback": "Non, ce sont les maisons que les négociants font construire dans leurs villes."
+        },
+        {
+         "texte": "métropoles",
+         "fraction": 0.0,
+         "feedback": "Non, la métropole est le pays qui possède des colonies."
+        }
+       ]
+      },
+      "3": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "la canne à sucre et le café",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "le vin et la farine",
+         "fraction": 0.0,
+         "feedback": "Non, ces produits partent des ports d'Europe vers les colonies."
+        },
+        {
+         "texte": "les tissus et les armes",
+         "fraction": 0.0,
+         "feedback": "Non, ces marchandises partent d'Europe vers les côtes d'Afrique."
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "17154",
+     "enonceHtml": "Quelle phrase décrit l'économie de plantation ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "De grandes exploitations cultivent un seul produit à vendre en Europe.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est l'économie de plantation."
+      },
+      {
+       "texteHtml": "De grandes exploitations cultivent du vin et de la farine pour les colonies.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le vin et la farine partent d'Europe. Les plantations cultivent surtout la canne à sucre et le café."
+      },
+      {
+       "texteHtml": "Les colons travaillent eux-mêmes dans leurs plantations.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : tout le travail est fait par des esclaves africains."
+      },
+      {
+       "texteHtml": "Des comptoirs sur les côtes d'Afrique vendent des captifs.",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ça, c'est la traite. L'économie de plantation, ce sont de grandes exploitations qui cultivent un seul produit."
+      }
+     ]
+    },
+    {
+     "id": "17155",
+     "enonceHtml": "Une habitation de la Martinique cultive seulement de la canne à sucre, vendue en Europe. Tout le travail y est fait par des esclaves. Quelle notion du cours cet exemple montre-t-il ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "L'économie de plantation",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : une grande exploitation, un seul produit à vendre en Europe, le travail des esclaves."
+      },
+      {
+       "texteHtml": "Le commerce en droiture",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la droiture est un aller-retour direct des navires. Ici, on décrit une exploitation."
+      },
+      {
+       "texteHtml": "La traite",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la traite, c'est l'achat de captifs. Ici, on décrit une exploitation."
+      },
+      {
+       "texteHtml": "Le négoce",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le négoce, c'est acheter et revendre des marchandises. Ici, on décrit une exploitation."
+      }
+     ]
+    },
+    {
+     "id": "17156",
+     "enonceHtml": "D'après le Code noir, qu'est-ce qu'un esclave dans les colonies françaises ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Un bien qui appartient à son maître, comme un meuble",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est ce que fixe le Code noir."
+      },
+      {
+       "texteHtml": "Un colon qui possède une plantation",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le colon est le maître. L'esclave est un bien qui lui appartient."
+      },
+      {
+       "texteHtml": "Un bourgeois du tiers état",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : un bourgeois est un habitant d'une ville qui vit du commerce ou d'un métier. L'esclave est un bien qui appartient à son maître."
+      },
+      {
+       "texteHtml": "Un armateur qui équipe les navires",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : l'armateur équipe les navires. L'esclave est un bien qui appartient à son maître."
+      }
+     ]
+    },
+    {
+     "id": "17157",
+     "enonceHtml": "Dans les plantations des Antilles, qui produit le sucre et le café ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Des esclaves africains, surveillés et punis avec violence",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : tout le travail est fait par des esclaves africains."
+      },
+      {
+       "texteHtml": "Les colons eux-mêmes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les colons possèdent les plantations, mais tout le travail est fait par des esclaves africains."
+      },
+      {
+       "texteHtml": "Les négociants des ports",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les négociants achètent et revendent les marchandises en Europe."
+      },
+      {
+       "texteHtml": "Les capitaines des navires",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le capitaine commande le navire. Tout le travail des plantations est fait par des esclaves africains."
+      }
+     ]
+    },
+    {
+     "id": "17158",
+     "enonceHtml": "Qu'est-ce que le Code noir ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Un texte du roi de 1685 qui fixe les règles de l'esclavage",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : depuis 1685, le Code noir fixe les règles de l'esclavage dans les colonies françaises."
+      },
+      {
+       "texteHtml": "Un texte du roi de 1788 qui supprime l'esclavage",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le Code noir date de 1685 et il fixe les règles de l'esclavage."
+      },
+      {
+       "texteHtml": "La liste des marchandises du commerce triangulaire",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le Code noir est un texte du roi qui fixe les règles de l'esclavage."
+      },
+      {
+       "texteHtml": "Une compagnie de commerce créée par le roi",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la compagnie de commerce du cours est la Compagnie des Indes."
+      }
+     ]
+    },
+    {
+     "id": "17159",
+     "enonceHtml": "En 1788, à Saint-Domingue, la plus riche colonie française, combien d'habitants sont des esclaves ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Près de 9 habitants sur 10",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : près de 9 habitants sur 10 sont des esclaves."
+      },
+      {
+       "texteHtml": "Près de 1 habitant sur 10",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est beaucoup plus. Près de 9 habitants sur 10 sont des esclaves."
+      },
+      {
+       "texteHtml": "La moitié des habitants",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est encore plus. Près de 9 habitants sur 10 sont des esclaves."
+      },
+      {
+       "texteHtml": "Près de 3 habitants sur 10",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est beaucoup plus. Près de 9 habitants sur 10 sont des esclaves."
+      }
+     ]
+    },
+    {
+     "id": "17160",
+     "enonceHtml": "Qu'est-ce que la traite ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "L'achat d'esclaves par les colons, pour en avoir toujours plus",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : pour avoir toujours plus d'esclaves, les colons en achètent : c'est la traite."
+      },
+      {
+       "texteHtml": "Un aller-retour direct entre un port d'Europe et une colonie",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est le commerce en droiture."
+      },
+      {
+       "texteHtml": "La culture d'un seul produit à vendre en Europe",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est l'économie de plantation."
+      },
+      {
+       "texteHtml": "L'achat et la revente de sucre et de café",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est le négoce."
+      }
+     ]
+    },
+    {
+     "id": "17161",
+     "enonceHtml": "Sur les côtes d'Afrique, qui vend les captifs au capitaine du navire négrier ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Des marchands et des rois africains",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : les captifs sont vendus par des marchands et des rois africains."
+      },
+      {
+       "texteHtml": "Les colons des Antilles",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les colons achètent les esclaves en Amérique. En Afrique, les captifs sont vendus par des marchands et des rois africains."
+      },
+      {
+       "texteHtml": "La Compagnie des Indes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est une compagnie de commerce créée par le roi. Les captifs sont vendus par des marchands et des rois africains."
+      },
+      {
+       "texteHtml": "Les négociants de Nantes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les négociants restent dans les ports d'Europe. En Afrique, les captifs sont vendus par des marchands et des rois africains."
+      }
+     ]
+    },
+    {
+     "id": "17162",
+     "enonceHtml": "Un navire négrier part d'un port européen, par exemple {{1}}, avec des tissus, des armes et de l'alcool. Sur les côtes d'{{2}}, le capitaine les échange contre des {{3}}. Ce circuit en trois étapes est le commerce {{4}}.",
+     "feedbackHtml": "",
+     "type": "trous",
+     "trous": {
+      "1": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "Nantes",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "Saint-Domingue",
+         "fraction": 0.0,
+         "feedback": "Non, Saint-Domingue est une colonie des Antilles."
+        },
+        {
+         "texte": "la Martinique",
+         "fraction": 0.0,
+         "feedback": "Non, la Martinique est une colonie des Antilles."
+        }
+       ]
+      },
+      "2": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "Afrique",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "Amérique",
+         "fraction": 0.0,
+         "feedback": "Non, en Amérique les captifs sont vendus comme esclaves."
+        },
+        {
+         "texte": "Europe",
+         "fraction": 0.0,
+         "feedback": "Non, le navire part d'Europe."
+        }
+       ]
+      },
+      "3": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "captifs",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "produits tropicaux",
+         "fraction": 0.0,
+         "feedback": "Non, le sucre et le café sont chargés en Amérique."
+        },
+        {
+         "texte": "habitations",
+         "fraction": 0.0,
+         "feedback": "Non, les habitations sont les plantations des Antilles."
+        }
+       ]
+      },
+      "4": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "triangulaire",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "en droiture",
+         "fraction": 0.0,
+         "feedback": "Non, la droiture est un aller-retour direct."
+        },
+        {
+         "texte": "colonial",
+         "fraction": 0.0,
+         "feedback": "Non, ce circuit en trois étapes s'appelle le commerce triangulaire."
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "17167",
+     "enonceHtml": "Relie chaque étape du commerce triangulaire à ce qui s'y passe.",
+     "feedbackHtml": "",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Départ d'un port d'Europe, comme Nantes",
+       "droite": "Le navire part avec des tissus, des armes et de l'alcool"
+      },
+      {
+       "gaucheHtml": "Côtes d'Afrique",
+       "droite": "Le capitaine échange les marchandises contre des captifs"
+      },
+      {
+       "gaucheHtml": "Traversée de l'Atlantique",
+       "droite": "Les captifs sont enchaînés et entassés ; beaucoup meurent"
+      },
+      {
+       "gaucheHtml": "Amérique",
+       "droite": "Les captifs sont vendus comme esclaves"
+      },
+      {
+       "gaucheHtml": "Retour en Europe",
+       "droite": "Le navire rapporte du sucre ou du café"
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17168",
+     "enonceHtml": "Laquelle de ces phrases est <strong>FAUSSE</strong> ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La plupart des échanges avec les colonies passent par le commerce triangulaire.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui, cette phrase est fausse : la plupart des échanges se font en droiture. Le commerce triangulaire ne représente qu'une partie du commerce."
+      },
+      {
+       "texteHtml": "Le commerce triangulaire fournit aux plantations les travailleurs dont elles ont besoin.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « La plupart des échanges passent par le commerce triangulaire. » La plupart se font en droiture."
+      },
+      {
+       "texteHtml": "Le commerce en droiture est un aller-retour direct avec une colonie.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « La plupart des échanges passent par le commerce triangulaire. » La plupart se font en droiture."
+      },
+      {
+       "texteHtml": "Le navire négrier passe par les côtes d'Afrique.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « La plupart des échanges passent par le commerce triangulaire. » La plupart se font en droiture."
+      }
+     ]
+    },
+    {
+     "id": "17169",
+     "enonceHtml": "Le commerce triangulaire ne représente qu'une partie du commerce. Pourtant, les plantations en ont besoin. Pourquoi ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Parce qu'il leur fournit les travailleurs dont elles ont besoin",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : il fournit aux plantations les esclaves qui font tout le travail."
+      },
+      {
+       "texteHtml": "Parce qu'il leur apporte du vin et de la farine",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le vin et la farine partent des ports d'Europe vers les colonies. Le commerce triangulaire fournit des travailleurs."
+      },
+      {
+       "texteHtml": "Parce qu'il leur apporte des armes et de l'alcool",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ces marchandises sont échangées en Afrique contre des captifs."
+      },
+      {
+       "texteHtml": "Parce qu'il leur envoie des négociants et des armateurs",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : négociants et armateurs vivent dans les ports d'Europe. Le commerce triangulaire fournit des travailleurs."
+      }
+     ]
+    },
+    {
+     "id": "17170",
+     "enonceHtml": "Combien d'Africains ont été déportés de force vers l'Amérique entre le XVIe et le XIXe siècle ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Environ 12 millions, dont la moitié au XVIIIe siècle",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : la moitié au XVIIIe siècle, quand la traite est à son apogée."
+      },
+      {
+       "texteHtml": "Environ 12 millions, tous au XVIIIe siècle",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la traite dure du XVIe au XIXe siècle. La moitié des déportations a lieu au XVIIIe siècle."
+      },
+      {
+       "texteHtml": "Environ 1 million, dont la moitié au XVIIIe siècle",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est beaucoup plus : environ 12 millions."
+      },
+      {
+       "texteHtml": "Environ 12 millions, dont la moitié au XVIe siècle",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la moitié a lieu au XVIIIe siècle, quand la traite est à son apogée."
+      }
+     ]
+    },
+    {
+     "id": "17171",
+     "enonceHtml": "Quels continents le commerce atlantique relie-t-il ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "L'Europe, l'Afrique et l'Amérique",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : ces trois continents sont désormais reliés par un commerce atlantique."
+      },
+      {
+       "texteHtml": "L'Europe et l'Amérique seulement",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : il manque l'Afrique, d'où partent les captifs."
+      },
+      {
+       "texteHtml": "La France et ses colonies seulement",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le commerce atlantique relie trois continents : l'Europe, l'Afrique et l'Amérique."
+      },
+      {
+       "texteHtml": "L'Afrique et le monde musulman",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ce sont d'autres traites, plus anciennes. Le commerce atlantique relie l'Europe, l'Afrique et l'Amérique."
+      }
+     ]
+    },
+    {
+     "id": "17172",
+     "enonceHtml": "Pourquoi l'Afrique fait-elle partie du commerce atlantique ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Parce que des captifs y sont achetés, puis vendus comme esclaves en Amérique",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : l'Afrique est reliée à l'Europe et à l'Amérique par la traite."
+      },
+      {
+       "texteHtml": "Parce que la France y possède ses colonies les plus riches",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : les colonies les plus riches de la France sont des îles des Antilles, en Amérique."
+      },
+      {
+       "texteHtml": "Parce qu'on y cultive la canne à sucre et le café",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ils sont cultivés dans les plantations des colonies d'Amérique."
+      },
+      {
+       "texteHtml": "Parce que les navires y rapportent du vin et de la farine",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le vin et la farine partent des ports d'Europe vers les colonies."
+      }
+     ]
+    },
+    {
+     "id": "17266",
+     "enonceHtml": "<p>Quel type de personne font partie de la bourgeoisie marchande ?</p>",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "<p>Les négociants et les armateurs</p>",
+       "fraction": 1.0,
+       "feedbackHtml": "<p>Oui : ils forment une bourgeoisie marchande très riche.</p>"
+      },
+      {
+       "texteHtml": "<p>Les colons et les planteurs</p>",
+       "fraction": 0.0,
+       "feedbackHtml": "<p>Non : ils possèdent les plantations en Amérique. La bourgeoisie marchande, ce sont les négociants et les armateurs.</p>"
+      },
+      {
+       "texteHtml": "<p>Les capitaines des navires négriers</p>",
+       "fraction": 0.0,
+       "feedbackHtml": "<p>Non : la bourgeoisie marchande, ce sont les négociants et les armateurs.</p>"
+      },
+      {
+       "texteHtml": "<p>Les nobles qui conseillent le roi</p>",
+       "fraction": 0.0,
+       "feedbackHtml": "<p>Non : la bourgeoisie marchande appartient au tiers état. Elle n'a pas les privilèges de la noblesse.</p>"
+      }
+     ]
+    },
+    {
+     "id": "17174",
+     "enonceHtml": "Grâce à quoi la bourgeoisie marchande devient-elle très riche ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Grâce au grand commerce avec les colonies",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : ce commerce profite d'abord à la bourgeoisie marchande."
+      },
+      {
+       "texteHtml": "Grâce aux privilèges de la noblesse",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ces bourgeois appartiennent au tiers état, ils n'ont pas les privilèges de la noblesse."
+      },
+      {
+       "texteHtml": "Grâce aux caisses du roi",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : c'est l'inverse. Ce commerce remplit les caisses du roi."
+      },
+      {
+       "texteHtml": "Grâce au travail dans les plantations",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : dans les plantations, tout le travail est fait par des esclaves. Les négociants s'enrichissent par le commerce."
+      }
+     ]
+    },
+    {
+     "id": "17175",
+     "enonceHtml": "Que font les négociants avec leurs bénéfices ? <em>(Plusieurs réponses possibles)</em>",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": true,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Ils achètent de nouveaux navires",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui."
+      },
+      {
+       "texteHtml": "Ils font construire de beaux hôtels particuliers",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui : leurs villes s'embellissent aussi de places et de théâtres."
+      },
+      {
+       "texteHtml": "Ils achètent des terres, parfois des plantations",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui."
+      },
+      {
+       "texteHtml": "Ils achètent tous une charge qui les rend nobles",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : seuls les plus riches achètent une charge qui les rend nobles."
+      },
+      {
+       "texteHtml": "Ils créent des compagnies de commerce",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : c'est le roi qui crée les compagnies de commerce, comme la Compagnie des Indes."
+      }
+     ]
+    },
+    {
+     "id": "17176",
+     "enonceHtml": "Laquelle de ces phrases est <strong>FAUSSE</strong> ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La place de la Bourse se trouve à Nantes.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui, cette phrase est fausse : la place de la Bourse se trouve à Bordeaux."
+      },
+      {
+       "texteHtml": "Les villes des négociants s'embellissent de places et de théâtres.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « La place de la Bourse se trouve à Nantes. » Elle est à Bordeaux."
+      },
+      {
+       "texteHtml": "Les négociants achètent parfois des plantations.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « La place de la Bourse se trouve à Nantes. » Elle est à Bordeaux."
+      },
+      {
+       "texteHtml": "Les négociants font construire de beaux hôtels particuliers.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « La place de la Bourse se trouve à Nantes. » Elle est à Bordeaux."
+      }
+     ]
+    },
+    {
+     "id": "17177",
+     "enonceHtml": "Aujourd'hui, à Bordeaux, on peut voir la place de la Bourse et de beaux hôtels particuliers du XVIIIe siècle. Que montrent-ils ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "La richesse que le commerce a apportée aux négociants de la ville",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : avec leurs bénéfices, les négociants font construire des hôtels particuliers, et la ville s'embellit."
+      },
+      {
+       "texteHtml": "La richesse de la noblesse, grâce à ses privilèges",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ils montrent la richesse de la bourgeoisie marchande, qui n'a pas les privilèges de la noblesse."
+      },
+      {
+       "texteHtml": "Que Bordeaux était une colonie",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : Bordeaux est le premier port colonial du royaume, pas une colonie."
+      },
+      {
+       "texteHtml": "Que le sucre était cultivé près de Bordeaux",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le sucre est cultivé dans les plantations des colonies d'Amérique."
+      }
+     ]
+    },
+    {
+     "id": "17178",
+     "enonceHtml": "En plus des négociants, qui s'enrichit grâce à ce commerce ? <em>(Plusieurs réponses possibles)</em>",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": true,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Les planteurs",
+       "fraction": 0.5,
+       "feedbackHtml": "Oui : ce commerce enrichit aussi les planteurs."
+      },
+      {
+       "texteHtml": "Le roi",
+       "fraction": 0.5,
+       "feedbackHtml": "Oui : ce commerce remplit les caisses du roi."
+      },
+      {
+       "texteHtml": "Les esclaves des plantations",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : les esclaves font tout le travail, surveillés et punis avec violence. Ils sont la propriété de leur maître."
+      },
+      {
+       "texteHtml": "Les captifs vendus en Amérique",
+       "fraction": -0.5,
+       "feedbackHtml": "Non : ils sont vendus comme esclaves."
+      }
+     ]
+    },
+    {
+     "id": "17179",
+     "enonceHtml": "Laquelle de ces phrases sur les riches négociants est <strong>FAUSSE</strong> ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Ils ont les privilèges de la noblesse.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui, cette phrase est fausse : ils appartiennent au tiers état et n'ont pas les privilèges de la noblesse."
+      },
+      {
+       "texteHtml": "Ils appartiennent au tiers état.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « Ils ont les privilèges de la noblesse. »"
+      },
+      {
+       "texteHtml": "Ils dirigent les villes et conseillent le roi sur le commerce.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « Ils ont les privilèges de la noblesse. »"
+      },
+      {
+       "texteHtml": "Les plus riches achètent une charge qui les rend nobles.",
+       "fraction": 0.0,
+       "feedbackHtml": "Cette phrase est vraie. La phrase fausse est : « Ils ont les privilèges de la noblesse. »"
+      }
+     ]
+    },
+    {
+     "id": "17180",
+     "enonceHtml": "Les riches négociants n'ont pas les privilèges de la noblesse. Pourtant, ils sont influents. Pourquoi ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Parce qu'ils dirigent les villes et conseillent le roi sur le commerce",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est ce qui les rend influents."
+      },
+      {
+       "texteHtml": "Parce qu'ils appartiennent tous à la noblesse",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : ils appartiennent au tiers état. Seuls les plus riches achètent une charge qui les rend nobles."
+      },
+      {
+       "texteHtml": "Parce qu'ils dirigent la Compagnie des Indes",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : la Compagnie des Indes est créée par le roi. Ils sont influents parce qu'ils dirigent les villes et conseillent le roi."
+      },
+      {
+       "texteHtml": "Parce qu'ils fixent les règles du Code noir",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le Code noir est un texte du roi."
+      }
+     ]
+    },
+    {
+     "id": "17181",
+     "enonceHtml": "Vrai ou faux : les ports ne s'enrichissent pas grâce à l'esclavage, puisque la plupart des échanges avec les colonies se font en droiture.",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": false,
+     "reponses": [
+      {
+       "texteHtml": "Vrai",
+       "fraction": 0.0,
+       "feedbackHtml": "Non, c'est faux : même en droiture, les navires rapportent presque tous des produits cultivés par des esclaves. La prospérité des ports repose donc en grande partie sur l'esclavage."
+      },
+      {
+       "texteHtml": "Faux",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui, c'est faux : même en droiture, les navires rapportent presque tous des produits cultivés par des esclaves. La prospérité des ports repose donc en grande partie sur l'esclavage."
+      }
+     ]
+    },
+    {
+     "id": "17182",
+     "enonceHtml": "La plupart des échanges avec les colonies se font {{1}}. Mais les navires qui reviennent des colonies rapportent presque tous des produits cultivés par des {{2}}. La prospérité des ports atlantiques repose donc en grande partie sur {{3}}.",
+     "feedbackHtml": "",
+     "type": "trous",
+     "trous": {
+      "1": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "en droiture",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "par le commerce triangulaire",
+         "fraction": 0.0,
+         "feedback": "Non, il ne représente qu'une partie du commerce."
+        },
+        {
+         "texte": "par la traite",
+         "fraction": 0.0,
+         "feedback": "Non, la richesse des ports ne vient pas seulement de la traite."
+        }
+       ]
+      },
+      "2": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "esclaves",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "colons",
+         "fraction": 0.0,
+         "feedback": "Non, les colons possèdent les plantations, mais tout le travail est fait par des esclaves."
+        },
+        {
+         "texte": "négociants",
+         "fraction": 0.0,
+         "feedback": "Non, les négociants achètent et revendent les marchandises."
+        }
+       ]
+      },
+      "3": {
+       "mode": "liste",
+       "options": [
+        {
+         "texte": "l'esclavage",
+         "fraction": 1.0,
+         "feedback": "Oui."
+        },
+        {
+         "texte": "les privilèges de la noblesse",
+         "fraction": 0.0,
+         "feedback": "Non, les bourgeois n'ont pas les privilèges de la noblesse."
+        },
+        {
+         "texte": "la Compagnie des Indes",
+         "fraction": 0.0,
+         "feedback": "Non, le roi soutient le commerce avec elle, mais la prospérité des ports repose en grande partie sur l'esclavage."
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "17186",
+     "enonceHtml": "Pour savoir d'où vient la fortune d'un négociant, que faut-il se demander ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Que transportent ses navires, et qui a produit ces marchandises ?",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : c'est la question qui permet de relier sa fortune au travail des esclaves."
+      },
+      {
+       "texteHtml": "Combien de navires possède-t-il ?",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : il faut savoir ce que transportent ses navires, et qui a produit ces marchandises."
+      },
+      {
+       "texteHtml": "Ses navires sont-ils passés par l'Afrique ?",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : même en droiture, les navires rapportent presque tous des produits cultivés par des esclaves."
+      },
+      {
+       "texteHtml": "A-t-il fait construire un hôtel particulier ?",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : cela montre sa richesse, pas d'où elle vient. Il faut savoir ce que transportent ses navires, et qui a produit ces marchandises."
+      }
+     ]
+    },
+    {
+     "id": "17187",
+     "enonceHtml": "Deux négociants de Nantes. Le premier envoie un navire négrier en Afrique. Le second fait seulement du commerce en droiture avec la Martinique et rapporte du café. Lequel s'enrichit grâce à l'esclavage ?",
+     "feedbackHtml": "",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Les deux",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui : le premier fait la traite, le second rapporte du café cultivé par des esclaves."
+      },
+      {
+       "texteHtml": "Seulement le premier",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le second aussi. Son café est cultivé par des esclaves dans les plantations."
+      },
+      {
+       "texteHtml": "Seulement le second",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le premier aussi. Il fait la traite, il achète des captifs."
+      },
+      {
+       "texteHtml": "Aucun des deux",
+       "fraction": 0.0,
+       "feedbackHtml": "Non : le premier fait la traite, et le second rapporte du café cultivé par des esclaves."
+      }
+     ]
+    }
+   ],
+   "questions_ignorees": []
+  },
+  {
+   "id": "16752",
+   "rubrique": "qcm",
+   "titre": "QCM 2 - H1 - Bourgeoisie marchande et traite atlantique",
+   "titre_eléa": "QCM 2 - H1 - Bourgeoisie marchande et traite atlantique",
+   "code": "H1",
+   "discipline": "histoire",
+   "slug": "qcm-2-h1-bourgeoisie-marchande-et-traite-atlantique",
+   "intro": "",
+   "tirage": null,
+   "questions": [
+    {
+     "id": "17063",
+     "enonceHtml": "Relie chaque mot du chapitre à sa définition.",
+     "feedbackHtml": "Ces quatre mots sont dans l'encadré « Vocabulaire » de ta leçon.",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Bourgeoisie marchande",
+       "droite": "Habitants des villes, du tiers état, enrichis par le grand commerce"
+      },
+      {
+       "gaucheHtml": "Commerce atlantique",
+       "droite": "Échanges qui relient l'Europe, l'Afrique et l'Amérique par l'océan"
+      },
+      {
+       "gaucheHtml": "Économie de plantation",
+       "droite": "Grandes exploitations qui cultivent un seul produit pour l'Europe, grâce aux esclaves"
+      },
+      {
+       "gaucheHtml": "Esclavage",
+       "droite": "Situation d'une personne privée de liberté, qui appartient à un maître"
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "17056",
+     "enonceHtml": "À ton avis, d'où vient le sucre que les Européens consomment au XVIIIe siècle ?",
+     "feedbackHtml": "Au XVIIIe siècle, le sucre est cultivé dans les colonies d'Amérique, surtout aux Antilles. Le cours d'aujourd'hui va montrer qui le cultive.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Des plantations des Antilles, en Amérique",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. La canne à sucre pousse dans les pays chauds."
+      },
+      {
+       "texteHtml": "Des champs de betteraves de France",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Des mines d'Afrique",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Des forêts d'Asie",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "17057",
+     "enonceHtml": "À ton avis, quels ports français deviennent très riches au XVIIIe siècle ?",
+     "feedbackHtml": "Les ports de l'océan Atlantique, comme Nantes, Bordeaux et La Rochelle, s'enrichissent grâce au commerce avec les colonies d'Amérique. Le cours d'aujourd'hui va expliquer comment.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Nantes, Bordeaux et La Rochelle, sur l'océan Atlantique",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. Ils sont tournés vers l'Amérique."
+      },
+      {
+       "texteHtml": "Lyon et Paris, au bord de grands fleuves",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Strasbourg et Lille, près des frontières",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Brest et Toulon, où stationnent les navires de guerre du roi",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "17055",
+     "enonceHtml": "Au XVIe siècle, pourquoi les Européens font-ils venir des esclaves africains en Amérique ?",
+     "feedbackHtml": "Les Amérindiens meurent en très grand nombre, à cause des maladies venues d'Europe et du travail forcé. Les colons font alors venir des Africains réduits en esclavage pour les remplacer.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Pour remplacer les Amérindiens, morts en grand nombre à cause des maladies et du travail forcé",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. C'est le début de la traite atlantique."
+      },
+      {
+       "texteHtml": "Pour servir de soldats dans les armées européennes",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Pour faire du commerce avec l'Asie",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Pour construire les villes d'Europe",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "17062",
+     "enonceHtml": "À quel siècle la traite atlantique atteint-elle son apogée ?",
+     "feedbackHtml": "Environ 12 millions d'Africains ont été déportés vers l'Amérique entre le XVIe et le XIXe siècle, dont la moitié environ au XVIIIe siècle : c'est l'apogée de la traite.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Au XVIIIe siècle",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. C'est le siècle où la traite est la plus importante."
+      },
+      {
+       "texteHtml": "Au XVIe siècle",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Au XIIe siècle",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Au XXe siècle",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "17061",
+     "enonceHtml": "En 1685, que fixe le Code noir ?",
+     "feedbackHtml": "Le Code noir est un texte du roi, publié en 1685. Il fixe les règles de l'esclavage dans les colonies françaises : l'esclave y est un bien qui appartient à son maître, comme un meuble.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Les règles de l'esclavage dans les colonies françaises",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. L'esclave y est traité comme un bien."
+      },
+      {
+       "texteHtml": "La fin de l'esclavage",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Le prix du sucre en Europe",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Les routes des navires négriers",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "17059",
+     "enonceHtml": "Qu'est-ce que le négoce ?",
+     "feedbackHtml": "Le négoce est le grand commerce de marchandises, surtout par la mer. Le négociant est le marchand qui l'organise.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le grand commerce de marchandises, surtout par la mer",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. Nantes, Bordeaux et La Rochelle vivent du négoce."
+      },
+      {
+       "texteHtml": "La construction des navires",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Le travail dans les plantations",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Le voyage des captifs vers l'Amérique",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "17060",
+     "enonceHtml": "Qu'est-ce que la traite ?",
+     "feedbackHtml": "La traite est le commerce d'êtres humains réduits en esclavage. Au XVIIIe siècle, « traiter » veut dire « faire du commerce ».",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Le commerce d'êtres humains réduits en esclavage",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. La traite atlantique emmène des Africains vers l'Amérique."
+      },
+      {
+       "texteHtml": "Le commerce du sucre et du café",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "L'aller-retour direct entre la France et les colonies",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "La récolte de la canne à sucre",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    }
+   ],
+   "questions_ignorees": []
+  },
+  {
+   "id": "15981",
+   "rubrique": "qcm",
+   "titre": "QCM 1 - Révisions 5e",
+   "titre_eléa": "QCM 1 - Révisions 5e",
+   "code": "5e",
+   "discipline": "histoire",
+   "slug": "qcm-1-revisions-5e",
+   "intro": "",
+   "tirage": null,
+   "questions": [
+    {
+     "id": "16169",
+     "enonceHtml": "Relie chaque terme ou repère à sa définition.",
+     "feedbackHtml": "Ces quatre éléments appartiennent au cours de 5e sur la conquête des Amériques.",
+     "type": "association",
+     "paires": [
+      {
+       "gaucheHtml": "Tenochtitlan",
+       "droite": "Capitale de l'empire aztèque"
+      },
+      {
+       "gaucheHtml": "Encomienda",
+       "droite": "Système qui oblige les Amérindiens à travailler gratuitement pour des colons espagnols"
+      },
+      {
+       "gaucheHtml": "Traité de Tordesillas",
+       "droite": "Accord de 1494 qui partage le monde à conquérir entre l'Espagne et le Portugal"
+      },
+      {
+       "gaucheHtml": "12 octobre 1492",
+       "droite": "Arrivée de Christophe Colomb en Amérique"
+      }
+     ],
+     "distracteurs": []
+    },
+    {
+     "id": "16166",
+     "enonceHtml": "Quelle affirmation décrit correctement l'arrivée de Christophe Colomb en Amérique ?",
+     "feedbackHtml": "Colomb arrive en Amérique le 12 octobre 1492, mais croit avoir atteint l'Asie.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Il arrive en Asie en 1492 et le comprend immédiatement.",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Il arrive en Amérique en 1492, mais croit avoir atteint l'Asie.",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. Il appelle d'ailleurs « Indiens » les habitants qu'il rencontre."
+      },
+      {
+       "texteHtml": "Il conquiert Tenochtitlan en 1492.",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Il signe le traité de Tordesillas en 1492.",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "16168",
+     "enonceHtml": "Quels éléments expliquent la destruction rapide des civilisations précolombiennes par les Espagnols ? <strong>Trois réponses sont attendues.</strong>",
+     "feedbackHtml": "La conquête s'explique par les armes, les maladies apportées d'Europe et le travail forcé imposé aux Amérindiens.",
+     "type": "choix",
+     "multiple": true,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Les armes des conquistadors",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui, les Espagnols disposent d'armes efficaces."
+      },
+      {
+       "texteHtml": "Les maladies apportées d'Europe",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui, les épidémies provoquent une mortalité considérable."
+      },
+      {
+       "texteHtml": "Le travail forcé imposé aux Amérindiens",
+       "fraction": 0.3333,
+       "feedbackHtml": "Oui, notamment dans le système de l'encomienda."
+      },
+      {
+       "texteHtml": "La fondation de Tenochtitlan par les Espagnols",
+       "fraction": -0.3333,
+       "feedbackHtml": "Non. Tenochtitlan existe avant l'arrivée des Espagnols."
+      },
+      {
+       "texteHtml": "L'aide militaire donnée aux Aztèques par le Portugal",
+       "fraction": -0.3333,
+       "feedbackHtml": "Non. Cette proposition ne correspond pas au cours."
+      }
+     ]
+    },
+    {
+     "id": "16167",
+     "enonceHtml": "Qu'est-ce qu'un conquistador ?",
+     "feedbackHtml": "Un conquistador est un soldat espagnol parti conquérir par la force des territoires d'Amérique.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Un marchand portugais installé dans un comptoir",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Un Amérindien obligé de travailler dans une encomienda",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Un soldat espagnol parti conquérir par la force des territoires d'Amérique",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. Cortés est l'un des conquistadors les plus connus."
+      },
+      {
+       "texteHtml": "Un navigateur qui commerce avec l'Asie",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    },
+    {
+     "id": "16165",
+     "enonceHtml": "Quel est le projet de Christophe Colomb lorsqu'il part en 1492 ?",
+     "feedbackHtml": "Colomb veut rejoindre l'Asie par l'ouest pour en rapporter notamment de l'or et des épices.",
+     "type": "choix",
+     "multiple": false,
+     "melanger": true,
+     "reponses": [
+      {
+       "texteHtml": "Atteindre l'Asie en naviguant vers l'ouest",
+       "fraction": 1.0,
+       "feedbackHtml": "Oui. Colomb cherche une nouvelle route vers l'Asie."
+      },
+      {
+       "texteHtml": "Conquérir l'empire aztèque",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Partager le monde avec le Portugal",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      },
+      {
+       "texteHtml": "Fonder Tenochtitlan",
+       "fraction": 0.0,
+       "feedbackHtml": ""
+      }
+     ]
+    }
+   ],
+   "questions_ignorees": []
+  },
+  {
+   "id": "16821",
+   "rubrique": "bex",
+   "titre": "Construire une frise chronologique",
+   "titre_eléa": "BEX 1 - Construire une frise chronologique",
+   "code": "BEX 1",
+   "discipline": "methode",
+   "slug": "bex-1-construire-une-frise-chronologique",
+   "lien": "https://docs.google.com/document/d/1XNlHkzn8bA-rMxMVEm7OEJ_NaWIeEhN1GT3Wu4J51vo/edit?usp=sharing",
+   "gdoc": "1XNlHkzn8bA-rMxMVEm7OEJ_NaWIeEhN1GT3Wu4J51vo",
+   "intro": ""
+  },
+  {
+   "id": "16845",
+   "rubrique": "bex",
+   "titre": "Présenter un document",
+   "titre_eléa": "BEX 2 - Présenter un document",
+   "code": "BEX 2",
+   "discipline": "methode",
+   "slug": "bex-2-presenter-un-document",
+   "lien": "https://docs.google.com/document/d/1JSovL0ZujEPgOe7xK1hhvHHXFPcbdLRjTYX5HpMWDNo/edit?usp=sharing",
+   "gdoc": "1JSovL0ZujEPgOe7xK1hhvHHXFPcbdLRjTYX5HpMWDNo",
+   "intro": ""
+  },
+  {
+   "id": "16959",
+   "rubrique": "bex",
+   "titre": "Prélever et citer un document",
+   "titre_eléa": "BEX 3 : Prélever et citer un document",
+   "code": "BEX 3",
+   "discipline": "methode",
+   "slug": "bex-3-prelever-et-citer-un-document",
+   "lien": "https://docs.google.com/document/d/1d5D95PAev7WhhtaCfnkbrY7bhrh7ng2LqH2QNB-3_aI/edit?usp=sharing",
+   "gdoc": "1d5D95PAev7WhhtaCfnkbrY7bhrh7ng2LqH2QNB-3_aI",
+   "intro": ""
+  },
+  {
+   "id": "15986",
+   "rubrique": "methode",
+   "titre": "BEX Repères Géographiques 4e",
+   "titre_eléa": "BEX Repères Géographiques 4e",
+   "code": "",
+   "discipline": "methode",
+   "slug": "bex-reperes-geographiques-4e",
+   "lien": "https://docs.google.com/document/d/1hg5FtjIAesbM33GqCDhVgBmLbNMa1pMi9JfGWQWX3P8/edit?usp=sharing",
+   "gdoc": "1hg5FtjIAesbM33GqCDhVgBmLbNMa1pMi9JfGWQWX3P8",
+   "intro": ""
+  },
+  {
+   "id": "15979",
+   "rubrique": "methode",
+   "titre": "BEX Routines : J'explique les mots en Histoire-Géographie",
+   "titre_eléa": "BEX Routines : J'explique les mots en Histoire-Géographie",
+   "code": "",
+   "discipline": "methode",
+   "slug": "bex-routines-j-explique-les-mots-en-histoire-geographie",
+   "lien": "https://docs.google.com/document/d/10kjcajOZ6YmzCtEoKUM4YLbQc1SfnRmdjoTDm1CyHZw/edit?usp=sharing",
+   "gdoc": "10kjcajOZ6YmzCtEoKUM4YLbQc1SfnRmdjoTDm1CyHZw",
+   "intro": ""
+  },
+  {
+   "id": "16753",
+   "rubrique": "cours",
+   "titre": "Bourgeoisie Marchande et Traite Atlantique",
+   "titre_eléa": "Cours H1 : Bourgeoisie Marchande et Traite Atlantique",
+   "code": "H1",
+   "discipline": "histoire",
+   "slug": "cours-h1-bourgeoisie-marchande-et-traite-atlantique",
+   "lien": "https://docs.google.com/document/d/1dj5F9TQTevCZk-SbqddEXovcoqJpOn5q5ZYNTYKCGeA/edit?usp=sharing",
+   "gdoc": "1dj5F9TQTevCZk-SbqddEXovcoqJpOn5q5ZYNTYKCGeA",
+   "intro": ""
+  },
+  {
+   "id": "16960",
+   "rubrique": "cours",
+   "titre": "Le siècle des Lumières",
+   "titre_eléa": "Cours H2 : Le siècle des Lumières",
+   "code": "H2",
+   "discipline": "histoire",
+   "slug": "cours-h2-le-siecle-des-lumieres",
+   "lien": "https://docs.google.com/document/d/1x80GFZ-69rwxNo22mECeP_inEp6mtUaa/edit?usp=sharing",
+   "gdoc": "1x80GFZ-69rwxNo22mECeP_inEp6mtUaa",
+   "intro": ""
+  },
+  {
+   "id": "17793",
+   "rubrique": "cours",
+   "titre": "Mers et Oceans",
+   "titre_eléa": "Cours G1 : Mers et Oceans",
+   "code": "G1",
+   "discipline": "geographie",
+   "slug": "cours-g1-mers-et-oceans",
+   "lien": "https://docs.google.com/document/d/10aIJS4JzuwjIYiptU0226XSdrXfmYttp_AHn6l1OTMs/edit?usp=sharing",
+   "gdoc": "10aIJS4JzuwjIYiptU0226XSdrXfmYttp_AHn6l1OTMs",
+   "intro": ""
+  },
+  {
+   "id": "16918",
+   "rubrique": "enquetes",
+   "titre": "Enquête 1 : D'où vient la richesse de Deurobrouck ?",
+   "titre_eléa": "Enquête 1 : D'où vient la richesse de Deurobrouck ?",
+   "code": "H1",
+   "discipline": "histoire",
+   "slug": "enquete-1-d-ou-vient-la-richesse-de-deurobrouck",
+   "lien": "https://docs.google.com/document/d/1Cz5QudXBZ84xQuNGHXUADnCVMDeeiVqb/edit?usp=sharing",
+   "gdoc": "1Cz5QudXBZ84xQuNGHXUADnCVMDeeiVqb",
+   "intro": ""
+  }
+ ],
+ "ecartes": [
+  {
+   "titre": "QCM BEx - Banques d'exercices Méthodologie Les Cou...",
+   "raison": "section « Menu »"
+  },
+  {
+   "titre": "Suivi des Notes 4B",
+   "raison": "section « Fichier de suivi »"
+  },
+  {
+   "titre": "Suivi des Notes 4D",
+   "raison": "section « Fichier de suivi »"
+  },
+  {
+   "titre": "Suivi des notes 4E",
+   "raison": "section « Fichier de suivi »"
+  },
+  {
+   "titre": "Les groupes de travails par classe",
+   "raison": "type « label »"
+  },
+  {
+   "titre": "Groupe de travail 4D",
+   "raison": "titre"
+  },
+  {
+   "titre": "Groupe de travail 4E",
+   "raison": "titre"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$titre_page</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Lexend:wght@400;500;600&family=Poppins:wght@700;800&display=swap">
+<link rel="stylesheet" href="${racine}assets/hg.css">
+</head>
+<body class="hg-page hg-page--accueil">
+<a class="hg-evitement" href="#contenu">Aller au contenu</a>
+<header class="hg-entete">
+  <div class="hg-conteneur">
+    <a class="hg-signature" href="${racine}index.html"><span class="hg-signature__titre">Cours d'Histoire-Géo-EMC</span><span class="hg-signature__sep"> · </span><span class="hg-signature__nom">M. Hofstoetter</span></a>
+  </div>
+</header>
+
+<main id="contenu" class="hg-main">
+  <div class="hg-conteneur">
+    <div class="hg-intro-page">
+      <h1>Choisissez votre niveau</h1>
+      <p class="hg-chapeau">Retrouvez les cours, les BEX, la méthodologie, les QCM et les enquêtes, sans vous connecter.</p>
+      <p class="hg-chapeau">Vous hésitez ? Votre niveau est celui de votre classe.</p>
+    </div>
+
+    <nav class="hg-niveaux" aria-label="Niveaux">$niveaux</nav>
+
+    <section class="hg-encart" aria-labelledby="titre-bex">
+      <h2 id="titre-bex">Mon suivi BEX</h2>
+      <p>Retrouvez où vous en êtes dans vos BEX.</p>
+      <a class="hg-bouton hg-bouton--bex" href="$lien_bex">Mon suivi BEX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+      <p class="hg-encart__note">Ce bouton ouvre un autre site : bex-college.fr.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="hg-pied">
+  <div class="hg-conteneur">
+    <p>Cours d'Histoire-Géo-EMC · M. Hofstoetter · $annee</p>
+    <p>Ce site ne demande ni compte ni mot de passe.</p>
+  </div>
+</footer>
+</body>
+</html>

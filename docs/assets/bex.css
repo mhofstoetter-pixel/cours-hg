@@ -1,0 +1,444 @@
+/* Pages BEX interactives — s'appuie sur les variables de hg.css.
+   Balisage produit par scripts/bex.py (CONTRATS.md §7), comportements dans bex.js.
+   Sans JavaScript, tout reste lisible : cartes ouvertes, étapes visibles, corrigés en <details>. */
+
+.bex { --bex-sticky: 0px; }
+
+/* ------------------------------------------------------------ Sommaire collant */
+
+.bex-sommaire {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  margin: 0 calc(var(--gouttiere) * -1) var(--sp-7);
+  padding: var(--sp-3) var(--gouttiere) var(--sp-3);
+  background: var(--paper);
+  border-bottom: var(--border);
+}
+.bex-sommaire ol {
+  display: flex;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0 0 2px;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+.bex-sommaire ol::-webkit-scrollbar { display: none; }
+.bex-sommaire li { flex: none; margin: 0; padding: 0; scroll-snap-align: start; }
+.bex-sommaire li::marker { content: none; }
+.bex-sommaire a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit-min);
+  padding: 0 var(--sp-4);
+  border: var(--border);
+  border-radius: var(--r-pill);
+  background: var(--paper);
+  color: var(--ink-900);
+  font: 700 0.9375rem/1 var(--font-display);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+.bex-sommaire a:hover { background: var(--paper-muted); }
+.bex-sommaire a[aria-current="true"] { background: var(--outline); color: var(--paper); }
+
+.bex-progression {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin: var(--sp-3) 0 0;
+  font: 500 0.9375rem/1.3 var(--font-body);
+  color: var(--ink-700);
+}
+.bex-progression[hidden] { display: none; }
+.bex-progression__cases { display: flex; flex-wrap: wrap; gap: 4px; }
+.bex-progression__case {
+  width: 14px;
+  height: 14px;
+  border: var(--bw) solid var(--outline);
+  border-radius: 3px;
+  background: var(--paper);
+  transition: background var(--dur) var(--ease);
+}
+.bex-progression__case.est-fait { background: var(--juste); }
+
+/* ------------------------------------------------------------ Parties */
+
+.bex-partie {
+  scroll-margin-top: calc(var(--bex-sticky) + var(--sp-4));
+  margin: 0 0 var(--sp-9);
+}
+.hg-doc .bex-partie__titre {
+  display: inline-block;
+  margin: 0 0 var(--sp-5);
+  padding: var(--sp-2) var(--sp-4);
+  border: var(--border);
+  border-radius: var(--r-lg);
+  background: var(--outline);
+  color: var(--paper);
+  font: 700 var(--fs-h2)/1.2 var(--font-display);
+  letter-spacing: var(--ls-display);
+}
+.bex h3 { scroll-margin-top: calc(var(--bex-sticky) + var(--sp-4)); }
+
+/* Tableau d'un seul document : un encadré, pas un tableau qui défile */
+.hg-doc table.bex-encadre,
+.hg-doc table.bex-encadre tbody,
+.hg-doc table.bex-encadre tr,
+.hg-doc table.bex-encadre td { display: block; width: auto; overflow: visible; }
+.hg-doc table.bex-encadre {
+  margin: var(--sp-5) 0;
+  border: var(--border);
+  border-radius: var(--r-md);
+  background: var(--paper);
+}
+.hg-doc table.bex-encadre td { border: 0; padding: var(--sp-4); }
+
+/* Tableaux à 2–3 colonnes : empilés sur téléphone, chaque cellule garde le nom de sa colonne */
+@media (max-width: 639px) {
+  .hg-doc table.bex-pile,
+  .hg-doc table.bex-pile tbody,
+  .hg-doc table.bex-pile tr,
+  .hg-doc table.bex-pile td { display: block; width: auto; overflow: visible; }
+  .hg-doc table.bex-pile { border: var(--border); border-radius: var(--r-md); }
+  .hg-doc table.bex-pile tr:first-child { display: none; }
+  .hg-doc table.bex-pile tr + tr { border-top: var(--border); }
+  .hg-doc table.bex-pile td { border: 0; padding: var(--sp-2) var(--sp-4); }
+  .hg-doc table.bex-pile td:first-child { padding-top: var(--sp-4); }
+  .hg-doc table.bex-pile td:last-child { padding-bottom: var(--sp-4); }
+  .hg-doc table.bex-pile td[data-colonne]::before {
+    content: attr(data-colonne);
+    display: block;
+    margin-bottom: var(--sp-1);
+    font: 700 var(--fs-label)/1.3 var(--font-display);
+    letter-spacing: var(--ls-caps);
+    text-transform: uppercase;
+    color: var(--ink-700);
+  }
+}
+
+/* ------------------------------------------------------------ Cartes méthode */
+
+.bex-cartes {
+  margin: var(--sp-6) 0;
+  padding: var(--sp-5) var(--sp-4);
+  border: var(--border-bold);
+  border-radius: var(--r-md);
+  background: var(--jaune-soft);
+}
+.bex-cartes__consigne { margin: 0 0 var(--sp-4) !important; font-weight: 500; }
+.bex-cartes__liste { display: grid; gap: var(--sp-3); margin: 0 !important; padding: 0 !important; list-style: none; }
+.bex-cartes__liste > li { margin: 0 !important; padding: 0 !important; }
+.bex-cartes__liste > li::marker { content: none; }
+
+.bex-carte {
+  border: var(--border);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  overflow: hidden;
+}
+.bex-carte__face {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  width: 100%;
+  min-height: 72px;
+  padding: var(--sp-3);
+  border: 0;
+  background: none;
+  color: var(--ink-900);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.bex-carte__lettre {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border: var(--border);
+  border-radius: var(--r-sm);
+  background: var(--paper);
+  font: 800 1.75rem/1 var(--font-display);
+  transition: background var(--dur) var(--ease);
+}
+.bex-carte__nom { font: 700 1.0625rem/1.3 var(--font-display); }
+.bex-carte__invite { display: none; color: var(--ink-700); font-weight: 500; }
+.bex-carte__dos { padding: 0 var(--sp-4) var(--sp-4) calc(var(--sp-3) + 52px + var(--sp-4)); }
+.bex-carte__dos p { margin: 0 0 var(--sp-2) !important; }
+.bex-carte__dos p:last-child { margin-bottom: 0 !important; }
+.bex-carte__verif { color: var(--ink-700); }
+
+/* Avec JavaScript : la carte se retourne */
+.bex-js .bex-carte__face[aria-expanded="false"] .bex-carte__nom { display: none; }
+.bex-js .bex-carte__face[aria-expanded="false"] .bex-carte__invite { display: inline; }
+.bex-js .bex-carte__face[aria-expanded="true"] .bex-carte__lettre { background: var(--jaune); }
+.bex-js .bex-carte__face:hover .bex-carte__lettre { background: var(--jaune-soft); }
+.bex-js .bex-carte__face[aria-expanded="true"]:hover .bex-carte__lettre { background: var(--jaune-hover); }
+.bex-js .bex-carte__face:active { transform: scale(var(--press-scale)); }
+.bex-carte__face::after {
+  content: "";
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin-left: auto;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 12a9 9 0 1 1-3-6.7L21 8'/%3E%3Cpath d='M21 3v5h-5'/%3E%3C/svg%3E") center / contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 12a9 9 0 1 1-3-6.7L21 8'/%3E%3Cpath d='M21 3v5h-5'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+html:not(.bex-js) .bex-carte__face::after { display: none; }
+html:not(.bex-js) .bex-carte__face { cursor: default; }
+
+/* ------------------------------------------------------------ Liens-boutons et boutons */
+
+.bex-lien {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit-min);
+  margin-top: var(--sp-3);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--text-link);
+  font: 600 1rem/1.3 var(--font-body);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.bex-lien:hover { color: var(--text-link-hover); }
+.bex-lien[hidden] { display: none; }
+
+.bex-bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: 48px;
+  padding: 0 var(--sp-5);
+  border: var(--border);
+  border-radius: var(--r-pill);
+  background: var(--outline);
+  color: var(--paper);
+  font: 700 1rem/1 var(--font-display);
+  cursor: pointer;
+  transition: background var(--dur) var(--ease);
+}
+.bex-bouton:hover { background: var(--ink-hover); }
+.bex-bouton:active { transform: scale(var(--press-scale)); }
+.bex-bouton svg { width: 20px; height: 20px; }
+
+/* ------------------------------------------------------------ Critères à cocher */
+
+.bex-criteres {
+  margin: var(--sp-6) 0;
+  padding: 0;
+  border: var(--border);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  overflow: hidden;
+}
+.bex-criteres legend {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: var(--sp-3) var(--sp-4);
+  border-bottom: var(--border);
+  background: var(--vert-soft);
+  font: 700 1rem/1.35 var(--font-display);
+}
+.bex-criteres ul { clear: both; margin: 0 !important; padding: 0 !important; list-style: none; }
+.bex-criteres li { margin: 0 !important; padding: 0 !important; }
+.bex-criteres li::marker { content: none; }
+.bex-criteres li + li { border-top: 1px solid var(--ink-300); }
+.bex-criteres input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.bex-criteres label {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  column-gap: var(--sp-3);
+  align-items: start;
+  min-height: var(--hit-min);
+  padding: var(--sp-3) var(--sp-4);
+  cursor: pointer;
+}
+.bex-criteres label::before {
+  content: "";
+  grid-row: 1 / span 2;
+  width: 26px;
+  height: 26px;
+  margin-top: 1px;
+  border: var(--border);
+  border-radius: var(--r-sm);
+  background: var(--paper) center / 18px no-repeat;
+  transition: background-color var(--dur) var(--ease);
+}
+.bex-criteres label strong { font-weight: 600; }
+.bex-criteres label span { grid-column: 2; color: var(--ink-700); }
+.bex-criteres label:hover::before { background-color: var(--paper-muted); }
+.bex-criteres input:checked + label::before {
+  background-color: var(--outline);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
+}
+.bex-criteres input:checked + label { background: var(--vert-soft); }
+.bex-criteres input:focus-visible + label { outline: 3px solid var(--focus-ring); outline-offset: -3px; }
+.bex-criteres__bilan:empty { display: none; }
+.bex-criteres__bilan {
+  margin: 0 !important;
+  padding: var(--sp-3) var(--sp-4);
+  border-top: var(--border);
+  font-weight: 600;
+}
+.bex-criteres .bex-lien { margin: 0 var(--sp-4) var(--sp-2); }
+
+/* ------------------------------------------------------------ Modelage pas à pas */
+
+.bex-modelage { margin: var(--sp-7) 0 0; }
+.bex-modelage__titre { margin-top: 0 !important; }
+.bex-pas { margin: 0 !important; padding: 0 !important; list-style: none; counter-reset: pas; }
+.bex-pas__etape {
+  counter-increment: pas;
+  margin: 0 0 var(--sp-4) !important;
+  padding: var(--sp-4) !important;
+  border: var(--border);
+  border-radius: var(--r-md);
+  background: var(--paper);
+}
+.bex-pas__etape::marker { content: none; }
+.bex-pas__etape { scroll-margin-top: calc(var(--bex-sticky) + var(--sp-4)); }
+.bex-pas__etape > :first-child { margin-top: 0 !important; }
+.bex-pas__etape > :last-child { margin-bottom: 0 !important; }
+.bex-pas__etape:focus { outline: none; }
+.bex-pas__etape:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
+.bex-pas__etape.est-nouvelle { animation: bex-apparait var(--dur-slow, 260ms) var(--ease); }
+@keyframes bex-apparait { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.bex-pas__commandes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2) var(--sp-4);
+  margin: 0 0 var(--sp-6);
+  padding: var(--sp-4);
+  border: var(--border);
+  border-style: dashed;
+  border-radius: var(--r-md);
+  background: var(--paper-muted);
+}
+.bex-pas__compte { font: 700 0.9375rem/1.3 var(--font-mono); color: var(--ink-700); }
+.bex-pas__commandes .bex-lien { margin: 0; }
+
+/* ------------------------------------------------------------ Exercices */
+
+.bex-exercice {
+  margin: 0 0 var(--sp-6);
+  border: var(--border);
+  border-radius: var(--r-md);
+  background: var(--paper);
+  scroll-margin-top: calc(var(--bex-sticky) + var(--sp-4));
+}
+.bex-exercice > * { margin-left: var(--sp-4) !important; margin-right: var(--sp-4) !important; }
+.bex-exercice > .bex-exercice__titre {
+  margin: 0 0 var(--sp-4) !important;
+  padding: var(--sp-3) var(--sp-4);
+  border-bottom: var(--border);
+  border-radius: calc(var(--r-md) - 2px) calc(var(--r-md) - 2px) 0 0;
+  background: var(--paper-muted);
+  font: 700 1.0625rem/1.35 var(--font-display) !important;
+  transition: background var(--dur) var(--ease);
+}
+.bex-exercice.est-fait > .bex-exercice__titre { background: var(--vert-soft); }
+.bex-exercice > table { width: auto; }
+
+.bex-corrige {
+  margin-top: var(--sp-5);
+  margin-bottom: var(--sp-4);
+}
+.bex-corrige > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: var(--hit-min);
+  padding: 0 var(--sp-5);
+  border: var(--border);
+  border-radius: var(--r-pill);
+  background: var(--paper);
+  font: 700 1rem/1 var(--font-display);
+  list-style: none;
+  cursor: pointer;
+  transition: background var(--dur) var(--ease);
+}
+.bex-corrige > summary::-webkit-details-marker { display: none; }
+.bex-corrige > summary::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 18 6-6-6-6'/%3E%3C/svg%3E") center / contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 18 6-6-6-6'/%3E%3C/svg%3E") center / contain no-repeat;
+  transition: transform var(--dur) var(--ease);
+}
+.bex-corrige[open] > summary::before { transform: rotate(90deg); }
+.bex-corrige > summary:hover { background: var(--jaune-soft); }
+.bex-corrige[open] > summary { background: var(--jaune); }
+.bex-corrige__fermer, .bex-corrige[open] .bex-corrige__ouvrir { display: none; }
+.bex-corrige[open] .bex-corrige__fermer { display: inline; }
+.bex-corrige__corps {
+  margin-top: var(--sp-3);
+  padding: var(--sp-4);
+  border: var(--border);
+  border-radius: var(--r-md);
+  background: var(--jaune-soft);
+}
+.bex-corrige__corps > :first-child { margin-top: 0 !important; }
+.bex-corrige__corps > :last-child { margin-bottom: 0 !important; }
+
+.bex-fait {
+  margin: var(--sp-4) 0 0 !important;
+  padding: var(--sp-2) var(--sp-4) !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-top: 1px solid var(--ink-300);
+}
+.bex-fait input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.bex-fait label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-3);
+  min-height: var(--hit-min);
+  font-weight: 600;
+  cursor: pointer;
+}
+.bex-fait label::before {
+  content: "";
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border: var(--border);
+  border-radius: var(--r-sm);
+  background: var(--paper) center / 18px no-repeat;
+}
+.bex-fait label:hover::before { background-color: var(--paper-muted); }
+.bex-fait input:checked + label::before {
+  background-color: var(--juste);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
+}
+.bex-fait input:focus-visible + label { outline: 3px solid var(--focus-ring); outline-offset: 4px; border-radius: var(--r-sm); }
+
+/* ------------------------------------------------------------ Impression et mouvement */
+
+@media print {
+  .bex-sommaire, .bex-pas__commandes, .bex-fait, .bex-lien { display: none !important; }
+  .bex-pas__etape[hidden] { display: block !important; }
+  .bex-corrige__corps { display: block; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bex-pas__etape.est-nouvelle { animation: none; }
+}

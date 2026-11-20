@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$titre_page</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Lexend:wght@400;500;600&family=Poppins:wght@700;800&display=swap">
+<link rel="stylesheet" href="${racine}assets/hg.css">
+</head>
+<body class="hg-page hg-page--niveau">
+<a class="hg-evitement" href="#contenu">Aller au contenu</a>
+<header class="hg-entete">
+  <div class="hg-conteneur">
+    <a class="hg-signature" href="${racine}index.html"><span class="hg-signature__titre">Cours d'Histoire-Géo-EMC</span><span class="hg-signature__sep"> · </span><span class="hg-signature__nom">M. Hofstoetter</span></a>
+  </div>
+</header>
+
+<main id="contenu" class="hg-main">
+  <div class="hg-conteneur">
+    <nav class="hg-ariane" aria-label="Fil d'Ariane">$fil_ariane</nav>
+    <div class="hg-intro-page">
+      <h1>Classe de $niveau</h1>
+      <p class="hg-chapeau">Choisissez une ressource. Chaque document se lit ici, en PDF ou dans Google Docs.</p>
+    </div>
+
+    <div class="hg-rubriques">
+$rubriques
+    </div>
+  </div>
+</main>
+
+<footer class="hg-pied">
+  <div class="hg-conteneur">
+    <p>Cours d'Histoire-Géo-EMC · M. Hofstoetter · $annee</p>
+    <p>Ce site ne demande ni compte ni mot de passe.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+{
+  "lien_bex": "https://bex-college.fr",
+  "niveaux": [
+    "4e",
+    "5e"
+  ],
+  "rubriques": [
+    {
+      "id": "cours",
+      "titre": "Les cours",
+      "sections": [
+        "cours"
+      ]
+    },
+    {
+      "id": "bex",
+      "titre": "Les BEX",
+      "sections": [
+        "bex",
+        "banque d'exercices"
+      ]
+    },
+    {
+      "id": "methode",
+      "titre": "Méthodologie",
+      "sections": [
+        "méthodologie",
+        "methodologie"
+      ]
+    },
+    {
+      "id": "qcm",
+      "titre": "Les QCM",
+      "sections": [
+        "qcm"
+      ]
+    },
+    {
+      "id": "enquetes",
+      "titre": "Les enquêtes",
+      "sections": [
+        "enquête",
+        "enquete"
+      ]
+    }
+  ],
+  "exclusions": {
+    "sections": [
+      "menu",
+      "fichier de suivi",
+      "suivi"
+    ],
+    "titres": [
+      "suivi des notes",
+      "suivi",
+      "groupe de travail",
+      "groupes de travail",
+      "groupe",
+      "appel",
+      "absences",
+      "notes 4",
+      "notes 5"
+    ],
+    "types": [
+      "label",
+      "forum",
+      "assign",
+      "choice",
+      "feedback",
+      "chat",
+      "survey",
+      "attendance"
+    ],
+    "urls": [
+      "docs.google.com/spreadsheets",
+      "/forms/"
+    ]
+  },
+  "chapitres": {
+    "QCM 1 - Révisions 5e": "5e",
+    "QCM 4 : Le siècle des lumières": "H2",
+    "QCM 5 : Mers et Océans": "G1",
+    "Enquête 1 : D'où vient la richesse de Deurobrouck ?": "H1",
+    "QCM 3 : Bourgeoisie marchande et traite atlantique (2/2)": "H1"
+  },
+  "titres": {
+    "Cours G1 : Mers et Oceans": "Mers et océans",
+    "Cours H1 : Bourgeoisie Marchande et Traite Atlantique": "Bourgeoisie marchande et traite atlantique",
+    "Enquête 1 : D'où vient la richesse de Deurobrouck ?": "Enquête 1 : D'où vient la richesse de Deurbroucq ?"
+  },
+  "disciplines": {
+    "QCM 1 - Révisions 5e": "histoire"
+  }
+}

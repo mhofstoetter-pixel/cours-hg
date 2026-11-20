@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$titre_page</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Lexend:wght@400;500;600&family=Poppins:wght@700;800&display=swap">
+<link rel="stylesheet" href="${racine}assets/hg.css">
+<link rel="stylesheet" href="${racine}assets/qcm.css">
+<script src="${racine}assets/qcm.js" defer></script>
+</head>
+<body class="hg-page hg-page--qcm" data-discipline="$discipline">
+<a class="hg-evitement" href="#contenu">Aller au contenu</a>
+<header class="hg-entete">
+  <div class="hg-conteneur">
+    <a class="hg-signature" href="${racine}index.html"><span class="hg-signature__titre">Cours d'Histoire-Géo-EMC</span><span class="hg-signature__sep"> · </span><span class="hg-signature__nom">M. Hofstoetter</span></a>
+  </div>
+</header>
+
+<main id="contenu" class="hg-main">
+  <div class="hg-conteneur hg-conteneur--lecture">
+    <nav class="hg-ariane" aria-label="Fil d'Ariane">$fil_ariane</nav>
+
+    <header class="hg-titre-ressource">
+      <div class="hg-titre-ressource__bandeau"><span class="hg-code">$code</span><span class="hg-pastille hg-pastille--$discipline"></span><span class="hg-titre-ressource__type">QCM d'entraînement</span></div>
+      <h1>$titre</h1>
+      <div class="hg-titre-ressource__intro">$intro</div>
+    </header>
+
+    <div class="hg-qcm">
+      <div id="qcm" data-src="qcm.json"></div>
+      <noscript><p class="hg-sans-js">Ce QCM a besoin de JavaScript pour fonctionner. Ouvrez cette page avec un autre navigateur, par exemple Chrome, Safari ou Firefox.</p></noscript>
+    </div>
+
+    <a class="hg-retour" href="$retour"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>Retour au niveau</a>
+  </div>
+</main>
+
+<footer class="hg-pied">
+  <div class="hg-conteneur">
+    <p>Cours d'Histoire-Géo-EMC · M. Hofstoetter · $annee</p>
+    <p>Ce site ne demande ni compte ni mot de passe.</p>
+  </div>
+</footer>
+</body>
+</html>

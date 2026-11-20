@@ -1,0 +1,6 @@
+*.mbz
+sources/
+dev/
+__pycache__/
+.DS_Store
+.claude/
