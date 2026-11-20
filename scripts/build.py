@@ -247,6 +247,22 @@ def google_vers_html(html):
     return html
 
 
+def titres_sans_saut(html, depart=1):
+    """Renumérote les titres pour ne jamais sauter de niveau (h1 puis h3 → h1 puis h2).
+    Les lecteurs d'écran naviguent par niveaux de titre."""
+    precedent, ouvert = depart, []
+
+    def remplacer(m):
+        nonlocal precedent
+        if m.group(1):  # balise fermante
+            return "</h%d>" % (ouvert.pop() if ouvert else int(m.group(2)))
+        niveau = min(int(m.group(2)), precedent + 1)
+        precedent = niveau
+        ouvert.append(niveau)
+        return "<h%d%s>" % (niveau, m.group(3))
+    return re.sub(r"<(/?)h([1-6])(\b[^>]*)>", remplacer, html)
+
+
 def contenu_ressource(niveau, item):
     """HTML de la page : export HTML du Google Doc s'il existe dans sources/."""
     src = SOURCES / niveau / ("%s.html" % item["slug"])
@@ -262,9 +278,9 @@ def contenu_ressource(niveau, item):
         if item["rubrique"] in ("bex", "methode"):
             interactif = bex.structurer(corps)
             if interactif:
-                return interactif, True
+                return titres_sans_saut(interactif), True
         corps = corps.replace("<table>", '<table tabindex="0">')
-        return corps, True
+        return titres_sans_saut(corps), True
     return ("<p>La version web de ce document arrive bientôt. "
             "Vous pouvez déjà l'ouvrir en PDF ou sur Google Docs.</p>"), False
 

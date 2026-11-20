@@ -176,6 +176,7 @@ a:hover { color: var(--text-link-hover); }
   border-radius: var(--r-sm);
 }
 .hg-evitement:focus { top: var(--sp-2); color: var(--paper); }
+.hg-evitement:hover { color: var(--paper); }
 
 /* Conteneur : une colonne, gouttière de 16 px */
 .hg-conteneur {
