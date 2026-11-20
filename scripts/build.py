@@ -263,6 +263,36 @@ def titres_sans_saut(html, depart=1):
     return re.sub(r"<(/?)h([1-6])(\b[^>]*)>", remplacer, html)
 
 
+def sans_parties_prof(html):
+    """Retire les parties réservées au professeur : un titre « [PROF] … » et tout ce qui suit,
+    jusqu'au prochain titre de niveau supérieur (hors tableaux et listes) : dans les BEX, les parties
+    [PROF] sont en fin de document et contiennent des sous-titres du même niveau."""
+    titres = list(re.finditer(r"<h([1-6])\b[^>]*>(.*?)</h\1>", html, re.S))
+    def profondeur(i):
+        avant = html[:i]
+        return sum(avant.count("<%s" % b) - avant.count("</%s>" % b) for b in ("table", "ul", "ol"))
+    morceaux, pos, k = [], 0, 0
+    while k < len(titres):
+        t = titres[k]
+        texte = re.sub(r"<[^>]+>", "", t.group(2)).strip()
+        if texte.upper().startswith("[PROF") and profondeur(t.start()) == 0:
+            niveau = int(t.group(1))
+            fin, k = len(html), k + 1
+            while k < len(titres):
+                u = titres[k]
+                tu = re.sub(r"<[^>]+>", "", u.group(2)).strip().upper()
+                if int(u.group(1)) < niveau and not tu.startswith("[PROF") and profondeur(u.start()) == 0:
+                    fin = u.start()
+                    break
+                k += 1
+            morceaux.append(html[pos:t.start()])
+            pos = fin
+        else:
+            k += 1
+    morceaux.append(html[pos:])
+    return "".join(morceaux)
+
+
 def contenu_ressource(niveau, item):
     """HTML de la page : export HTML du Google Doc s'il existe dans sources/."""
     src = SOURCES / niveau / ("%s.html" % item["slug"])
@@ -275,6 +305,7 @@ def contenu_ressource(niveau, item):
         m = re.search(r"<body[^>]*>(.*)</body>", html, re.S | re.I)
         corps = nettoyer(m.group(1) if m else html, h_decalage=1)
         corps = re.sub(r'(<img[^>]*src=")(?!https?:|data:)', r'\1./', corps)
+        corps = sans_parties_prof(corps)
         if item["rubrique"] in ("bex", "methode"):
             interactif = bex.structurer(corps)
             if interactif:
@@ -382,7 +413,7 @@ def generer(niveaux_data):
 # ------------------------------------------------------------------ contrôle de vie privée
 
 INTERDITS = [r"docs\.google\.com/spreadsheets", r"suivi des notes", r"groupe de travail", r"groupes de travail",
-             r"\.mbz\b", r"createdby", r"ouid=", r"#cmnt", r"@ac-[a-z]+\.fr", r"elea\.apps\.education\.fr/user"]
+             r"\.mbz\b", r"createdby", r"ouid=", r"#cmnt", r"@ac-[a-z]+\.fr", r"elea\.apps\.education\.fr/user", r"\[prof\]"]
 
 
 def controle():
